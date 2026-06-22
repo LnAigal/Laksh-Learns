@@ -139,7 +139,7 @@
   "stats": {
     "totalProviders": 8,
     "totalCourses": 55,
-    "totalCertifications": 48
+    "totalCertifications": 49
   },
   "categories": ["Programming", "Web Development", "AI & ML", "Data Science", "Cloud Computing", "Cybersecurity", "Computer Science", "Digital Marketing", "Business", "DevOps", "Productivity"]
 }

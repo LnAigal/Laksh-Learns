@@ -888,6 +888,7 @@ function saveHistory(providerId, courseIdx, title, providerName) {
 }
 
 function renderHistory() {
+  if (!coursesData) return;
   const container = document.getElementById('history-container');
   if (!container) return;
   const history = getHistory();
