@@ -39,8 +39,14 @@ function initLoading() {
   document.body.style.overflow = '';
 }
 
+// === TOUCH DETECTION ===
+function isTouchDevice() {
+  return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+}
+
 // === CUSTOM CURSOR ===
 function initCursor() {
+  if (isTouchDevice()) return;
   const cursor = document.querySelector('.custom-cursor');
   const dot = document.querySelector('.custom-cursor-dot');
   if (!cursor || !dot) return;
@@ -559,6 +565,7 @@ function initProviderControls() {
 
 // === CARD TILT ===
 function initCardTilt(cards) {
+  if (isTouchDevice()) return;
   cards.forEach(card => {
     card.addEventListener('mousemove', (e) => {
       const rect = card.getBoundingClientRect();
@@ -578,6 +585,7 @@ function initCardTilt(cards) {
 
 // === MAGNETIC BUTTONS ===
 function initMagneticButtons() {
+  if (isTouchDevice()) return;
   document.querySelectorAll('.btn, .course-btn').forEach(btn => {
     btn.addEventListener('mousemove', (e) => {
       const rect = btn.getBoundingClientRect();
@@ -650,6 +658,7 @@ function initPageTransitions() {
 
 // === HERO INTERACTIVE ===
 function initHeroInteractive() {
+  if (isTouchDevice()) return;
   const hero = document.querySelector('.hero-content');
   if (!hero) return;
   hero.addEventListener('mousemove', (e) => {
@@ -1007,7 +1016,7 @@ function renderSimilarCourses() {
 document.addEventListener('DOMContentLoaded', async () => {
   try {
     const dataPromise = loadData();
-    const minDelay = new Promise(r => setTimeout(r, 800));
+    const minDelay = new Promise(r => setTimeout(r, 1500));
     await Promise.all([dataPromise, minDelay]);
 
     initLoading();

@@ -1,9 +1,0 @@
-https://skillbuilder.aws/search?searchText=Fundamentals%20of%20Architecting%20on%20AWS
-https://skillbuilder.aws/search?searchText=Cloud%20Computing%20Essentials
-https://skillbuilder.aws/search?searchText=Cloud%20First%20Steps
-https://skillbuilder.aws/search?searchText=Networking%20Concepts
-https://skillbuilder.aws/search?searchText=Databases%20in%20Practice
-https://skillbuilder.aws/search?searchText=Core%20Security%20Concepts
-https://skillbuilder.aws/search?searchText=Introduction%20to%20AWS%20Identity%20and%20Access%20Management
-https://skillbuilder.aws/search?searchText=Computing%20Solutions
-https://explore.skillbuilder.aws/learn/public/learning_plan/view/1915/aws-simulearn-learning-plan
