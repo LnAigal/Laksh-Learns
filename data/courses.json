@@ -1,0 +1,145 @@
+{
+  "providers": [
+    {
+      "id": "gfg",
+      "name": "GeeksforGeeks",
+      "description": "A computer science portal with comprehensive tutorials, coding problems, and interview preparation resources.",
+      "logo": "GFG",
+      "logoImage": "assets/logos/gfg.svg",
+      "color": "#2F8D46",
+      "courses": [
+        { "title": "Mastering Generative AI with ChatGPT", "description": "Comprehensive course on generative AI concepts, prompt engineering, and building applications with ChatGPT.", "difficulty": "Intermediate", "certification": true, "duration": "8 weeks", "category": "AI & ML", "url": "https://www.geeksforgeeks.org/batch/mastering-generative-ai-chatgpt" },
+        { "title": "Python Foundation", "description": "Solid foundation in Python programming covering basics to advanced concepts with hands-on projects.", "difficulty": "Beginner", "certification": true, "duration": "6 weeks", "category": "Programming", "url": "https://www.geeksforgeeks.org/batch/python-foundation-2" },
+        { "title": "React Native Development", "description": "Build cross-platform mobile applications using React Native framework with practical projects.", "difficulty": "Intermediate", "certification": true, "duration": "8 weeks", "category": "Web Development", "url": "https://www.geeksforgeeks.org/batch/react-native" },
+        { "title": "Java Foundation", "description": "Core Java programming covering OOP, collections, multithreading, and exception handling fundamentals.", "difficulty": "Beginner", "certification": true, "duration": "6 weeks", "category": "Programming", "url": "https://www.geeksforgeeks.org/batch/java-foundation-2" },
+        { "title": "SDE Theory", "description": "Essential computer science theory for software engineers including OS, DBMS, networking, and system design.", "difficulty": "Intermediate", "certification": true, "duration": "10 weeks", "category": "Computer Science", "url": "https://www.geeksforgeeks.org/batch/sde-theory-1" },
+        { "title": "JavaScript Course", "description": "Complete JavaScript programming from fundamentals to advanced concepts including ES6+ features.", "difficulty": "Beginner", "certification": true, "duration": "6 weeks", "category": "Programming", "url": "https://www.geeksforgeeks.org/batch/js-yt" },
+        { "title": "GFG 160 Series - DSA", "description": "160 curated DSA problems covering arrays, strings, trees, graphs, and dynamic programming for interview prep.", "difficulty": "Intermediate", "certification": true, "duration": "16 weeks", "category": "Computer Science", "url": "https://www.geeksforgeeks.org/courses/gfg-160-series" }
+      ]
+    },
+    {
+      "id": "scaler",
+      "name": "Scaler",
+      "description": "Industry-vetted curriculum and expert mentorship to become a software developer. Built by engineers for engineers.",
+      "logo": "S",
+      "logoImage": "assets/logos/scaler.svg",
+      "color": "#6C63FF",
+      "courses": [
+        { "title": "Scaler Events & Workshops", "description": "Live events, hackathons, and workshops hosted by Scaler featuring industry experts and hands-on coding sessions.", "difficulty": "Beginner", "certification": false, "duration": "Varies", "category": "Programming", "url": "https://www.scaler.com/events" },
+        { "title": "Python Course for Beginners", "description": "Learn Python for free and earn a certificate. Covers Python fundamentals, data structures, OOP, and hands-on projects. No prerequisites needed.", "difficulty": "Beginner", "certification": true, "duration": "9h 44m", "category": "Programming", "url": "https://www.scaler.com/topics/course/python-for-beginners/" },
+        { "title": "DBMS Course", "description": "Master database management systems covering ER models, normalization, SQL, transactions, ACID properties, indexing, and query optimization.", "difficulty": "Beginner", "certification": true, "duration": "1d 5h 17m", "category": "Computer Science", "url": "https://www.scaler.com/topics/course/dbms/" },
+        { "title": "JavaScript Course for Beginners", "description": "Comprehensive JavaScript course covering basics, ES6, DOM manipulation, OOP, functional programming, and asynchronous JavaScript.", "difficulty": "Beginner", "certification": true, "duration": "10h 14m", "category": "Web Development", "url": "https://www.scaler.com/topics/course/javascript-beginners/" },
+        { "title": "C++ Course", "description": "Learn C++ from basics to advanced concepts including pointers, arrays, sorting, strings, and problem-solving techniques.", "difficulty": "Beginner", "certification": true, "duration": "9h 24m", "category": "Programming", "url": "https://www.scaler.com/topics/course/cpp-beginners/" },
+        { "title": "DSA Problem Solving for Interviews using Java", "description": "Prepare for DSA interview questions using Java. Covers data structures, algorithms, and problem-solving techniques for technical interviews.", "difficulty": "Intermediate", "certification": true, "duration": "13h 6m", "category": "Computer Science", "url": "https://www.scaler.com/topics/course/dsa-interviews-java/" },
+        { "title": "Java Course for Beginners", "description": "Master Java fundamentals including OOP, collections, and basic data structures. No prerequisites required.", "difficulty": "Beginner", "certification": true, "duration": "8h 9m", "category": "Programming", "url": "https://www.scaler.com/topics/course/java-beginners/" },
+        { "title": "Supervised Machine Learning Course", "description": "Learn supervised machine learning concepts including regression, classification, model building, and evaluation using Python and Scikit-Learn.", "difficulty": "Intermediate", "certification": true, "duration": "1d 1h 2m", "category": "AI & ML", "url": "https://www.scaler.com/topics/course/free-supervised-learning-course/" },
+        { "title": "Data Science Course for Beginners", "description": "Build a strong foundation in data science covering Python programming, NumPy, Pandas, data visualization, SQL, and intro to machine learning.", "difficulty": "Beginner", "certification": true, "duration": "8h 45m", "category": "Data Science", "url": "https://www.scaler.com/topics/course/python-for-data-science/" },
+        { "title": "Python and SQL for Data Science", "description": "Learn data manipulation, statistical analysis, visualization with Python libraries, and SQL fundamentals for effective data handling.", "difficulty": "Beginner", "certification": true, "duration": "14h 46m", "category": "Data Science", "url": "https://www.scaler.com/topics/course/python-sql-data-science/" },
+        { "title": "EDA and Data Visualization Course", "description": "Comprehensive EDA and data visualization course covering plotting, linear algebra, probability, statistics, and dimensionality reduction using Python.", "difficulty": "Beginner", "certification": true, "duration": "17h 28m", "category": "Data Science", "url": "https://www.scaler.com/topics/course/eda-and-data-visualisation/" },
+        { "title": "Java DSA Course", "description": "Learn data structures and algorithms in Java covering arrays, linked lists, stacks, queues, trees, graphs, recursion, DP, and greedy algorithms.", "difficulty": "Intermediate", "certification": true, "duration": "9h 7m", "category": "Computer Science", "url": "https://www.scaler.com/topics/course/dsa-beginners-java/" },
+        { "title": "React JS Free Course", "description": "Master React JS covering components, state management, hooks, Context API, React Router, and building dynamic single-page applications.", "difficulty": "Intermediate", "certification": true, "duration": "9h 13m", "category": "Web Development", "url": "https://www.scaler.com/topics/course/free-react-js-course/" },
+        { "title": "Node JS Course", "description": "Learn server-side web development with Node.js including web servers, modules, packages, databases, and application deployment.", "difficulty": "Intermediate", "certification": true, "duration": "7h 6m", "category": "Web Development", "url": "https://www.scaler.com/topics/course/nodejs/" },
+        { "title": "Spring Boot Course", "description": "Learn Spring Boot fundamentals and build a production-ready blogging application with database connectivity, CRUD operations, and deployment.", "difficulty": "Intermediate", "certification": true, "duration": "4h 48m", "category": "Web Development", "url": "https://www.scaler.com/topics/course/java-spring-boot-blogging-app/" }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft Learn",
+      "description": "Official Microsoft training platform with role-based learning paths and certifications.",
+      "logo": "MS",
+      "logoImage": "assets/logos/microsoft.svg",
+      "color": "#00A4EF",
+      "courses": [
+        { "title": "Generative AI for Beginners", "description": "Learn the fundamentals of generative AI, large language models, prompt engineering, and building AI applications with Microsoft's expert-led video series.", "difficulty": "Beginner", "certification": false, "duration": "4 hours", "category": "AI & ML", "url": "https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/" },
+        { "title": "Career Essentials in Generative AI", "description": "Microsoft and LinkedIn co-branded learning path covering generative AI concepts, responsible AI, and practical applications for career growth.", "difficulty": "Beginner", "certification": true, "duration": "5 hours", "category": "AI & ML", "url": "https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin" }
+      ]
+    },
+    {
+      "id": "google",
+      "name": "Google Skillshop",
+      "description": "Official Google training for digital skills, advertising, analytics, and cloud technologies.",
+      "logo": "GS",
+      "logoImage": "assets/logos/google.svg",
+      "color": "#4285F4",
+      "courses": [
+        { "title": "Build with AI", "description": "Google's community-driven program to learn about AI technologies, build projects, and connect with fellow developers.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "AI & ML", "url": "https://developers.google.com/community/build-with-ai" },
+        { "title": "Google AI Essentials", "description": "Learn AI fundamentals, responsible AI practices, and how to use Google's AI tools in real-world scenarios.", "difficulty": "Beginner", "certification": true, "duration": "6 hours", "category": "AI & ML", "url": "https://grow.google/ai-essentials/" }
+      ]
+    },
+    {
+      "id": "tcs",
+      "name": "TCS iON",
+      "description": "Tata Consultancy Services' learning platform offering professional courses, certifications, and career development programs.",
+      "logo": "TCS",
+      "logoImage": "assets/logos/tcs.svg",
+      "color": "#28458F",
+      "courses": [
+        { "title": "Telephone Etiquette", "description": "Learn professional telephone communication skills, handling calls, active listening, and proper phone etiquette for the workplace.", "difficulty": "Beginner", "certification": true, "duration": "2 hours", "category": "Business", "url": "https://www.tcsion.com/courses/tcs-ion/telephone-etiquette/" },
+        { "title": "Write Effective Resume and Cover Letter", "description": "Master the art of crafting compelling resumes and cover letters that stand out to recruiters and land interviews.", "difficulty": "Beginner", "certification": true, "duration": "2 hours", "category": "Business", "url": "https://www.tcsion.com/courses/interview-and-job-prep/write-effective-resume-and-cover-letter/" },
+        { "title": "Presentation Skills", "description": "Develop powerful presentation skills including structuring content, visual aids, public speaking, and audience engagement.", "difficulty": "Beginner", "certification": true, "duration": "2 hours", "category": "Business", "url": "https://www.tcsion.com/courses/tcs-ion/presentation-skills/" },
+        { "title": "Introduction to Soft Skills", "description": "Foundational soft skills training covering communication, teamwork, adaptability, and professional workplace behavior.", "difficulty": "Beginner", "certification": true, "duration": "2 hours", "category": "Business", "url": "https://www.tcsion.com/courses/interview-and-job-prep/introduction-to-soft-skills/" },
+        { "title": "Impress with Your Interview Skills", "description": "Prepare for job interviews with techniques on answering questions, body language, research, and follow-up strategies.", "difficulty": "Beginner", "certification": true, "duration": "2 hours", "category": "Business", "url": "https://www.tcsion.com/courses/interview-and-job-prep/impress-with-your-interview-skills/" },
+        { "title": "Stand Out in Group Discussion", "description": "Learn effective group discussion techniques including articulation, listening, leadership, and collaborative problem-solving.", "difficulty": "Beginner", "certification": true, "duration": "2 hours", "category": "Business", "url": "https://www.tcsion.com/courses/interview-and-job-prep/stand-out-in-group-discussion/" },
+        { "title": "Email Etiquette", "description": "Master professional email writing including tone, structure, formatting, and best practices for workplace communication.", "difficulty": "Beginner", "certification": true, "duration": "2 hours", "category": "Business", "url": "https://www.tcsion.com/courses/tcs-ion/email-etiquette/" },
+        { "title": "Communication Skills", "description": "Comprehensive communication skills training covering verbal, non-verbal, written communication, and active listening.", "difficulty": "Beginner", "certification": true, "duration": "3 hours", "category": "Business", "url": "https://www.tcsion.com/courses/tcs-ion/communication-skills/" }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "description": "Official NVIDIA training platform with hands-on courses in AI, accelerated computing, data science, and infrastructure. Earn certifications from the industry leader in GPU computing.",
+      "logo": "NV",
+      "logoImage": "assets/logos/nvidia.svg",
+      "color": "#76B900",
+      "courses": [
+        { "title": "Generative AI Explained", "description": "A free, self-paced course introducing generative AI fundamentals. Learn concepts, applications, challenges, and opportunities of generative AI without any coding.", "difficulty": "Beginner", "certification": true, "duration": "2 hours", "category": "AI & ML", "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-07+V1" },
+        { "title": "Getting Started with AI on Jetson Nano", "description": "Use the NVIDIA Jetson Nano Developer Kit to build a deep learning classification project with computer vision models. Learn to create your own AI applications at the edge.", "difficulty": "Beginner", "certification": true, "duration": "8 hours", "category": "AI & ML", "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-RX-02+V2" },
+        { "title": "Building A Brain in 10 Minutes", "description": "Delve into neural network foundations drawing from biological and psychological insights. Understand how neural networks use data for learning and the math behind a neuron.", "difficulty": "Beginner", "certification": true, "duration": "1 hour", "category": "AI & ML", "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+T-FX-01+V1" },
+        { "title": "Building Video AI Applications at the Edge on Jetson Nano", "description": "Learn AI-based video understanding using the NVIDIA Jetson Nano. Build end-to-end DeepStream pipelines for video analysis and intelligent video analytics.", "difficulty": "Intermediate", "certification": true, "duration": "8 hours", "category": "AI & ML", "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-IV-02+V2" },
+        { "title": "Accelerating Data Science Workflows with Zero Code Changes", "description": "Build and execute end-to-end GPU-accelerated data science workflows using RAPIDS libraries. Apply ML algorithms including XGBoost and cuML for rapid data exploration.", "difficulty": "Intermediate", "certification": true, "duration": "4 hours", "category": "Data Science", "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+T-DS-03+V1" },
+        { "title": "AI Infrastructure and Operations Fundamentals", "description": "Explore AI applications, data center and cloud infrastructure, and AI operations. Part of the NVIDIA-Certified Associate: AI Infrastructure and Operations certification path.", "difficulty": "Beginner", "certification": true, "duration": "10 hours", "category": "Cloud Computing", "url": "https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals" }
+      ]
+    },
+    {
+      "id": "coursera",
+      "name": "Coursera",
+      "description": "Global online learning platform offering courses, specializations, and degrees from top universities and companies worldwide, including NVIDIA certification programs.",
+      "logo": "C",
+      "logoImage": "assets/logos/coursera.svg",
+      "color": "#0056D2",
+      "courses": [
+        { "title": "AI Infrastructure and Operations Fundamentals", "description": "Explore AI applications, data center and cloud infrastructure, and AI operations. Part of the NVIDIA-Certified Associate: AI Infrastructure and Operations certification path.", "difficulty": "Beginner", "certification": true, "duration": "10 hours", "category": "Cloud Computing", "url": "https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals" }
+      ]
+    },
+    {
+      "id": "freecodecamp",
+      "name": "freeCodeCamp",
+      "description": "A nonprofit community that offers free, self-paced coding curriculum covering web development, programming, databases, and more with industry-recognized certifications.",
+      "logo": "fCC",
+      "logoImage": "",
+      "color": "#0A0A23",
+      "courses": [
+        { "title": "Responsive Web Design", "description": "Learn HTML, CSS, and responsive design principles to build visually appealing web pages that adapt to any screen size.", "difficulty": "Beginner", "certification": true, "duration": "Self-paced", "category": "Web Development", "url": "https://www.freecodecamp.org/learn/responsive-web-design-v9/" },
+        { "title": "JavaScript", "description": "Master JavaScript fundamentals including variables, functions, objects, arrays, DOM manipulation, and ES6+ features.", "difficulty": "Beginner", "certification": true, "duration": "Self-paced", "category": "Programming", "url": "https://www.freecodecamp.org/learn/javascript-v9/" },
+        { "title": "Front End Development Libraries", "description": "Build dynamic user interfaces using React, Redux, Bootstrap, jQuery, and Sass with hands-on projects.", "difficulty": "Intermediate", "certification": true, "duration": "Self-paced", "category": "Web Development", "url": "https://www.freecodecamp.org/learn/front-end-development-libraries-v9/" },
+        { "title": "Python", "description": "Learn Python programming from scratch covering data structures, algorithms, and real-world problem-solving techniques.", "difficulty": "Beginner", "certification": true, "duration": "Self-paced", "category": "Programming", "url": "https://www.freecodecamp.org/learn/python-v9/" },
+        { "title": "Relational Databases", "description": "Understand relational database concepts, SQL, PostgreSQL, and database design principles for building data-driven applications.", "difficulty": "Beginner", "certification": true, "duration": "Self-paced", "category": "Computer Science", "url": "https://www.freecodecamp.org/learn/relational-databases-v9/" },
+        { "title": "Back End Development and APIs", "description": "Build server-side applications and APIs using Node.js, Express.js, MongoDB, and Mongoose with real-world projects.", "difficulty": "Intermediate", "certification": true, "duration": "Self-paced", "category": "Web Development", "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis-v9/" },
+        { "title": "Full Stack Developer", "description": "A comprehensive full stack development curriculum covering front-end, back-end, databases, and deployment.", "difficulty": "Intermediate", "certification": true, "duration": "Self-paced", "category": "Web Development", "url": "https://www.freecodecamp.org/learn/full-stack-developer-v9/" },
+        { "title": "A2 English for Developers", "description": "Improve foundational English communication skills tailored for developers, covering technical vocabulary and basic professional interactions.", "difficulty": "Beginner", "certification": true, "duration": "Self-paced", "category": "Business", "url": "https://www.freecodecamp.org/learn/a2-english-for-developers/" },
+        { "title": "B1 English for Developers", "description": "Enhance intermediate English proficiency for developers with focus on technical documentation, meetings, and collaborative communication.", "difficulty": "Intermediate", "certification": true, "duration": "Self-paced", "category": "Business", "url": "https://www.freecodecamp.org/learn/b1-english-for-developers/" },
+        { "title": "The Odin Project", "description": "A full-stack curriculum backed by The Odin Project, covering HTML, CSS, JavaScript, Ruby on Rails, and modern development workflows.", "difficulty": "Beginner", "certification": true, "duration": "Self-paced", "category": "Web Development", "url": "https://www.freecodecamp.org/learn/the-odin-project/" },
+        { "title": "Coding Interview Prep", "description": "Prepare for technical interviews with practice problems covering algorithms, data structures, and system design questions.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://www.freecodecamp.org/learn/coding-interview-prep/" },
+        { "title": "Project Euler", "description": "Solve mathematical and computational problems through programming, enhancing algorithmic thinking and number theory skills.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://www.freecodecamp.org/learn/project-euler/" },
+        { "title": "Rosetta Code", "description": "Explore programming solutions to common tasks across multiple languages, comparing language paradigms and syntax.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Programming", "url": "https://www.freecodecamp.org/learn/rosetta-code/" },
+        { "title": "Foundational C# with Microsoft", "description": "Learn C# programming fundamentals including syntax, object-oriented programming, and .NET framework basics with Microsoft's official curriculum.", "difficulty": "Beginner", "certification": true, "duration": "Self-paced", "category": "Programming", "url": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/" }
+      ]
+    }
+  ],
+  "stats": {
+    "totalProviders": 8,
+    "totalCourses": 55,
+    "totalCertifications": 48
+  },
+  "categories": ["Programming", "Web Development", "AI & ML", "Data Science", "Cloud Computing", "Cybersecurity", "Computer Science", "Digital Marketing", "Business", "DevOps", "Productivity"]
+}
