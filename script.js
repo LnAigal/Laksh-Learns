@@ -601,7 +601,7 @@ function initMagneticButtons() {
 
 // === SCROLL REVEAL ===
 function initScrollReveal() {
-  const els = document.querySelectorAll('.section, .stat-card, .provider-card, .course-card');
+  const els = document.querySelectorAll('.section, .stat-card, .provider-card');
   if (!els.length) return;
 
   const observer = new IntersectionObserver((entries) => {
@@ -615,7 +615,6 @@ function initScrollReveal() {
   }, { threshold: 0.1 });
 
   els.forEach(el => {
-    if (el.classList.contains('course-card')) return;
     el.style.opacity = '0';
     el.style.transform = 'translateY(30px)';
     el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
@@ -1002,6 +1001,7 @@ function renderSimilarCourses() {
       <div class="course-tags">
         <span class="course-tag tag-difficulty">📊 ${course.difficulty}</span>
         <span class="course-tag ${certTag}">${certText}</span>
+        <span class="course-tag tag-duration">⏱ ${course.duration}</span>
         <span class="course-tag tag-category">📂 ${course.category}</span>
       </div>
       <div class="course-footer">
@@ -1027,9 +1027,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     initNavbar();
     initTheme();
     initBackToTop();
-    initFloatingIcons();
 
     if (document.body.classList.contains('home-page') && coursesData) {
+      initFloatingIcons();
       renderProviders(coursesData.providers);
       renderStats(coursesData.stats);
       initHeroInteractive();
