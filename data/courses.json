@@ -146,6 +146,80 @@
       ]
     },
     {
+      "id": "cisco",
+      "name": "Cisco Networking Academy",
+      "description": "Free cybersecurity and networking courses from Cisco Networking Academy. Industry-recognized skills for IT and security careers.",
+      "logo": "CS",
+      "logoImage": "",
+      "color": "#1BA0D7",
+      "courses": [
+        { "title": "Introduction to Cybersecurity", "description": "Learn cybersecurity fundamentals including threats, vulnerabilities, encryption, defense strategies, and career opportunities in security.", "difficulty": "Beginner", "certification": true, "duration": "6 hours", "category": "Computer Science", "url": "https://skillsforall.com/course/introduction-to-cybersecurity" },
+        { "title": "Cybersecurity Essentials", "description": "Build essential cybersecurity skills including security operations, incident response, access control, and network defense techniques.", "difficulty": "Intermediate", "certification": true, "duration": "30 hours", "category": "Computer Science", "url": "https://skillsforall.com/course/cybersecurity-essentials" },
+        { "title": "Network Security", "description": "Learn network security concepts including firewalls, VPNs, intrusion detection, and secure network architecture design.", "difficulty": "Intermediate", "certification": true, "duration": "30 hours", "category": "Computer Science", "url": "https://skillsforall.com/course/network-security" },
+        { "title": "Ethical Hacker", "description": "Master ethical hacking techniques including penetration testing, vulnerability assessment, and security auditing methodologies.", "difficulty": "Advanced", "certification": true, "duration": "40 hours", "category": "Computer Science", "url": "https://skillsforall.com/course/ethical-hacker" },
+        { "title": "Networking Basics", "description": "Understand networking fundamentals including protocols, IP addressing, routing, switching, and network troubleshooting.", "difficulty": "Beginner", "certification": true, "duration": "20 hours", "category": "Computer Science", "url": "https://skillsforall.com/course/networking-basics" },
+        { "title": "Networking Devices and Initial Configuration", "description": "Learn to configure and manage networking devices including routers, switches, and wireless access points.", "difficulty": "Intermediate", "certification": true, "duration": "20 hours", "category": "Computer Science", "url": "https://skillsforall.com/course/networking-devices-and-initial-configuration" },
+        { "title": "Network Addressing and Basic Troubleshooting", "description": "Master IP addressing, subnetting, and network troubleshooting methodologies for real-world network issues.", "difficulty": "Intermediate", "certification": true, "duration": "20 hours", "category": "Computer Science", "url": "https://skillsforall.com/course/network-addressing-and-basic-troubleshooting" },
+        { "title": "Network Support and Security", "description": "Learn network support procedures, security best practices, and how to maintain secure and reliable network infrastructure.", "difficulty": "Intermediate", "certification": true, "duration": "20 hours", "category": "Computer Science", "url": "https://skillsforall.com/course/network-support-and-security" }
+      ]
+    },
+    {
+      "id": "aws",
+      "name": "AWS Training and Certification",
+      "description": "Free cloud computing courses from Amazon Web Services. Learn AWS fundamentals, architecture, machine learning, and cloud career skills.",
+      "logo": "AWS",
+      "logoImage": "",
+      "color": "#FF9900",
+      "courses": [
+        { "title": "AWS Cloud Practitioner Essentials", "description": "Learn AWS cloud fundamentals including compute, storage, networking, databases, security, pricing, and cloud architecture best practices.", "difficulty": "Beginner", "certification": false, "duration": "6 hours", "category": "Cloud Computing", "url": "https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/" },
+        { "title": "AWS Cloud Technical Essentials", "description": "Build technical skills in AWS including EC2, S3, VPC, Lambda, and RDS. Hands-on exercises with real AWS services.", "difficulty": "Intermediate", "certification": false, "duration": "6 hours", "category": "Cloud Computing", "url": "https://aws.amazon.com/training/digital/aws-cloud-technical-essentials/" },
+        { "title": "Building on AWS", "description": "Learn to build and deploy applications on AWS including compute, storage, database, and networking services for developers.", "difficulty": "Intermediate", "certification": false, "duration": "8 hours", "category": "Cloud Computing", "url": "https://aws.amazon.com/training/digital/building-on-aws/" },
+        { "title": "AWS Machine Learning Essentials", "description": "Explore ML concepts, AWS AI services, SageMaker, and build machine learning models without deep technical expertise.", "difficulty": "Beginner", "certification": false, "duration": "4 hours", "category": "AI & ML", "url": "https://aws.amazon.com/training/digital/machine-learning-essentials/" },
+        { "title": "Introduction to AWS Identity and Access Management", "description": "Learn IAM fundamentals including users, groups, roles, policies, multi-factor authentication, and security best practices.", "difficulty": "Beginner", "certification": false, "duration": "2 hours", "category": "Cloud Computing", "url": "https://aws.amazon.com/training/digital/introduction-to-aws-identity-and-access-management/" },
+        { "title": "AWS Networking Fundamentals", "description": "Understand VPCs, subnets, route tables, security groups, NAT gateways, and network architecture on AWS.", "difficulty": "Intermediate", "certification": false, "duration": "4 hours", "category": "Cloud Computing", "url": "https://aws.amazon.com/training/digital/aws-networking-fundamentals/" },
+        { "title": "AWS Database Essentials", "description": "Learn AWS database services including RDS, DynamoDB, Aurora, and ElastiCache. Understand when to use each database type.", "difficulty": "Beginner", "certification": false, "duration": "3 hours", "category": "Cloud Computing", "url": "https://aws.amazon.com/training/digital/aws-database-essentials/" },
+        { "title": "AWS Security Fundamentals", "description": "Master AWS security concepts including shared responsibility model, encryption, compliance, and security monitoring tools.", "difficulty": "Beginner", "certification": false, "duration": "4 hours", "category": "Cloud Computing", "url": "https://aws.amazon.com/training/digital/aws-security-fundamentals/" }
+      ]
+    },
+    {
+      "id": "simplilearn",
+      "name": "Simplilearn SkillUp",
+      "description": "500+ free courses with certificates covering AI, data science, project management, cybersecurity, cloud computing, and business skills.",
+      "logo": "SL",
+      "logoImage": "",
+      "color": "#FF6B00",
+      "courses": [
+        { "title": "Introduction to Artificial Intelligence", "description": "Learn AI fundamentals, machine learning, deep learning, NLP, and computer vision concepts with real-world applications.", "difficulty": "Beginner", "certification": true, "duration": "4 hours", "category": "AI & ML", "url": "https://www.simplilearn.com/introduction-to-artificial-intelligence-course" },
+        { "title": "Introduction to Data Science", "description": "Explore data science lifecycle, Python for data analysis, statistics, machine learning, and data visualization fundamentals.", "difficulty": "Beginner", "certification": true, "duration": "6 hours", "category": "Data Science", "url": "https://www.simplilearn.com/introduction-to-data-science-course" },
+        { "title": "Python for Beginners", "description": "Master Python programming from scratch covering data types, control flow, functions, OOP, and file handling with hands-on projects.", "difficulty": "Beginner", "certification": true, "duration": "8 hours", "category": "Programming", "url": "https://www.simplilearn.com/learn-python-basics-free-course" },
+        { "title": "Introduction to Project Management", "description": "Learn project management fundamentals including planning, scheduling, budgeting, risk management, and Agile methodologies.", "difficulty": "Beginner", "certification": true, "duration": "4 hours", "category": "Business", "url": "https://www.simplilearn.com/introduction-to-project-management-course" },
+        { "title": "Introduction to Cybersecurity", "description": "Understand cybersecurity fundamentals including threat landscape, cryptography, network security, and incident response.", "difficulty": "Beginner", "certification": true, "duration": "4 hours", "category": "Computer Science", "url": "https://www.simplilearn.com/introduction-to-cybersecurity-course" },
+        { "title": "Introduction to Cloud Computing", "description": "Learn cloud computing concepts including deployment models, service models, virtualization, and major cloud providers.", "difficulty": "Beginner", "certification": true, "duration": "4 hours", "category": "Cloud Computing", "url": "https://www.simplilearn.com/introduction-to-cloud-computing-course" },
+        { "title": "Introduction to Digital Marketing", "description": "Master digital marketing fundamentals including SEO, SEM, social media, email marketing, content marketing, and analytics.", "difficulty": "Beginner", "certification": true, "duration": "6 hours", "category": "Business", "url": "https://www.simplilearn.com/introduction-to-digital-marketing-course" },
+        { "title": "Agile and Scrum Fundamentals", "description": "Learn Agile methodology and Scrum framework including sprints, daily stand-ups, retrospectives, and product ownership.", "difficulty": "Beginner", "certification": true, "duration": "3 hours", "category": "Business", "url": "https://www.simplilearn.com/agile-and-scrum-fundamentals-course" },
+        { "title": "Introduction to DevOps", "description": "Understand DevOps culture, CI/CD pipelines, configuration management, containerization, and monitoring practices.", "difficulty": "Beginner", "certification": true, "duration": "5 hours", "category": "Cloud Computing", "url": "https://www.simplilearn.com/introduction-to-devops-course" },
+        { "title": "Machine Learning Fundamentals", "description": "Learn ML algorithms including regression, classification, clustering, and ensemble methods using Python and Scikit-learn.", "difficulty": "Intermediate", "certification": true, "duration": "8 hours", "category": "AI & ML", "url": "https://www.simplilearn.com/machine-learning-fundamentals-course" }
+      ]
+    },
+    {
+      "id": "openuniversity",
+      "name": "Open University OpenLearn",
+      "description": "Hundreds of free courses from The Open University covering arts, business, health, science, technology, and more. Free learning for everyone.",
+      "logo": "OU",
+      "logoImage": "",
+      "color": "#005EB8",
+      "courses": [
+        { "title": "Everyday English", "description": "Improve your English language skills for everyday situations including conversations, reading, writing, and listening comprehension.", "difficulty": "Beginner", "certification": true, "duration": "10 hours", "category": "Business", "url": "https://www.open.edu/openlearn/languages/everyday-english" },
+        { "title": "Introduction to Bookkeeping", "description": "Learn bookkeeping fundamentals including double-entry accounting, ledgers, trial balance, and financial record keeping.", "difficulty": "Beginner", "certification": true, "duration": "8 hours", "category": "Business", "url": "https://www.open.edu/openlearn/money-business/introduction-bookkeeping" },
+        { "title": "Introduction to Cyber Security", "description": "Understand cybersecurity threats, online safety, encryption, authentication, and how to protect yourself and your data online.", "difficulty": "Beginner", "certification": true, "duration": "8 hours", "category": "Computer Science", "url": "https://www.open.edu/openlearn/cyber-security/introduction-cyber-security" },
+        { "title": "Digital Photography: Creating and Sharing Better Images", "description": "Learn photography techniques including composition, lighting, editing, and sharing digital images effectively.", "difficulty": "Beginner", "certification": true, "duration": "12 hours", "category": "Business", "url": "https://www.open.edu/openlearn/digital-photography-creating-and-sharing-better-images" },
+        { "title": "Introduction to Forensic Psychology", "description": "Explore forensic psychology including criminal behavior, profiling, eyewitness testimony, and rehabilitation of offenders.", "difficulty": "Beginner", "certification": true, "duration": "12 hours", "category": "Business", "url": "https://www.open.edu/openlearn/psychology/introduction-forensic-psychology" },
+        { "title": "Understanding the Brain", "description": "Learn about brain structure, function, neural communication, and the relationship between brain activity and behavior.", "difficulty": "Beginner", "certification": true, "duration": "15 hours", "category": "Business", "url": "https://www.open.edu/openlearn/health-sports-psychology/understanding-the-brain" },
+        { "title": "Introduction to German", "description": "Learn basic German language skills including greetings, numbers, directions, ordering food, and everyday conversations.", "difficulty": "Beginner", "certification": true, "duration": "10 hours", "category": "Business", "url": "https://www.open.edu/openlearn/languages/introduction-german" },
+        { "title": "Business Communication", "description": "Master professional business communication including emails, reports, presentations, and interpersonal communication skills.", "difficulty": "Beginner", "certification": true, "duration": "10 hours", "category": "Business", "url": "https://www.open.edu/openlearn/money-business/business-communication" }
+      ]
+    },
+    {
       "id": "freecodecamp",
       "name": "freeCodeCamp",
       "description": "A nonprofit community that offers free, self-paced coding curriculum covering web development, programming, databases, and more with industry-recognized certifications.",
@@ -241,8 +315,8 @@
     }
   ],
   "stats": {
-    "totalProviders": 12,
-    "totalCourses": 119,
-    "totalCertifications": 60
+    "totalProviders": 16,
+    "totalCourses": 153,
+    "totalCertifications": 98
   }
 }
