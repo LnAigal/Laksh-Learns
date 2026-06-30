@@ -3,19 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Laksh Learns - One Place For All Learning Resources. Browse courses from top providers like GeeksforGeeks, Coursera, Udemy, and more.">
-  <meta name="keywords" content="online courses, learning, education, programming, data science, AI, cloud computing">
+  <meta name="description" content="Free online courses from Harvard University covering computer science, data science, humanities, leadership, and more.">
   <meta name="theme-color" content="#0A0A0A">
-  <meta property="og:title" content="Laksh Learns | One Place For All Learning Resources">
-  <meta property="og:description" content="Discover curated courses from the world's top educational providers. Learn and grow with Laksh Learns.">
+  <meta property="og:title" content="Harvard University | Laksh Learns">
+  <meta property="og:description" content="Free online courses from Harvard University covering computer science, data science, humanities, leadership, and more.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://lnaigal.github.io/Laksh-Learns/">
+  <meta property="og:url" content="https://lnaigal.github.io/Laksh-Learns/providers/harvard.html">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Laksh Learns | One Place For All Learning Resources">
-  <meta name="twitter:description" content="Discover curated courses from the world's top educational providers. Learn and grow with Laksh Learns.">
-  <link rel="icon" type="image/png" href="assets/logos/favicon.png">
-  <title>Laksh Learns | One Place For All Learning Resources</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="twitter:title" content="Harvard University | Laksh Learns">
+  <meta name="twitter:description" content="Free online courses from Harvard University covering computer science, data science, humanities, leadership, and more.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2300E5FF'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Arial' font-weight='bold' font-size='16' fill='%230A0A0A'%3ELL%3C/text%3E%3C/svg%3E">
+  <title>Harvard University | Laksh Learns</title>
+  <link rel="stylesheet" href="../style.css">
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-P6NS2DWVQV"></script>
   <script>
@@ -30,57 +29,37 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <style>
     body { font-family: 'Inter', var(--font); }
+    .provider-banner { background: linear-gradient(135deg, var(--bg), #A51C3015); }
   </style>
 </head>
-<body class="home-page">
+<body class="provider-page" data-provider="harvard">
 
-  <!-- Loading Screen -->
   <div class="loading-screen" id="loading-screen">
     <div class="loader-content">
       <div class="loader-logo">Laksh Learns</div>
-      <div class="loader-bar">
-        <div class="loader-bar-inner"></div>
-      </div>
+      <div class="loader-bar"><div class="loader-bar-inner"></div></div>
     </div>
   </div>
 
-  <!-- Scroll Progress Bar -->
   <div class="scroll-progress" id="scroll-progress"></div>
-
-  <!-- Mobile Nav Overlay -->
   <div class="nav-overlay" id="nav-overlay"></div>
-
-  <!-- Custom Cursor -->
   <div class="custom-cursor"></div>
   <div class="custom-cursor-dot"></div>
-
-  <!-- Noise Texture -->
   <div class="noise"></div>
-
-  <!-- Galaxy Background -->
   <div class="galaxy"></div>
-
-  <!-- Floating Blobs -->
   <div class="blob blob-1"></div>
   <div class="blob blob-2"></div>
   <div class="blob blob-3"></div>
-
-  <!-- Particle Canvas -->
   <canvas id="particle-canvas"></canvas>
+  <div class="page-transition"><div class="transition-layer"></div></div>
 
-  <!-- Page Transition Overlay -->
-  <div class="page-transition">
-    <div class="transition-layer"></div>
-  </div>
-
-  <!-- Navbar -->
   <nav class="navbar">
     <div class="navbar-inner">
-      <a href="index.html" class="nav-logo">Laksh Learns</a>
+      <a href="../index.html" class="nav-logo">Laksh Learns</a>
       <div class="nav-links">
-        <a href="#providers">Providers</a>
-        <a href="#stats">Stats</a>
-        <a href="bookmarks.html">Bookmarks</a>
+        <a href="../index.html#providers">Providers</a>
+        <a href="../index.html#stats">Stats</a>
+        <a href="../bookmarks.html">Bookmarks</a>
         <a href="https://github.com/LnAigal/" target="_blank">GitHub</a>
         <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
       </div>
@@ -90,73 +69,68 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="hero" id="hero">
-    <div class="hero-content">
-      <div class="hero-badge">🚀 Next-Gen Learning Platform</div>
-      <h1 class="hero-title">
-        <span class="gradient-text">Laksh Learns</span>
-      </h1>
-      <p class="hero-subtitle">One Place For All Learning Resources</p>
-      <div class="hero-actions">
-        <a href="#providers" class="btn btn-primary btn-glow" data-transition>Explore Providers →</a>
-        <a href="#stats" class="btn btn-secondary">View Statistics</a>
+  <section class="provider-banner">
+    <div class="provider-banner-inner">
+      <div class="banner-logo" style="color: #A51C30"><span style="font-size:2rem;font-weight:900">HU</span></div>
+      <div class="banner-info">
+        <h1>Harvard University</h1>
+        <p>Free online courses from Harvard University covering computer science, data science, humanities, leadership, and more through Harvard's Professional & Lifelong Learning platform.</p>
+        <div class="banner-stats">
+          <div class="banner-stat"><strong>16</strong> Courses</div>
+          <div class="banner-stat"><strong>0</strong> Certifications</div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Stats Section -->
-  <section class="stats section" id="stats">
-    <div class="section-header">
-      <h2 class="section-title">Platform <span class="gradient-text">Statistics</span></h2>
-      <p class="section-subtitle">Our growing collection of learning resources</p>
+  <section class="controls-bar">
+    <div class="controls-inner">
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="course-search" placeholder="Search courses...">
+      </div>
+      <div class="filter-btns" id="filter-btns">
+        <div class="sort-wrapper">
+          <label class="filter-group-label">Sort</label>
+          <select class="filter-select" id="sort-select">
+            <option value="default">Sort by</option>
+            <option value="name-asc">Name (A-Z)</option>
+            <option value="name-desc">Name (Z-A)</option>
+            <option value="difficulty-asc">Difficulty (Low→High)</option>
+            <option value="difficulty-desc">Difficulty (High→Low)</option>
+            <option value="duration-asc">Duration (Short→Long)</option>
+            <option value="duration-desc">Duration (Long→Short)</option>
+          </select>
+        </div>
+      </div>
     </div>
-    <div class="stats-grid" id="stats-grid"></div>
   </section>
 
-  <!-- Providers Section -->
-  <section class="section" id="providers">
-    <div class="section-header">
-      <h2 class="section-title">Top Learning <span class="gradient-text">Providers</span></h2>
-      <p class="section-subtitle">Curated courses from the world's best educational platforms</p>
-    </div>
-    <div class="providers-grid" id="providers-grid"></div>
-  </section>
+  <div class="courses-grid" id="courses-container"></div>
 
-  <!-- Recently Viewed -->
-  <section class="section history-section" id="history">
-    <div class="section-header">
-      <h2 class="section-title">Recently <span class="gradient-text">Viewed</span></h2>
-      <p class="section-subtitle">Pick up where you left off</p>
-    </div>
-    <div class="history-grid" id="history-container"></div>
-  </section>
-
-  <!-- Footer -->
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-brand">
         <h3>Laksh Learns</h3>
-        <p>One Place For All Learning Resources. Discover, learn, and grow with courses from the world's top educational providers.</p>
+        <p>One Place For All Learning Resources.</p>
       </div>
       <div class="footer-col">
         <h4>Quick Links</h4>
-        <a href="#providers">All Providers</a>
-        <a href="bookmarks.html">Bookmarks</a>
-        <a href="#stats">Statistics</a>
-        <a href="https://github.com/LnAigal/" target="_blank">GitHub</a>
+        <a href="../index.html#providers">All Providers</a>
+        <a href="../bookmarks.html">Bookmarks</a>
+        <a href="../index.html#stats">Statistics</a>
       </div>
       <div class="footer-col">
         <h4>Providers</h4>
-        <a href="providers/gfg.html">GeeksforGeeks</a>
-        <a href="providers/scaler.html">Scaler</a>
-        <a href="providers/microsoft.html">Microsoft Learn</a>
-        <a href="providers/google.html">Google Skillshop</a>
-        <a href="providers/tcs.html">TCS iON</a>
-        <a href="providers/nvidia.html">NVIDIA</a>
-        <a href="providers/coursera.html">Coursera</a>
-        <a href="providers/freecodecamp.html">freeCodeCamp</a>
-        <a href="providers/harvard.html">Harvard University</a>
+        <a href="gfg.html">GeeksforGeeks</a>
+        <a href="scaler.html">Scaler</a>
+        <a href="microsoft.html">Microsoft Learn</a>
+        <a href="google.html">Google Skillshop</a>
+        <a href="tcs.html">TCS iON</a>
+        <a href="nvidia.html">NVIDIA</a>
+        <a href="coursera.html">Coursera</a>
+        <a href="freecodecamp.html">freeCodeCamp</a>
+        <a href="harvard.html">Harvard University</a>
       </div>
     </div>
     <div class="footer-bottom">
@@ -175,9 +149,7 @@
     </div>
   </footer>
 
-  <!-- Back to Top -->
   <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
-
-  <script src="script.js"></script>
+  <script src="../script.js"></script>
 </body>
 </html>

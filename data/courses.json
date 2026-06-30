@@ -134,11 +134,37 @@
         { "title": "Rosetta Code", "description": "Explore programming solutions to common tasks across multiple languages, comparing language paradigms and syntax.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Programming", "url": "https://www.freecodecamp.org/learn/rosetta-code/" },
         { "title": "Foundational C# with Microsoft", "description": "Learn C# programming fundamentals including syntax, object-oriented programming, and .NET framework basics with Microsoft's official curriculum.", "difficulty": "Beginner", "certification": true, "duration": "Self-paced", "category": "Programming", "url": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/" }
       ]
+    },
+    {
+      "id": "harvard",
+      "name": "Harvard University",
+      "description": "Free online courses from Harvard University covering computer science, data science, humanities, leadership, and more through Harvard's Professional & Lifelong Learning platform.",
+      "logo": "HU",
+      "logoImage": "",
+      "color": "#A51C30",
+      "courses": [
+        { "title": "CS50: Introduction to Computer Science", "description": "Harvard's flagship CS course covering C, Python, SQL, algorithms, data structures, and web development. One of the most popular free CS courses worldwide.", "difficulty": "Beginner", "certification": false, "duration": "12 weeks", "category": "Computer Science", "url": "https://pll.harvard.edu/course/cs50-introduction-computer-science" },
+        { "title": "CS50 Web Programming with Python and JavaScript", "description": "Deep dive into web development using Python, Django, JavaScript, HTML, CSS, and SQL. Build dynamic web applications with modern frameworks.", "difficulty": "Intermediate", "certification": false, "duration": "12 weeks", "category": "Web Development", "url": "https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript" },
+        { "title": "CS50 Introduction to AI with Python", "description": "Learn AI concepts including search algorithms, knowledge representation, machine learning, neural networks, and natural language processing using Python.", "difficulty": "Intermediate", "certification": false, "duration": "7 weeks", "category": "AI & ML", "url": "https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python" },
+        { "title": "CS50 Introduction to Programming with Python", "description": "Master Python programming fundamentals including functions, arguments, loops, exceptions, libraries, and file I/O. Perfect for complete beginners.", "difficulty": "Beginner", "certification": false, "duration": "10 weeks", "category": "Programming", "url": "https://pll.harvard.edu/course/cs50s-introduction-programming-python" },
+        { "title": "Data Science: R Basics", "description": "Build a foundation in R programming for data science. Learn data types, vectors, sorting, and apply R skills to real-world crime datasets.", "difficulty": "Beginner", "certification": false, "duration": "8 weeks", "category": "Data Science", "url": "https://pll.harvard.edu/course/data-science-r-basics" },
+        { "title": "Data Science: Visualization", "description": "Learn data visualization principles and techniques using ggplot2 in R. Create compelling visual narratives from complex datasets.", "difficulty": "Beginner", "certification": false, "duration": "8 weeks", "category": "Data Science", "url": "https://pll.harvard.edu/course/data-science-visualization" },
+        { "title": "Data Science: Probability", "description": "Master probability theory concepts including random variables, distributions, Bayes' theorem, and Monte Carlo simulations for data analysis.", "difficulty": "Intermediate", "certification": false, "duration": "8 weeks", "category": "Data Science", "url": "https://pll.harvard.edu/course/data-science-probability" },
+        { "title": "Data Science: Inference and Modeling", "description": "Learn statistical inference, parameter estimation, confidence intervals, hypothesis testing, and predictive modeling with real-world applications.", "difficulty": "Intermediate", "certification": false, "duration": "8 weeks", "category": "Data Science", "url": "https://pll.harvard.edu/course/data-science-inference-and-modeling" },
+        { "title": "Data Science: Wrangling", "description": "Learn data wrangling techniques including data cleaning, transformation, web scraping, string processing, and working with dates and text.", "difficulty": "Intermediate", "certification": false, "duration": "8 weeks", "category": "Data Science", "url": "https://pll.harvard.edu/course/data-science-wrangling" },
+        { "title": "Data Science: Linear Regression", "description": "Learn linear regression, multivariate models, confounding, and causal inference. Apply statistical modeling to real-world data.", "difficulty": "Intermediate", "certification": false, "duration": "8 weeks", "category": "Data Science", "url": "https://pll.harvard.edu/course/data-science-linear-regression" },
+        { "title": "Data Science: Machine Learning", "description": "Build machine learning models including classification, regression, clustering, and recommendation systems using the caret package in R.", "difficulty": "Advanced", "certification": false, "duration": "8 weeks", "category": "AI & ML", "url": "https://pll.harvard.edu/course/data-science-machine-learning" },
+        { "title": "Exercising Leadership: Foundational Principles", "description": "Learn to mobilize people to tackle tough problems and build capacity to thrive through change. Based on Harvard Kennedy School's leadership framework.", "difficulty": "Beginner", "certification": false, "duration": "8 weeks", "category": "Business", "url": "https://pll.harvard.edu/course/exercising-leadership-foundational-principles" },
+        { "title": "Technology Entrepreneurship: Lab to Market", "description": "Explore how entrepreneurs build successful businesses by moving technology from lab to market. Learn from real-world case studies.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Business", "url": "https://pll.harvard.edu/course/technology-entrepreneurship-lab-market" },
+        { "title": "Ancient Masterpieces of World Literature", "description": "Examine how ancient cultures defined themselves through literature and how their vision contributes to our understanding of civilization and culture today.", "difficulty": "Beginner", "certification": false, "duration": "6 weeks", "category": "Business", "url": "https://pll.harvard.edu/course/ancient-masterpieces-world-literature" },
+        { "title": "Quantitative Methods for Biology", "description": "Learn introductory programming and data analysis in MATLAB with applications to biology and medicine. Perfect for aspiring bioinformaticians.", "difficulty": "Intermediate", "certification": false, "duration": "10 weeks", "category": "Computer Science", "url": "https://pll.harvard.edu/course/quantitative-methods-biology" },
+        { "title": "US Political Institutions", "description": "Examine the inner workings of the three branches of US federal government - Congress, Presidency, Courts, and Bureaucracy.", "difficulty": "Beginner", "certification": false, "duration": "4 weeks", "category": "Business", "url": "https://pll.harvard.edu/course/us-political-institutions-congress-presidency-courts-and-bureaucracy" }
+      ]
     }
   ],
   "stats": {
-    "totalProviders": 8,
-    "totalCourses": 55,
+    "totalProviders": 9,
+    "totalCourses": 71,
     "totalCertifications": 49
   }
 }
