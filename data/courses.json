@@ -186,11 +186,29 @@
         { "title": "Electromagnetic Energy: Motors to Lasers", "description": "Study electromagnetic fields, Maxwell's equations, wave propagation, and applications including motors, generators, and lasers.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-007-electromagnetic-energy-from-motors-to-lasers-spring-2011/" },
         { "title": "Signals and Systems", "description": "Learn signal processing fundamentals including Fourier series, Laplace transforms, Z-transforms, filtering, and system analysis.", "difficulty": "Advanced", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/" }
       ]
+    },
+    {
+      "id": "stanford",
+      "name": "Stanford Online",
+      "description": "Free online courses from Stanford University covering engineering, computer science, health, arts, and humanities. Learn from world-class Stanford faculty.",
+      "logo": "SU",
+      "logoImage": "",
+      "color": "#8C1515",
+      "courses": [
+        { "title": "Child Nutrition and Cooking", "description": "Learn about child nutrition, healthy eating habits, cooking techniques, and how to prepare balanced meals for children and families.", "difficulty": "Beginner", "certification": false, "duration": "5 weeks", "category": "Business", "url": "https://online.stanford.edu/courses/child-nutrition-and-cooking" },
+        { "title": "Introduction to Statistics", "description": "Learn statistical thinking including descriptive statistics, sampling, probability, confidence intervals, and hypothesis testing.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Data Science", "url": "https://online.stanford.edu/courses/education-free-math-course" },
+        { "title": "Computer Science 101", "description": "Learn the fundamentals of computer science including how computers work, how to write code, and how to think like a programmer.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://online.stanford.edu/courses/engineering-free-courses" },
+        { "title": "How to Learn Math", "description": "Discover the latest research on how to learn math effectively. Change your relationship with math and build a growth mindset.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Business", "url": "https://online.stanford.edu/courses/education-free-math-course" },
+        { "title": "Introduction to Internet of Things", "description": "Learn about IoT architecture, protocols, sensors, cloud platforms, and build connected device applications.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://online.stanford.edu/courses/engineering-free-courses" },
+        { "title": "RF Fundamentals for Wireless Communications", "description": "Understand radio frequency fundamentals, wireless communication principles, and modern wireless system design.", "difficulty": "Advanced", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://online.stanford.edu/courses/engineering-free-courses" },
+        { "title": "Trading Strategies in Emerging Markets", "description": "Explore trading strategies, portfolio optimization, and risk management techniques specific to emerging financial markets.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Business", "url": "https://online.stanford.edu/courses/engineering-free-courses" },
+        { "title": "Bits: Introduction to Computer Science", "description": "An introductory course covering bitwise operations, binary representation, and fundamental computer science concepts.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://online.stanford.edu/courses/engineering-free-courses" }
+      ]
     }
   ],
   "stats": {
-    "totalProviders": 10,
-    "totalCourses": 87,
+    "totalProviders": 11,
+    "totalCourses": 95,
     "totalCertifications": 49
   }
 }
