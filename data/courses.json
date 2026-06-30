@@ -160,11 +160,37 @@
         { "title": "Quantitative Methods for Biology", "description": "Learn introductory programming and data analysis in MATLAB with applications to biology and medicine. Perfect for aspiring bioinformaticians.", "difficulty": "Intermediate", "certification": false, "duration": "10 weeks", "category": "Computer Science", "url": "https://pll.harvard.edu/course/quantitative-methods-biology" },
         { "title": "US Political Institutions", "description": "Examine the inner workings of the three branches of US federal government - Congress, Presidency, Courts, and Bureaucracy.", "difficulty": "Beginner", "certification": false, "duration": "4 weeks", "category": "Business", "url": "https://pll.harvard.edu/course/us-political-institutions-congress-presidency-courts-and-bureaucracy" }
       ]
+    },
+    {
+      "id": "mit",
+      "name": "MIT OpenCourseWare",
+      "description": "MIT OpenCourseWare offers free lecture notes, exams, and videos from MIT courses. No registration required. Access world-class MIT education from anywhere.",
+      "logo": "MIT",
+      "logoImage": "",
+      "color": "#8B8B8B",
+      "courses": [
+        { "title": "Introduction to Computer Science and Programming in Python", "description": "MIT's introductory CS course teaching computational thinking, Python programming, algorithms, and problem-solving techniques.", "difficulty": "Beginner", "certification": false, "duration": "9 weeks", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/" },
+        { "title": "Introduction to Computational Thinking and Data Science", "description": "Learn computational thinking with Python, including optimization, plotting, stochastic thinking, and statistical analysis of data.", "difficulty": "Intermediate", "certification": false, "duration": "9 weeks", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/" },
+        { "title": "Linear Algebra", "description": "Comprehensive linear algebra course covering matrices, vector spaces, eigenvalues, and applications. Includes video lectures and problem sets.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/" },
+        { "title": "Single Variable Calculus", "description": "Complete calculus course covering derivatives, integrals, limits, and applications. Part of MIT's flagship calculus series.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/" },
+        { "title": "Multivariable Calculus", "description": "Advanced calculus covering vector fields, line integrals, double and triple integrals, and theorems of Green, Stokes, and Gauss.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/" },
+        { "title": "Introduction to Probability and Statistics", "description": "Learn probability models, random variables, expectation, central limit theorem, confidence intervals, and hypothesis testing.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Data Science", "url": "https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2014/" },
+        { "title": "Introduction to Algorithms", "description": "Study efficient algorithms for sorting, searching, graphs, and dynamic programming. Analyze algorithm complexity and data structure design.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/" },
+        { "title": "Design and Analysis of Algorithms", "description": "Advanced study of algorithm design techniques including divide-and-conquer, dynamic programming, greedy algorithms, and network flow.", "difficulty": "Advanced", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/" },
+        { "title": "Machine Learning", "description": "MIT's graduate-level ML course covering supervised learning, neural networks, clustering, reinforcement learning, and statistical learning theory.", "difficulty": "Advanced", "certification": false, "duration": "Self-paced", "category": "AI & ML", "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/" },
+        { "title": "Operating System Engineering", "description": "Study operating system design and implementation including virtualization, concurrency, file systems, and networking through hands-on projects.", "difficulty": "Advanced", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-828-operating-system-engineering-fall-2012/" },
+        { "title": "Computer Networks", "description": "Learn computer network architecture, protocols (TCP/IP, HTTP, DNS), routing, congestion control, and network security fundamentals.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-829-computer-networks-fall-2002/" },
+        { "title": "Introduction to Psychology", "description": "Explore the scientific study of human behavior including perception, cognition, memory, emotion, social psychology, and developmental psychology.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Business", "url": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/" },
+        { "title": "Principles of Microeconomics", "description": "Study supply and demand, consumer behavior, production costs, market structures, game theory, and welfare economics.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Business", "url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/" },
+        { "title": "Principles of Macroeconomics", "description": "Examine national income, inflation, unemployment, monetary and fiscal policy, economic growth, and international trade.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Business", "url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/" },
+        { "title": "Electromagnetic Energy: Motors to Lasers", "description": "Study electromagnetic fields, Maxwell's equations, wave propagation, and applications including motors, generators, and lasers.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-007-electromagnetic-energy-from-motors-to-lasers-spring-2011/" },
+        { "title": "Signals and Systems", "description": "Learn signal processing fundamentals including Fourier series, Laplace transforms, Z-transforms, filtering, and system analysis.", "difficulty": "Advanced", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/" }
+      ]
     }
   ],
   "stats": {
-    "totalProviders": 9,
-    "totalCourses": 71,
+    "totalProviders": 10,
+    "totalCourses": 87,
     "totalCertifications": 49
   }
 }
