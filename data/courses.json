@@ -57,13 +57,21 @@
     {
       "id": "google",
       "name": "Google Skillshop",
-      "description": "Official Google training for digital skills, advertising, analytics, and cloud technologies.",
+      "description": "Official Google training for digital skills, advertising, analytics, AI, and cloud technologies. Free certifications and badges from Google.",
       "logo": "GS",
       "logoImage": "assets/logos/google.svg",
       "color": "#4285F4",
       "courses": [
-        { "title": "Build with AI", "description": "Google's community-driven program to learn about AI technologies, build projects, and connect with fellow developers.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "AI & ML", "url": "https://developers.google.com/community/build-with-ai" },
-        { "title": "Google AI Essentials", "description": "Learn AI fundamentals, responsible AI practices, and how to use Google's AI tools in real-world scenarios.", "difficulty": "Beginner", "certification": true, "duration": "6 hours", "category": "AI & ML", "url": "https://grow.google/ai-essentials/" }
+        { "title": "Google AI Essentials", "description": "Learn AI fundamentals, responsible AI practices, and how to use Google's AI tools in real-world scenarios.", "difficulty": "Beginner", "certification": true, "duration": "6 hours", "category": "AI & ML", "url": "https://grow.google/ai-essentials/" },
+        { "title": "Introduction to Generative AI", "description": "Learn what generative AI is, how it works, and how to use it responsibly. Explore Google's Gen AI tools and applications.", "difficulty": "Beginner", "certification": true, "duration": "1 hour", "category": "AI & ML", "url": "https://www.cloudskillsboost.google/course_templates/536" },
+        { "title": "Introduction to Large Language Models", "description": "Explore LLMs, their use cases, prompt tuning, and Google's Gen AI development tools. Understand how LLMs enable new AI applications.", "difficulty": "Beginner", "certification": true, "duration": "1 hour", "category": "AI & ML", "url": "https://www.cloudskillsboost.google/course_templates/539" },
+        { "title": "Introduction to Responsible AI", "description": "Learn Google's AI principles, responsible AI practices, and how to design fair, accountable, and transparent AI systems.", "difficulty": "Beginner", "certification": true, "duration": "1 hour", "category": "AI & ML", "url": "https://www.cloudskillsboost.google/course_templates/554" },
+        { "title": "Google Analytics Certification", "description": "Demonstrate your proficiency in Google Analytics including data collection, reporting, analysis, and insights for business growth.", "difficulty": "Intermediate", "certification": true, "duration": "4 hours", "category": "Business", "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=6431-google-analytics" },
+        { "title": "Google Ads Search Certification", "description": "Learn search advertising fundamentals including campaign setup, bidding, optimization, and measurement with Google Ads.", "difficulty": "Intermediate", "certification": true, "duration": "8 hours", "category": "Business", "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=96-google-ads-search" },
+        { "title": "Google Ads Display Certification", "description": "Master display advertising including responsive ads, targeting, remarketing, and campaign optimization across the Google Display Network.", "difficulty": "Intermediate", "certification": true, "duration": "6 hours", "category": "Business", "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=97-google-ads-display" },
+        { "title": "Google Ads Video Certification", "description": "Learn video advertising on YouTube including campaign types, creative best practices, measurement, and optimization strategies.", "difficulty": "Intermediate", "certification": true, "duration": "5 hours", "category": "Business", "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=98-google-ads-video" },
+        { "title": "Google Ads Apps Certification", "description": "Master mobile app advertising with Google Ads including app install campaigns, measurement, and optimization for mobile apps.", "difficulty": "Intermediate", "certification": true, "duration": "4 hours", "category": "Business", "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=99-google-ads-apps" },
+        { "title": "AI-Powered Shopping Ads Certification", "description": "Learn to create and optimize shopping campaigns using AI-powered bidding and product listing ads for e-commerce.", "difficulty": "Intermediate", "certification": true, "duration": "4 hours", "category": "Business", "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=100-google-shopping-ads" }
       ]
     },
     {
@@ -208,7 +216,7 @@
   ],
   "stats": {
     "totalProviders": 11,
-    "totalCourses": 95,
-    "totalCertifications": 49
+    "totalCourses": 103,
+    "totalCertifications": 57
   }
 }
