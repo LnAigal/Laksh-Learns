@@ -75,6 +75,24 @@
       ]
     },
     {
+      "id": "meta",
+      "name": "Meta",
+      "description": "Free Meta courses on Coursera covering front-end, back-end development, social media marketing, and AR certification. Industry-recognized credentials from Meta.",
+      "logo": "M",
+      "logoImage": "",
+      "color": "#1877F2",
+      "courses": [
+        { "title": "HTML and CSS in depth", "description": "Master HTML5 and CSS3 including responsive design, CSS frameworks, Bootstrap, and modern web styling techniques from Meta.", "difficulty": "Beginner", "certification": false, "duration": "4 hours", "category": "Web Development", "url": "https://www.coursera.org/learn/html-and-css-in-depth" },
+        { "title": "Meta Spark Creator AR Certification", "description": "Learn to create augmented reality effects using Meta Spark Studio. Build and publish AR experiences for Facebook and Instagram.", "difficulty": "Beginner", "certification": true, "duration": "1 hour", "category": "Web Development", "url": "https://www.coursera.org/learn/meta-spark-creator-ar-certification" },
+        { "title": "Introduction to Social Media Marketing", "description": "Learn social media marketing fundamentals, content strategy, audience targeting, and campaign management across Meta platforms.", "difficulty": "Beginner", "certification": false, "duration": "6 hours", "category": "Business", "url": "https://www.coursera.org/learn/social-media-marketing-introduction" },
+        { "title": "Marketing Analytics", "description": "Learn to measure and analyze marketing performance using data-driven techniques. Understand KPIs, attribution, and ROI measurement.", "difficulty": "Intermediate", "certification": false, "duration": "8 hours", "category": "Business", "url": "https://www.coursera.org/learn/marketing-analytics" },
+        { "title": "Advertising and Ad Creative", "description": "Master ad creative strategy, ad formats, targeting, and campaign optimization for Meta advertising platforms.", "difficulty": "Intermediate", "certification": false, "duration": "6 hours", "category": "Business", "url": "https://www.coursera.org/learn/advertising-and-ad-creative" },
+        { "title": "Programming with JavaScript", "description": "Learn JavaScript fundamentals including variables, functions, objects, DOM manipulation, and modern ES6+ syntax.", "difficulty": "Beginner", "certification": false, "duration": "14 hours", "category": "Programming", "url": "https://www.coursera.org/learn/programming-with-javascript" },
+        { "title": "Version Control", "description": "Learn Git and GitHub for version control, collaboration, branching strategies, and professional development workflows.", "difficulty": "Beginner", "certification": false, "duration": "8 hours", "category": "Programming", "url": "https://www.coursera.org/learn/introduction-to-version-control" },
+        { "title": "React Basics", "description": "Learn React fundamentals including components, JSX, state management, hooks, and building dynamic user interfaces.", "difficulty": "Intermediate", "certification": false, "duration": "12 hours", "category": "Web Development", "url": "https://www.coursera.org/learn/react-basics" }
+      ]
+    },
+    {
       "id": "tcs",
       "name": "TCS iON",
       "description": "Tata Consultancy Services' learning platform offering professional courses, certifications, and career development programs.",
@@ -215,8 +233,8 @@
     }
   ],
   "stats": {
-    "totalProviders": 11,
-    "totalCourses": 103,
-    "totalCertifications": 57
+    "totalProviders": 12,
+    "totalCourses": 111,
+    "totalCertifications": 58
   }
 }
