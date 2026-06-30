@@ -45,13 +45,21 @@
     {
       "id": "microsoft",
       "name": "Microsoft Learn",
-      "description": "Official Microsoft training platform with role-based learning paths and certifications.",
+      "description": "Official Microsoft training platform with role-based learning paths, certifications, and LinkedIn Learning integrations for career development.",
       "logo": "MS",
       "logoImage": "assets/logos/microsoft.svg",
       "color": "#00A4EF",
       "courses": [
         { "title": "Generative AI for Beginners", "description": "Learn the fundamentals of generative AI, large language models, prompt engineering, and building AI applications with Microsoft's expert-led video series.", "difficulty": "Beginner", "certification": false, "duration": "4 hours", "category": "AI & ML", "url": "https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/" },
-        { "title": "Career Essentials in Generative AI", "description": "Microsoft and LinkedIn co-branded learning path covering generative AI concepts, responsible AI, and practical applications for career growth.", "difficulty": "Beginner", "certification": true, "duration": "5 hours", "category": "AI & ML", "url": "https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin" }
+        { "title": "Career Essentials in Generative AI", "description": "Microsoft and LinkedIn co-branded learning path covering generative AI concepts, responsible AI, and practical applications for career growth.", "difficulty": "Beginner", "certification": true, "duration": "5 hours", "category": "AI & ML", "url": "https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin" },
+        { "title": "Career Essentials in Data Analytics", "description": "Build data analytics skills covering Excel, Power BI, SQL, and data visualization. Microsoft and LinkedIn co-branded certificate program.", "difficulty": "Beginner", "certification": true, "duration": "10 hours", "category": "Data Science", "url": "https://www.linkedin.com/learning/paths/career-essentials-in-data-analytics-by-microsoft-and-linkedin" },
+        { "title": "Career Essentials in Software Development", "description": "Learn software development fundamentals including programming, version control, and agile methodologies with Microsoft and LinkedIn.", "difficulty": "Beginner", "certification": true, "duration": "12 hours", "category": "Programming", "url": "https://www.linkedin.com/learning/paths/career-essentials-in-software-development-by-microsoft-and-linkedin" },
+        { "title": "Communication Foundations", "description": "Master professional communication including active listening, presentation skills, nonverbal communication, and workplace correspondence.", "difficulty": "Beginner", "certification": false, "duration": "2 hours", "category": "Business", "url": "https://www.linkedin.com/learning/communication-foundations-2018-2" },
+        { "title": "Project Management Foundations", "description": "Learn project management fundamentals including planning, scheduling, risk management, and Agile/Scrum methodologies.", "difficulty": "Beginner", "certification": false, "duration": "3 hours", "category": "Business", "url": "https://www.linkedin.com/learning/project-management-foundations-3" },
+        { "title": "Introduction to Web Development with HTML, CSS, JavaScript", "description": "Build your first web pages with HTML, CSS, and JavaScript. Learn responsive design and modern web development fundamentals from Microsoft.", "difficulty": "Beginner", "certification": false, "duration": "6 hours", "category": "Web Development", "url": "https://learn.microsoft.com/en-us/training/paths/web-development-101/" },
+        { "title": "Azure Fundamentals", "description": "Learn cloud computing concepts and Microsoft Azure basics including compute, storage, networking, and security services.", "difficulty": "Beginner", "certification": false, "duration": "8 hours", "category": "Cloud Computing", "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals/" },
+        { "title": "Microsoft 365 Fundamentals", "description": "Explore Microsoft 365 productivity solutions including collaboration tools, security, compliance, and licensing fundamentals.", "difficulty": "Beginner", "certification": false, "duration": "4 hours", "category": "Cloud Computing", "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-365-fundamentals/" },
+        { "title": "Create and Use Analytics Reports with Power BI", "description": "Learn to create interactive dashboards, reports, and data visualizations using Microsoft Power BI for business intelligence.", "difficulty": "Intermediate", "certification": false, "duration": "4 hours", "category": "Data Science", "url": "https://learn.microsoft.com/en-us/training/paths/create-use-analytics-reports-power-bi/" }
       ]
     },
     {
@@ -234,7 +242,7 @@
   ],
   "stats": {
     "totalProviders": 12,
-    "totalCourses": 111,
-    "totalCertifications": 58
+    "totalCourses": 119,
+    "totalCertifications": 60
   }
 }
