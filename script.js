@@ -390,7 +390,7 @@ function renderCourses(courses, container) {
         <span class="course-tag tag-category">📂 ${course.category}</span>
       </div>
       <div class="course-footer">
-        <a href="${course.url}" target="_blank" class="course-btn">Visit Course →</a>
+        <a href="${course.url}" target="_blank" rel="noopener noreferrer" class="course-btn">Visit Course →</a>
         <button class="fav-btn ${isFav ? 'active' : ''}" data-id="${currentProvider}-${course.title}" aria-label="Bookmark">${isFav ? '💖' : '🤍'}</button>
       </div>`;
 
@@ -810,7 +810,7 @@ function initCourseDetail() {
       </div>
       <p class="detail-desc">${course.description}</p>
       <div class="detail-actions">
-        <a href="${course.url}" target="_blank" class="btn btn-primary btn-glow">Visit Course →</a>
+        <a href="${course.url}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-glow">Visit Course →</a>
         <button class="fav-btn detail-fav ${isFav ? 'active' : ''}" data-id="${providerId}-${course.title}" aria-label="Bookmark">${isFav ? '💖' : '🤍'} <span>${isFav ? 'Bookmarked' : 'Bookmark'}</span></button>
       </div>
       <a href="providers/${providerId}.html" class="detail-back" data-transition>← Back to ${provider.name}</a>
@@ -869,7 +869,7 @@ function renderBookmarkedCourses() {
         <span class="course-tag tag-category">📂 ${course.category}</span>
       </div>
       <div class="course-footer">
-        <a href="${course.url}" target="_blank" class="course-btn">Visit Course →</a>
+        <a href="${course.url}" target="_blank" rel="noopener noreferrer" class="course-btn">Visit Course →</a>
         <button class="fav-btn active" data-id="${item.id}" aria-label="Remove bookmark">💖</button>
       </div>`;
 
@@ -1006,7 +1006,7 @@ function renderSimilarCourses() {
         <span class="course-tag tag-category">📂 ${course.category}</span>
       </div>
       <div class="course-footer">
-        <a href="${course.url}" target="_blank" class="course-btn">Visit Course →</a>
+        <a href="${course.url}" target="_blank" rel="noopener noreferrer" class="course-btn">Visit Course →</a>
       </div>`;
 
     grid.appendChild(card);
