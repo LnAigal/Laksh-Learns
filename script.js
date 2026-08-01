@@ -6,6 +6,16 @@ function durationToHours(d) {
   if (!d) return Infinity;
   const lower = d.toLowerCase();
   if (lower.includes('week')) return parseInt(d) * 40 || Infinity;
+
+  let hours = 0;
+  const days = lower.match(/(\d+)\s*d/);
+  const hrs = lower.match(/(\d+)\s*h/);
+  const mins = lower.match(/(\d+)\s*m/);
+  if (days) hours += parseInt(days[1]) * 24;
+  if (hrs) hours += parseInt(hrs[1]);
+  if (mins) hours += parseInt(mins[1]) / 60;
+  if (hours > 0) return hours;
+
   if (lower.includes('hour') || lower.includes('hr')) return parseInt(d) || 0;
   return Infinity;
 }
@@ -70,10 +80,14 @@ function initCursor() {
   }
   animate();
 
-  const hoverEls = document.querySelectorAll('a, button, .provider-card, .course-card, .stat-card, .filter-select, .sort-btn, .course-btn, .fav-btn, .back-to-top, .theme-toggle, .hamburger, .nav-logo, input, select');
-  hoverEls.forEach(el => {
-    el.addEventListener('mouseenter', () => cursor.classList.add('hovering'));
-    el.addEventListener('mouseleave', () => cursor.classList.remove('hovering'));
+  const HOVER_SELECTOR = 'a, button, .provider-card, .course-card, .stat-card, .filter-select, .sort-btn, .course-btn, .fav-btn, .back-to-top, .theme-toggle, .hamburger, .nav-logo, input, select';
+  document.addEventListener('mouseover', (e) => {
+    if (e.target.closest && e.target.closest(HOVER_SELECTOR)) cursor.classList.add('hovering');
+  });
+  document.addEventListener('mouseout', (e) => {
+    if (e.target.closest && e.target.closest(HOVER_SELECTOR) && !(e.relatedTarget && e.relatedTarget.closest && e.relatedTarget.closest(HOVER_SELECTOR))) {
+      cursor.classList.remove('hovering');
+    }
   });
 }
 
@@ -587,16 +601,19 @@ function initCardTilt(cards) {
 // === MAGNETIC BUTTONS ===
 function initMagneticButtons() {
   if (isTouchDevice()) return;
-  document.querySelectorAll('.btn, .course-btn').forEach(btn => {
-    btn.addEventListener('mousemove', (e) => {
-      const rect = btn.getBoundingClientRect();
-      const x = e.clientX - rect.left - rect.width / 2;
-      const y = e.clientY - rect.top - rect.height / 2;
-      btn.style.transform = `translate(${x * 0.3}px, ${y * 0.3}px)`;
-    });
-    btn.addEventListener('mouseleave', () => {
+  document.addEventListener('mousemove', (e) => {
+    const btn = e.target.closest && e.target.closest('.btn, .course-btn');
+    if (!btn) return;
+    const rect = btn.getBoundingClientRect();
+    const x = e.clientX - rect.left - rect.width / 2;
+    const y = e.clientY - rect.top - rect.height / 2;
+    btn.style.transform = `translate(${x * 0.3}px, ${y * 0.3}px)`;
+  });
+  document.addEventListener('mouseout', (e) => {
+    const btn = e.target.closest && e.target.closest('.btn, .course-btn');
+    if (btn && !(e.relatedTarget && e.relatedTarget.closest && e.relatedTarget.closest('.btn, .course-btn'))) {
       btn.style.transform = '';
-    });
+    }
   });
 }
 
@@ -718,7 +735,6 @@ function renderProviders(providers) {
   });
 
   initMagneticButtons();
-  setTimeout(initScrollReveal, 100);
 }
 
 // === HOME PAGE STATS ===

@@ -536,6 +536,9 @@ a:focus-visible {
 .nav-links a:hover { color: var(--text); }
 .nav-links a:hover::after { width: 100%; }
 
+.nav-links a.active-link { color: var(--text); }
+.nav-links a.active-link::after { width: 100%; }
+
 .theme-toggle {
   width: 40px;
   height: 40px;
