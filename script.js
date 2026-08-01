@@ -378,7 +378,7 @@ function renderCourses(courses, container) {
     const certText = course.certification ? '🎓 Certificate' : 'No Certificate';
     const certTag = course.certification ? 'tag-certification' : 'tag-duration';
     const isFav = favs.includes(`${currentProvider}-${course.title}`);
-    const detailUrl = `${window.location.pathname.includes('/providers/') ? '../' : ''}course.html?provider=${currentProvider}&course=${idx}`;
+    const detailUrl = `${window.location.pathname.includes('/providers/') ? '../' : ''}course.html?provider=${currentProvider}&course=${course.__idx != null ? course.__idx : idx}`;
 
     card.innerHTML = `
       <h3 class="course-title"><a href="${detailUrl}" class="course-title-link" data-transition>${course.title}</a></h3>
@@ -427,7 +427,8 @@ function initProviderControls() {
 
   function clearFilters() {
     activeFilters = { difficulty: null, category: null, certification: null };
-    filterBtns.querySelectorAll('.filter-select').forEach(s => s.value = '');
+    sortOrder = 'default';
+    filterBtns.querySelectorAll('.filter-select').forEach(s => s.value = s.id === 'sort-select' ? 'default' : '');
     updateActivePills();
     renderFiltered();
   }
@@ -538,7 +539,7 @@ function initProviderControls() {
     const provider = coursesData.providers.find(p => p.id === providerId);
     if (!provider) return;
     currentProvider = providerId;
-    allCourses = provider.courses;
+    allCourses = provider.courses.map((course, idx) => ({ ...course, __idx: idx }));
 
     const statEls = document.querySelectorAll('.banner-stat strong');
     if (statEls.length >= 2) {
