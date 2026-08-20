@@ -298,6 +298,42 @@ a:focus-visible {
   opacity: 1;
 }
 
+/* Pricing Badge */
+.pricing-badge {
+  display: inline-block;
+  padding: 0.2rem 0.65rem;
+  border-radius: 50px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.4rem;
+  line-height: 1;
+}
+
+.badge-free {
+  background: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.badge-paid {
+  background: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+[data-theme="light"] .badge-free {
+  background: rgba(22, 163, 74, 0.12);
+  color: #16a34a;
+  border-color: rgba(22, 163, 74, 0.25);
+}
+
+[data-theme="light"] .badge-paid {
+  background: rgba(220, 38, 38, 0.12);
+  color: #dc2626;
+  border-color: rgba(220, 38, 38, 0.25);
+}
+
 /* Card Glow Enhancement */
 .card-glow {
   position: absolute;

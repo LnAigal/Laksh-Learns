@@ -396,6 +396,7 @@ function renderCourses(courses, container) {
 
     card.innerHTML = `
       <h3 class="course-title"><a href="${detailUrl}" class="course-title-link" data-transition>${course.title}</a></h3>
+      <span class="pricing-badge ${course.pricing === 'free' ? 'badge-free' : 'badge-paid'}">${course.pricing === 'free' ? '✅ FREE' : '💰 PAID'}</span>
       <p class="course-desc">${course.description}</p>
       <div class="course-tags">
         <span class="course-tag tag-difficulty">📊 ${course.difficulty}</span>
@@ -423,7 +424,7 @@ function initProviderControls() {
   if (!searchInput || !coursesContainer) return;
 
   let allCourses = [];
-  let activeFilters = { difficulty: null, category: null, certification: null };
+  let activeFilters = { difficulty: null, category: null, certification: null, pricing: null };
   let sortOrder = 'default';
 
   function sortCourses(courses) {
@@ -440,7 +441,7 @@ function initProviderControls() {
   }
 
   function clearFilters() {
-    activeFilters = { difficulty: null, category: null, certification: null };
+    activeFilters = { difficulty: null, category: null, certification: null, pricing: null };
     sortOrder = 'default';
     filterBtns.querySelectorAll('.filter-select').forEach(s => s.value = s.id === 'sort-select' ? 'default' : '');
     updateActivePills();
@@ -460,6 +461,8 @@ function initProviderControls() {
     if (activeFilters.category) chips.push({ label: activeFilters.category, group: 'category' });
     if (activeFilters.certification === true) chips.push({ label: 'Certificate', group: 'certification' });
     else if (activeFilters.certification === false) chips.push({ label: 'No Certificate', group: 'certification' });
+    if (activeFilters.pricing === 'free') chips.push({ label: 'Free', group: 'pricing' });
+    else if (activeFilters.pricing === 'paid') chips.push({ label: 'Paid', group: 'pricing' });
 
     const clearBtn = document.getElementById('filter-clear');
     if (chips.length === 0) {
@@ -491,6 +494,7 @@ function initProviderControls() {
       if (activeFilters.difficulty && c.difficulty !== activeFilters.difficulty) return false;
       if (activeFilters.category && c.category !== activeFilters.category) return false;
       if (activeFilters.certification !== null && c.certification !== activeFilters.certification) return false;
+      if (activeFilters.pricing && c.pricing !== activeFilters.pricing) return false;
       return true;
     });
     renderCourses(sortCourses(filtered), coursesContainer);
@@ -512,6 +516,13 @@ function initProviderControls() {
     if (hasCert) certOptions.push({ label: 'Certificate', value: 'certification-true', group: 'certification' });
     if (hasNoCert) certOptions.push({ label: 'No Certificate', value: 'certification-false', group: 'certification' });
     if (certOptions.length) groups.push({ label: 'Certification', options: certOptions });
+
+    const hasFree = allCourses.some(c => c.pricing === 'free');
+    const hasPaid = allCourses.some(c => c.pricing === 'paid');
+    const pricingOptions = [];
+    if (hasFree) pricingOptions.push({ label: 'Free', value: 'pricing-free', group: 'pricing' });
+    if (hasPaid) pricingOptions.push({ label: 'Paid', value: 'pricing-paid', group: 'pricing' });
+    if (pricingOptions.length) groups.push({ label: 'Pricing', options: pricingOptions });
 
     const sortWrapper = filterBtns.querySelector('.sort-wrapper');
 
@@ -536,6 +547,9 @@ function initProviderControls() {
         else if (group === 'category') activeFilters.category = val || null;
         else if (group === 'certification') {
           activeFilters.certification = val === 'certification-true' ? true : val === 'certification-false' ? false : null;
+        }
+        else if (group === 'pricing') {
+          activeFilters.pricing = val === 'pricing-free' ? 'free' : val === 'pricing-paid' ? 'paid' : null;
         }
 
         updateActivePills();
@@ -817,6 +831,7 @@ function initCourseDetail() {
           <span class="detail-provider-badge" style="color:${provider.color};background:${provider.color}15;border-color:${provider.color}30">${provider.name}</span>
         </div>
         <h1 class="detail-title">${course.title}</h1>
+        <span class="pricing-badge ${course.pricing === 'free' ? 'badge-free' : 'badge-paid'}" style="font-size:0.85rem;margin-bottom:0.5rem">${course.pricing === 'free' ? '✅ FREE' : '💰 PAID'}</span>
         <div class="course-tags">
           <span class="course-tag tag-difficulty">📊 ${course.difficulty}</span>
           <span class="course-tag ${certTag}">${certText}</span>
@@ -877,6 +892,7 @@ function renderBookmarkedCourses() {
     card.innerHTML = `
       <div class="course-provider-badge" style="color:${provider.color};font-size:0.75rem;font-weight:600;margin-bottom:0.5rem">${provider.name}</div>
       <h3 class="course-title"><a href="${detailUrl}" class="course-title-link" data-transition>${course.title}</a></h3>
+      <span class="pricing-badge ${course.pricing === 'free' ? 'badge-free' : 'badge-paid'}">${course.pricing === 'free' ? '✅ FREE' : '💰 PAID'}</span>
       <p class="course-desc">${course.description}</p>
       <div class="course-tags">
         <span class="course-tag tag-difficulty">📊 ${course.difficulty}</span>
@@ -1014,6 +1030,7 @@ function renderSimilarCourses() {
     card.innerHTML = `
       <div class="course-provider-badge" style="color:${provider.color};font-size:0.75rem;font-weight:600;margin-bottom:0.5rem">${provider.name}</div>
       <h3 class="course-title"><a href="${detailUrl}" class="course-title-link" data-transition>${course.title}</a></h3>
+      <span class="pricing-badge ${course.pricing === 'free' ? 'badge-free' : 'badge-paid'}">${course.pricing === 'free' ? '✅ FREE' : '💰 PAID'}</span>
       <p class="course-desc">${course.description}</p>
       <div class="course-tags">
         <span class="course-tag tag-difficulty">📊 ${course.difficulty}</span>

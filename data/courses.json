@@ -8,13 +8,76 @@
       "logoImage": "assets/logos/gfg.svg",
       "color": "#2F8D46",
       "courses": [
-        { "title": "Mastering Generative AI with ChatGPT", "description": "Comprehensive course on generative AI concepts, prompt engineering, and building applications with ChatGPT.", "difficulty": "Intermediate", "certification": true, "duration": "8 weeks", "category": "AI & ML", "url": "https://www.geeksforgeeks.org/batch/mastering-generative-ai-chatgpt" },
-        { "title": "Python Foundation", "description": "Solid foundation in Python programming covering basics to advanced concepts with hands-on projects.", "difficulty": "Beginner", "certification": true, "duration": "6 weeks", "category": "Programming", "url": "https://www.geeksforgeeks.org/batch/python-foundation-2" },
-        { "title": "React Native Development", "description": "Build cross-platform mobile applications using React Native framework with practical projects.", "difficulty": "Intermediate", "certification": true, "duration": "8 weeks", "category": "Web Development", "url": "https://www.geeksforgeeks.org/batch/react-native" },
-        { "title": "Java Foundation", "description": "Core Java programming covering OOP, collections, multithreading, and exception handling fundamentals.", "difficulty": "Beginner", "certification": true, "duration": "6 weeks", "category": "Programming", "url": "https://www.geeksforgeeks.org/batch/java-foundation-2" },
-        { "title": "SDE Theory", "description": "Essential computer science theory for software engineers including OS, DBMS, networking, and system design.", "difficulty": "Intermediate", "certification": true, "duration": "10 weeks", "category": "Computer Science", "url": "https://www.geeksforgeeks.org/batch/sde-theory-1" },
-        { "title": "JavaScript Course", "description": "Complete JavaScript programming from fundamentals to advanced concepts including ES6+ features.", "difficulty": "Beginner", "certification": true, "duration": "6 weeks", "category": "Programming", "url": "https://www.geeksforgeeks.org/batch/js-yt" },
-        { "title": "GFG 160 Series - DSA", "description": "160 curated DSA problems covering arrays, strings, trees, graphs, and dynamic programming for interview prep.", "difficulty": "Intermediate", "certification": true, "duration": "16 weeks", "category": "Computer Science", "url": "https://www.geeksforgeeks.org/courses/gfg-160-series" }
+        {
+          "title": "Mastering Generative AI with ChatGPT",
+          "description": "Comprehensive course on generative AI concepts, prompt engineering, and building applications with ChatGPT.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "8 weeks",
+          "category": "AI & ML",
+          "url": "https://www.geeksforgeeks.org/batch/mastering-generative-ai-chatgpt",
+          "pricing": "paid"
+        },
+        {
+          "title": "Python Foundation",
+          "description": "Solid foundation in Python programming covering basics to advanced concepts with hands-on projects.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "6 weeks",
+          "category": "Programming",
+          "url": "https://www.geeksforgeeks.org/batch/python-foundation-2",
+          "pricing": "paid"
+        },
+        {
+          "title": "React Native Development",
+          "description": "Build cross-platform mobile applications using React Native framework with practical projects.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "8 weeks",
+          "category": "Web Development",
+          "url": "https://www.geeksforgeeks.org/batch/react-native",
+          "pricing": "paid"
+        },
+        {
+          "title": "Java Foundation",
+          "description": "Core Java programming covering OOP, collections, multithreading, and exception handling fundamentals.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "6 weeks",
+          "category": "Programming",
+          "url": "https://www.geeksforgeeks.org/batch/java-foundation-2",
+          "pricing": "paid"
+        },
+        {
+          "title": "SDE Theory",
+          "description": "Essential computer science theory for software engineers including OS, DBMS, networking, and system design.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "10 weeks",
+          "category": "Computer Science",
+          "url": "https://www.geeksforgeeks.org/batch/sde-theory-1",
+          "pricing": "paid"
+        },
+        {
+          "title": "JavaScript Course",
+          "description": "Complete JavaScript programming from fundamentals to advanced concepts including ES6+ features.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "6 weeks",
+          "category": "Programming",
+          "url": "https://www.geeksforgeeks.org/batch/js-yt",
+          "pricing": "paid"
+        },
+        {
+          "title": "GFG 160 Series - DSA",
+          "description": "160 curated DSA problems covering arrays, strings, trees, graphs, and dynamic programming for interview prep.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "16 weeks",
+          "category": "Computer Science",
+          "url": "https://www.geeksforgeeks.org/courses/gfg-160-series",
+          "pricing": "free"
+        }
       ]
     },
     {
@@ -25,21 +88,156 @@
       "logoImage": "assets/logos/scaler.svg",
       "color": "#6C63FF",
       "courses": [
-        { "title": "Scaler Events & Workshops", "description": "Live events, hackathons, and workshops hosted by Scaler featuring industry experts and hands-on coding sessions.", "difficulty": "Beginner", "certification": false, "duration": "Varies", "category": "Programming", "url": "https://www.scaler.com/events" },
-        { "title": "Python Course for Beginners", "description": "Learn Python for free and earn a certificate. Covers Python fundamentals, data structures, OOP, and hands-on projects. No prerequisites needed.", "difficulty": "Beginner", "certification": true, "duration": "9h 44m", "category": "Programming", "url": "https://www.scaler.com/topics/course/python-for-beginners/" },
-        { "title": "DBMS Course", "description": "Master database management systems covering ER models, normalization, SQL, transactions, ACID properties, indexing, and query optimization.", "difficulty": "Beginner", "certification": true, "duration": "1d 5h 17m", "category": "Computer Science", "url": "https://www.scaler.com/topics/course/dbms/" },
-        { "title": "JavaScript Course for Beginners", "description": "Comprehensive JavaScript course covering basics, ES6, DOM manipulation, OOP, functional programming, and asynchronous JavaScript.", "difficulty": "Beginner", "certification": true, "duration": "10h 14m", "category": "Web Development", "url": "https://www.scaler.com/topics/course/javascript-beginners/" },
-        { "title": "C++ Course", "description": "Learn C++ from basics to advanced concepts including pointers, arrays, sorting, strings, and problem-solving techniques.", "difficulty": "Beginner", "certification": true, "duration": "9h 24m", "category": "Programming", "url": "https://www.scaler.com/topics/course/cpp-beginners/" },
-        { "title": "DSA Problem Solving for Interviews using Java", "description": "Prepare for DSA interview questions using Java. Covers data structures, algorithms, and problem-solving techniques for technical interviews.", "difficulty": "Intermediate", "certification": true, "duration": "13h 6m", "category": "Computer Science", "url": "https://www.scaler.com/topics/course/dsa-interviews-java/" },
-        { "title": "Java Course for Beginners", "description": "Master Java fundamentals including OOP, collections, and basic data structures. No prerequisites required.", "difficulty": "Beginner", "certification": true, "duration": "8h 9m", "category": "Programming", "url": "https://www.scaler.com/topics/course/java-beginners/" },
-        { "title": "Supervised Machine Learning Course", "description": "Learn supervised machine learning concepts including regression, classification, model building, and evaluation using Python and Scikit-Learn.", "difficulty": "Intermediate", "certification": true, "duration": "1d 1h 2m", "category": "AI & ML", "url": "https://www.scaler.com/topics/course/free-supervised-learning-course/" },
-        { "title": "Data Science Course for Beginners", "description": "Build a strong foundation in data science covering Python programming, NumPy, Pandas, data visualization, SQL, and intro to machine learning.", "difficulty": "Beginner", "certification": true, "duration": "8h 45m", "category": "Data Science", "url": "https://www.scaler.com/topics/course/python-for-data-science/" },
-        { "title": "Python and SQL for Data Science", "description": "Learn data manipulation, statistical analysis, visualization with Python libraries, and SQL fundamentals for effective data handling.", "difficulty": "Beginner", "certification": true, "duration": "14h 46m", "category": "Data Science", "url": "https://www.scaler.com/topics/course/python-sql-data-science/" },
-        { "title": "EDA and Data Visualization Course", "description": "Comprehensive EDA and data visualization course covering plotting, linear algebra, probability, statistics, and dimensionality reduction using Python.", "difficulty": "Beginner", "certification": true, "duration": "17h 28m", "category": "Data Science", "url": "https://www.scaler.com/topics/course/eda-and-data-visualisation/" },
-        { "title": "Java DSA Course", "description": "Learn data structures and algorithms in Java covering arrays, linked lists, stacks, queues, trees, graphs, recursion, DP, and greedy algorithms.", "difficulty": "Intermediate", "certification": true, "duration": "9h 7m", "category": "Computer Science", "url": "https://www.scaler.com/topics/course/dsa-beginners-java/" },
-        { "title": "React JS Free Course", "description": "Master React JS covering components, state management, hooks, Context API, React Router, and building dynamic single-page applications.", "difficulty": "Intermediate", "certification": true, "duration": "9h 13m", "category": "Web Development", "url": "https://www.scaler.com/topics/course/free-react-js-course/" },
-        { "title": "Node JS Course", "description": "Learn server-side web development with Node.js including web servers, modules, packages, databases, and application deployment.", "difficulty": "Intermediate", "certification": true, "duration": "7h 6m", "category": "Web Development", "url": "https://www.scaler.com/topics/course/nodejs/" },
-        { "title": "Spring Boot Course", "description": "Learn Spring Boot fundamentals and build a production-ready blogging application with database connectivity, CRUD operations, and deployment.", "difficulty": "Intermediate", "certification": true, "duration": "4h 48m", "category": "Web Development", "url": "https://www.scaler.com/topics/course/java-spring-boot-blogging-app/" }
+        {
+          "title": "Scaler Events & Workshops",
+          "description": "Live events, hackathons, and workshops hosted by Scaler featuring industry experts and hands-on coding sessions.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "Varies",
+          "category": "Programming",
+          "url": "https://www.scaler.com/events",
+          "pricing": "free"
+        },
+        {
+          "title": "Python Course for Beginners",
+          "description": "Learn Python for free and earn a certificate. Covers Python fundamentals, data structures, OOP, and hands-on projects. No prerequisites needed.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "9h 44m",
+          "category": "Programming",
+          "url": "https://www.scaler.com/topics/course/python-for-beginners/",
+          "pricing": "free"
+        },
+        {
+          "title": "DBMS Course",
+          "description": "Master database management systems covering ER models, normalization, SQL, transactions, ACID properties, indexing, and query optimization.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "1d 5h 17m",
+          "category": "Computer Science",
+          "url": "https://www.scaler.com/topics/course/dbms/",
+          "pricing": "free"
+        },
+        {
+          "title": "JavaScript Course for Beginners",
+          "description": "Comprehensive JavaScript course covering basics, ES6, DOM manipulation, OOP, functional programming, and asynchronous JavaScript.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "10h 14m",
+          "category": "Web Development",
+          "url": "https://www.scaler.com/topics/course/javascript-beginners/",
+          "pricing": "free"
+        },
+        {
+          "title": "C++ Course",
+          "description": "Learn C++ from basics to advanced concepts including pointers, arrays, sorting, strings, and problem-solving techniques.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "9h 24m",
+          "category": "Programming",
+          "url": "https://www.scaler.com/topics/course/cpp-beginners/",
+          "pricing": "free"
+        },
+        {
+          "title": "DSA Problem Solving for Interviews using Java",
+          "description": "Prepare for DSA interview questions using Java. Covers data structures, algorithms, and problem-solving techniques for technical interviews.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "13h 6m",
+          "category": "Computer Science",
+          "url": "https://www.scaler.com/topics/course/dsa-interviews-java/",
+          "pricing": "free"
+        },
+        {
+          "title": "Java Course for Beginners",
+          "description": "Master Java fundamentals including OOP, collections, and basic data structures. No prerequisites required.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "8h 9m",
+          "category": "Programming",
+          "url": "https://www.scaler.com/topics/course/java-beginners/",
+          "pricing": "free"
+        },
+        {
+          "title": "Supervised Machine Learning Course",
+          "description": "Learn supervised machine learning concepts including regression, classification, model building, and evaluation using Python and Scikit-Learn.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "1d 1h 2m",
+          "category": "AI & ML",
+          "url": "https://www.scaler.com/topics/course/free-supervised-learning-course/",
+          "pricing": "free"
+        },
+        {
+          "title": "Data Science Course for Beginners",
+          "description": "Build a strong foundation in data science covering Python programming, NumPy, Pandas, data visualization, SQL, and intro to machine learning.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "8h 45m",
+          "category": "Data Science",
+          "url": "https://www.scaler.com/topics/course/python-for-data-science/",
+          "pricing": "free"
+        },
+        {
+          "title": "Python and SQL for Data Science",
+          "description": "Learn data manipulation, statistical analysis, visualization with Python libraries, and SQL fundamentals for effective data handling.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "14h 46m",
+          "category": "Data Science",
+          "url": "https://www.scaler.com/topics/course/python-sql-data-science/",
+          "pricing": "free"
+        },
+        {
+          "title": "EDA and Data Visualization Course",
+          "description": "Comprehensive EDA and data visualization course covering plotting, linear algebra, probability, statistics, and dimensionality reduction using Python.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "17h 28m",
+          "category": "Data Science",
+          "url": "https://www.scaler.com/topics/course/eda-and-data-visualisation/",
+          "pricing": "free"
+        },
+        {
+          "title": "Java DSA Course",
+          "description": "Learn data structures and algorithms in Java covering arrays, linked lists, stacks, queues, trees, graphs, recursion, DP, and greedy algorithms.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "9h 7m",
+          "category": "Computer Science",
+          "url": "https://www.scaler.com/topics/course/dsa-beginners-java/",
+          "pricing": "free"
+        },
+        {
+          "title": "React JS Free Course",
+          "description": "Master React JS covering components, state management, hooks, Context API, React Router, and building dynamic single-page applications.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "9h 13m",
+          "category": "Web Development",
+          "url": "https://www.scaler.com/topics/course/free-react-js-course/",
+          "pricing": "free"
+        },
+        {
+          "title": "Node JS Course",
+          "description": "Learn server-side web development with Node.js including web servers, modules, packages, databases, and application deployment.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "7h 6m",
+          "category": "Web Development",
+          "url": "https://www.scaler.com/topics/course/nodejs/",
+          "pricing": "free"
+        },
+        {
+          "title": "Spring Boot Course",
+          "description": "Learn Spring Boot fundamentals and build a production-ready blogging application with database connectivity, CRUD operations, and deployment.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "4h 48m",
+          "category": "Web Development",
+          "url": "https://www.scaler.com/topics/course/java-spring-boot-blogging-app/",
+          "pricing": "free"
+        }
       ]
     },
     {
@@ -50,16 +248,106 @@
       "logoImage": "assets/logos/microsoft.svg",
       "color": "#00A4EF",
       "courses": [
-        { "title": "Generative AI for Beginners", "description": "Learn the fundamentals of generative AI, large language models, prompt engineering, and building AI applications with Microsoft's expert-led video series.", "difficulty": "Beginner", "certification": false, "duration": "4 hours", "category": "AI & ML", "url": "https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/" },
-        { "title": "Career Essentials in Generative AI", "description": "Microsoft and LinkedIn co-branded learning path covering generative AI concepts, responsible AI, and practical applications for career growth.", "difficulty": "Beginner", "certification": true, "duration": "5 hours", "category": "AI & ML", "url": "https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin" },
-        { "title": "Career Essentials in Data Analytics", "description": "Build data analytics skills covering Excel, Power BI, SQL, and data visualization. Microsoft and LinkedIn co-branded certificate program.", "difficulty": "Beginner", "certification": true, "duration": "10 hours", "category": "Data Science", "url": "https://www.linkedin.com/learning/paths/career-essentials-in-data-analytics-by-microsoft-and-linkedin" },
-        { "title": "Career Essentials in Software Development", "description": "Learn software development fundamentals including programming, version control, and agile methodologies with Microsoft and LinkedIn.", "difficulty": "Beginner", "certification": true, "duration": "12 hours", "category": "Programming", "url": "https://www.linkedin.com/learning/paths/career-essentials-in-software-development-by-microsoft-and-linkedin" },
-        { "title": "Communication Foundations", "description": "Master professional communication including active listening, presentation skills, nonverbal communication, and workplace correspondence.", "difficulty": "Beginner", "certification": false, "duration": "2 hours", "category": "Business", "url": "https://www.linkedin.com/learning/communication-foundations-2018-2" },
-        { "title": "Project Management Foundations", "description": "Learn project management fundamentals including planning, scheduling, risk management, and Agile/Scrum methodologies.", "difficulty": "Beginner", "certification": false, "duration": "3 hours", "category": "Business", "url": "https://www.linkedin.com/learning/project-management-foundations-3" },
-        { "title": "Introduction to Web Development with HTML, CSS, JavaScript", "description": "Build your first web pages with HTML, CSS, and JavaScript. Learn responsive design and modern web development fundamentals from Microsoft.", "difficulty": "Beginner", "certification": false, "duration": "6 hours", "category": "Web Development", "url": "https://learn.microsoft.com/en-us/training/paths/web-development-101/" },
-        { "title": "Azure Fundamentals", "description": "Learn cloud computing concepts and Microsoft Azure basics including compute, storage, networking, and security services.", "difficulty": "Beginner", "certification": false, "duration": "8 hours", "category": "Cloud Computing", "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals/" },
-        { "title": "Microsoft 365 Fundamentals", "description": "Explore Microsoft 365 productivity solutions including collaboration tools, security, compliance, and licensing fundamentals.", "difficulty": "Beginner", "certification": false, "duration": "4 hours", "category": "Cloud Computing", "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-365-fundamentals/" },
-        { "title": "Create and Use Analytics Reports with Power BI", "description": "Learn to create interactive dashboards, reports, and data visualizations using Microsoft Power BI for business intelligence.", "difficulty": "Intermediate", "certification": false, "duration": "4 hours", "category": "Data Science", "url": "https://learn.microsoft.com/en-us/training/paths/create-use-analytics-reports-power-bi/" }
+        {
+          "title": "Generative AI for Beginners",
+          "description": "Learn the fundamentals of generative AI, large language models, prompt engineering, and building AI applications with Microsoft's expert-led video series.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "4 hours",
+          "category": "AI & ML",
+          "url": "https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/",
+          "pricing": "free"
+        },
+        {
+          "title": "Career Essentials in Generative AI",
+          "description": "Microsoft and LinkedIn co-branded learning path covering generative AI concepts, responsible AI, and practical applications for career growth.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "5 hours",
+          "category": "AI & ML",
+          "url": "https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin",
+          "pricing": "paid"
+        },
+        {
+          "title": "Career Essentials in Data Analytics",
+          "description": "Build data analytics skills covering Excel, Power BI, SQL, and data visualization. Microsoft and LinkedIn co-branded certificate program.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "10 hours",
+          "category": "Data Science",
+          "url": "https://www.linkedin.com/learning/paths/career-essentials-in-data-analytics-by-microsoft-and-linkedin",
+          "pricing": "paid"
+        },
+        {
+          "title": "Career Essentials in Software Development",
+          "description": "Learn software development fundamentals including programming, version control, and agile methodologies with Microsoft and LinkedIn.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "12 hours",
+          "category": "Programming",
+          "url": "https://www.linkedin.com/learning/paths/career-essentials-in-software-development-by-microsoft-and-linkedin",
+          "pricing": "paid"
+        },
+        {
+          "title": "Communication Foundations",
+          "description": "Master professional communication including active listening, presentation skills, nonverbal communication, and workplace correspondence.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "2 hours",
+          "category": "Business",
+          "url": "https://www.linkedin.com/learning/communication-foundations-2018-2",
+          "pricing": "paid"
+        },
+        {
+          "title": "Project Management Foundations",
+          "description": "Learn project management fundamentals including planning, scheduling, risk management, and Agile/Scrum methodologies.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "3 hours",
+          "category": "Business",
+          "url": "https://www.linkedin.com/learning/project-management-foundations-3",
+          "pricing": "paid"
+        },
+        {
+          "title": "Introduction to Web Development with HTML, CSS, JavaScript",
+          "description": "Build your first web pages with HTML, CSS, and JavaScript. Learn responsive design and modern web development fundamentals from Microsoft.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "6 hours",
+          "category": "Web Development",
+          "url": "https://learn.microsoft.com/en-us/training/paths/web-development-101/",
+          "pricing": "free"
+        },
+        {
+          "title": "Azure Fundamentals",
+          "description": "Learn cloud computing concepts and Microsoft Azure basics including compute, storage, networking, and security services.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "8 hours",
+          "category": "Cloud Computing",
+          "url": "https://learn.microsoft.com/en-us/training/azure",
+          "pricing": "free"
+        },
+        {
+          "title": "Microsoft 365 Fundamentals",
+          "description": "Explore Microsoft 365 productivity solutions including collaboration tools, security, compliance, and licensing fundamentals.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "4 hours",
+          "category": "Cloud Computing",
+          "url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-365-fundamentals",
+          "pricing": "free"
+        },
+        {
+          "title": "Create and Use Analytics Reports with Power BI",
+          "description": "Learn to create interactive dashboards, reports, and data visualizations using Microsoft Power BI for business intelligence.",
+          "difficulty": "Intermediate",
+          "certification": false,
+          "duration": "4 hours",
+          "category": "Data Science",
+          "url": "https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/",
+          "pricing": "free"
+        }
       ]
     },
     {
@@ -70,16 +358,106 @@
       "logoImage": "assets/logos/google.svg",
       "color": "#4285F4",
       "courses": [
-        { "title": "Google AI Essentials", "description": "Learn AI fundamentals, responsible AI practices, and how to use Google's AI tools in real-world scenarios.", "difficulty": "Beginner", "certification": true, "duration": "6 hours", "category": "AI & ML", "url": "https://grow.google/ai-essentials/" },
-        { "title": "Introduction to Generative AI", "description": "Learn what generative AI is, how it works, and how to use it responsibly. Explore Google's Gen AI tools and applications.", "difficulty": "Beginner", "certification": true, "duration": "1 hour", "category": "AI & ML", "url": "https://www.cloudskillsboost.google/course_templates/536" },
-        { "title": "Introduction to Large Language Models", "description": "Explore LLMs, their use cases, prompt tuning, and Google's Gen AI development tools. Understand how LLMs enable new AI applications.", "difficulty": "Beginner", "certification": true, "duration": "1 hour", "category": "AI & ML", "url": "https://www.cloudskillsboost.google/course_templates/539" },
-        { "title": "Introduction to Responsible AI", "description": "Learn Google's AI principles, responsible AI practices, and how to design fair, accountable, and transparent AI systems.", "difficulty": "Beginner", "certification": true, "duration": "1 hour", "category": "AI & ML", "url": "https://www.cloudskillsboost.google/course_templates/554" },
-        { "title": "Google Analytics Certification", "description": "Demonstrate your proficiency in Google Analytics including data collection, reporting, analysis, and insights for business growth.", "difficulty": "Intermediate", "certification": true, "duration": "4 hours", "category": "Business", "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=6431-google-analytics" },
-        { "title": "Google Ads Search Certification", "description": "Learn search advertising fundamentals including campaign setup, bidding, optimization, and measurement with Google Ads.", "difficulty": "Intermediate", "certification": true, "duration": "8 hours", "category": "Business", "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=96-google-ads-search" },
-        { "title": "Google Ads Display Certification", "description": "Master display advertising including responsive ads, targeting, remarketing, and campaign optimization across the Google Display Network.", "difficulty": "Intermediate", "certification": true, "duration": "6 hours", "category": "Business", "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=97-google-ads-display" },
-        { "title": "Google Ads Video Certification", "description": "Learn video advertising on YouTube including campaign types, creative best practices, measurement, and optimization strategies.", "difficulty": "Intermediate", "certification": true, "duration": "5 hours", "category": "Business", "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=98-google-ads-video" },
-        { "title": "Google Ads Apps Certification", "description": "Master mobile app advertising with Google Ads including app install campaigns, measurement, and optimization for mobile apps.", "difficulty": "Intermediate", "certification": true, "duration": "4 hours", "category": "Business", "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=99-google-ads-apps" },
-        { "title": "AI-Powered Shopping Ads Certification", "description": "Learn to create and optimize shopping campaigns using AI-powered bidding and product listing ads for e-commerce.", "difficulty": "Intermediate", "certification": true, "duration": "4 hours", "category": "Business", "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=100-google-shopping-ads" }
+        {
+          "title": "Google AI Essentials",
+          "description": "Learn AI fundamentals, responsible AI practices, and how to use Google's AI tools in real-world scenarios.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "6 hours",
+          "category": "AI & ML",
+          "url": "https://grow.google/ai-essentials/",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Generative AI",
+          "description": "Learn what generative AI is, how it works, and how to use it responsibly. Explore Google's Gen AI tools and applications.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "1 hour",
+          "category": "AI & ML",
+          "url": "https://www.cloudskillsboost.google/course_templates/536",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Large Language Models",
+          "description": "Explore LLMs, their use cases, prompt tuning, and Google's Gen AI development tools. Understand how LLMs enable new AI applications.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "1 hour",
+          "category": "AI & ML",
+          "url": "https://www.cloudskillsboost.google/course_templates/539",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Responsible AI",
+          "description": "Learn Google's AI principles, responsible AI practices, and how to design fair, accountable, and transparent AI systems.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "1 hour",
+          "category": "AI & ML",
+          "url": "https://www.cloudskillsboost.google/course_templates/554",
+          "pricing": "free"
+        },
+        {
+          "title": "Google Analytics Certification",
+          "description": "Demonstrate your proficiency in Google Analytics including data collection, reporting, analysis, and insights for business growth.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "4 hours",
+          "category": "Business",
+          "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=6431-google-analytics",
+          "pricing": "free"
+        },
+        {
+          "title": "Google Ads Search Certification",
+          "description": "Learn search advertising fundamentals including campaign setup, bidding, optimization, and measurement with Google Ads.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "8 hours",
+          "category": "Business",
+          "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=96-google-ads-search",
+          "pricing": "free"
+        },
+        {
+          "title": "Google Ads Display Certification",
+          "description": "Master display advertising including responsive ads, targeting, remarketing, and campaign optimization across the Google Display Network.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "6 hours",
+          "category": "Business",
+          "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=97-google-ads-display",
+          "pricing": "free"
+        },
+        {
+          "title": "Google Ads Video Certification",
+          "description": "Learn video advertising on YouTube including campaign types, creative best practices, measurement, and optimization strategies.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "5 hours",
+          "category": "Business",
+          "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=98-google-ads-video",
+          "pricing": "free"
+        },
+        {
+          "title": "Google Ads Apps Certification",
+          "description": "Master mobile app advertising with Google Ads including app install campaigns, measurement, and optimization for mobile apps.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "4 hours",
+          "category": "Business",
+          "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=99-google-ads-apps",
+          "pricing": "free"
+        },
+        {
+          "title": "AI-Powered Shopping Ads Certification",
+          "description": "Learn to create and optimize shopping campaigns using AI-powered bidding and product listing ads for e-commerce.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "4 hours",
+          "category": "Business",
+          "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=100-google-shopping-ads",
+          "pricing": "free"
+        }
       ]
     },
     {
@@ -90,14 +468,56 @@
       "logoImage": "",
       "color": "#1877F2",
       "courses": [
-        { "title": "HTML and CSS in depth", "description": "Master HTML5 and CSS3 including responsive design, CSS frameworks, Bootstrap, and modern web styling techniques from Meta.", "difficulty": "Beginner", "certification": false, "duration": "4 hours", "category": "Web Development", "url": "https://www.coursera.org/learn/html-and-css-in-depth" },
-        { "title": "Meta Spark Creator AR Certification", "description": "Learn to create augmented reality effects using Meta Spark Studio. Build and publish AR experiences for Facebook and Instagram.", "difficulty": "Beginner", "certification": true, "duration": "1 hour", "category": "Web Development", "url": "https://www.coursera.org/learn/meta-spark-creator-ar-certification" },
-        { "title": "Introduction to Social Media Marketing", "description": "Learn social media marketing fundamentals, content strategy, audience targeting, and campaign management across Meta platforms.", "difficulty": "Beginner", "certification": false, "duration": "6 hours", "category": "Business", "url": "https://www.coursera.org/learn/social-media-marketing-introduction" },
-        { "title": "Marketing Analytics", "description": "Learn to measure and analyze marketing performance using data-driven techniques. Understand KPIs, attribution, and ROI measurement.", "difficulty": "Intermediate", "certification": false, "duration": "8 hours", "category": "Business", "url": "https://www.coursera.org/learn/marketing-analytics" },
-        { "title": "Advertising and Ad Creative", "description": "Master ad creative strategy, ad formats, targeting, and campaign optimization for Meta advertising platforms.", "difficulty": "Intermediate", "certification": false, "duration": "6 hours", "category": "Business", "url": "https://www.coursera.org/learn/advertising-and-ad-creative" },
-        { "title": "Programming with JavaScript", "description": "Learn JavaScript fundamentals including variables, functions, objects, DOM manipulation, and modern ES6+ syntax.", "difficulty": "Beginner", "certification": false, "duration": "14 hours", "category": "Programming", "url": "https://www.coursera.org/learn/programming-with-javascript" },
-        { "title": "Version Control", "description": "Learn Git and GitHub for version control, collaboration, branching strategies, and professional development workflows.", "difficulty": "Beginner", "certification": false, "duration": "8 hours", "category": "Programming", "url": "https://www.coursera.org/learn/introduction-to-version-control" },
-        { "title": "React Basics", "description": "Learn React fundamentals including components, JSX, state management, hooks, and building dynamic user interfaces.", "difficulty": "Intermediate", "certification": false, "duration": "12 hours", "category": "Web Development", "url": "https://www.coursera.org/learn/react-basics" }
+        {
+          "title": "HTML and CSS in depth",
+          "description": "Master HTML5 and CSS3 including responsive design, CSS frameworks, Bootstrap, and modern web styling techniques from Meta.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "4 hours",
+          "category": "Web Development",
+          "url": "https://www.coursera.org/learn/html-and-css-in-depth",
+          "pricing": "paid"
+        },
+        {
+          "title": "Introduction to Social Media Marketing",
+          "description": "Learn social media marketing fundamentals, content strategy, audience targeting, and campaign management across Meta platforms.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "6 hours",
+          "category": "Business",
+          "url": "https://www.coursera.org/learn/social-media-marketing-introduction",
+          "pricing": "paid"
+        },
+        {
+          "title": "Programming with JavaScript",
+          "description": "Learn JavaScript fundamentals including variables, functions, objects, DOM manipulation, and modern ES6+ syntax.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "14 hours",
+          "category": "Programming",
+          "url": "https://www.coursera.org/learn/programming-with-javascript",
+          "pricing": "paid"
+        },
+        {
+          "title": "Version Control",
+          "description": "Learn Git and GitHub for version control, collaboration, branching strategies, and professional development workflows.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "8 hours",
+          "category": "Programming",
+          "url": "https://www.coursera.org/learn/introduction-to-version-control",
+          "pricing": "paid"
+        },
+        {
+          "title": "React Basics",
+          "description": "Learn React fundamentals including components, JSX, state management, hooks, and building dynamic user interfaces.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "12 hours",
+          "category": "Web Development",
+          "url": "https://www.coursera.org/learn/react-basics",
+          "pricing": "paid"
+        }
       ]
     },
     {
@@ -108,14 +528,86 @@
       "logoImage": "assets/logos/tcs.svg",
       "color": "#28458F",
       "courses": [
-        { "title": "Telephone Etiquette", "description": "Learn professional telephone communication skills, handling calls, active listening, and proper phone etiquette for the workplace.", "difficulty": "Beginner", "certification": true, "duration": "2 hours", "category": "Business", "url": "https://www.tcsion.com/courses/tcs-ion/telephone-etiquette/" },
-        { "title": "Write Effective Resume and Cover Letter", "description": "Master the art of crafting compelling resumes and cover letters that stand out to recruiters and land interviews.", "difficulty": "Beginner", "certification": true, "duration": "2 hours", "category": "Business", "url": "https://www.tcsion.com/courses/interview-and-job-prep/write-effective-resume-and-cover-letter/" },
-        { "title": "Presentation Skills", "description": "Develop powerful presentation skills including structuring content, visual aids, public speaking, and audience engagement.", "difficulty": "Beginner", "certification": true, "duration": "2 hours", "category": "Business", "url": "https://www.tcsion.com/courses/tcs-ion/presentation-skills/" },
-        { "title": "Introduction to Soft Skills", "description": "Foundational soft skills training covering communication, teamwork, adaptability, and professional workplace behavior.", "difficulty": "Beginner", "certification": true, "duration": "2 hours", "category": "Business", "url": "https://www.tcsion.com/courses/interview-and-job-prep/introduction-to-soft-skills/" },
-        { "title": "Impress with Your Interview Skills", "description": "Prepare for job interviews with techniques on answering questions, body language, research, and follow-up strategies.", "difficulty": "Beginner", "certification": true, "duration": "2 hours", "category": "Business", "url": "https://www.tcsion.com/courses/interview-and-job-prep/impress-with-your-interview-skills/" },
-        { "title": "Stand Out in Group Discussion", "description": "Learn effective group discussion techniques including articulation, listening, leadership, and collaborative problem-solving.", "difficulty": "Beginner", "certification": true, "duration": "2 hours", "category": "Business", "url": "https://www.tcsion.com/courses/interview-and-job-prep/stand-out-in-group-discussion/" },
-        { "title": "Email Etiquette", "description": "Master professional email writing including tone, structure, formatting, and best practices for workplace communication.", "difficulty": "Beginner", "certification": true, "duration": "2 hours", "category": "Business", "url": "https://www.tcsion.com/courses/tcs-ion/email-etiquette/" },
-        { "title": "Communication Skills", "description": "Comprehensive communication skills training covering verbal, non-verbal, written communication, and active listening.", "difficulty": "Beginner", "certification": true, "duration": "3 hours", "category": "Business", "url": "https://www.tcsion.com/courses/tcs-ion/communication-skills/" }
+        {
+          "title": "Telephone Etiquette",
+          "description": "Learn professional telephone communication skills, handling calls, active listening, and proper phone etiquette for the workplace.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "2 hours",
+          "category": "Business",
+          "url": "https://www.tcsion.com/courses/tcs-ion/telephone-etiquette/",
+          "pricing": "paid"
+        },
+        {
+          "title": "Write Effective Resume and Cover Letter",
+          "description": "Master the art of crafting compelling resumes and cover letters that stand out to recruiters and land interviews.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "2 hours",
+          "category": "Business",
+          "url": "https://www.tcsion.com/courses/interview-and-job-prep/write-effective-resume-and-cover-letter/",
+          "pricing": "paid"
+        },
+        {
+          "title": "Presentation Skills",
+          "description": "Develop powerful presentation skills including structuring content, visual aids, public speaking, and audience engagement.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "2 hours",
+          "category": "Business",
+          "url": "https://www.tcsion.com/courses/tcs-ion/presentation-skills/",
+          "pricing": "paid"
+        },
+        {
+          "title": "Introduction to Soft Skills",
+          "description": "Foundational soft skills training covering communication, teamwork, adaptability, and professional workplace behavior.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "2 hours",
+          "category": "Business",
+          "url": "https://www.tcsion.com/courses/interview-and-job-prep/introduction-to-soft-skills/",
+          "pricing": "paid"
+        },
+        {
+          "title": "Impress with Your Interview Skills",
+          "description": "Prepare for job interviews with techniques on answering questions, body language, research, and follow-up strategies.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "2 hours",
+          "category": "Business",
+          "url": "https://www.tcsion.com/courses/interview-and-job-prep/impress-with-your-interview-skills/",
+          "pricing": "paid"
+        },
+        {
+          "title": "Stand Out in Group Discussion",
+          "description": "Learn effective group discussion techniques including articulation, listening, leadership, and collaborative problem-solving.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "2 hours",
+          "category": "Business",
+          "url": "https://www.tcsion.com/courses/interview-and-job-prep/stand-out-in-group-discussion/",
+          "pricing": "paid"
+        },
+        {
+          "title": "Email Etiquette",
+          "description": "Master professional email writing including tone, structure, formatting, and best practices for workplace communication.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "2 hours",
+          "category": "Business",
+          "url": "https://www.tcsion.com/courses/tcs-ion/email-etiquette/",
+          "pricing": "paid"
+        },
+        {
+          "title": "Communication Skills",
+          "description": "Comprehensive communication skills training covering verbal, non-verbal, written communication, and active listening.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "3 hours",
+          "category": "Business",
+          "url": "https://www.tcsion.com/courses/tcs-ion/communication-skills/",
+          "pricing": "paid"
+        }
       ]
     },
     {
@@ -126,12 +618,66 @@
       "logoImage": "assets/logos/nvidia.svg",
       "color": "#76B900",
       "courses": [
-        { "title": "Generative AI Explained", "description": "A free, self-paced course introducing generative AI fundamentals. Learn concepts, applications, challenges, and opportunities of generative AI without any coding.", "difficulty": "Beginner", "certification": true, "duration": "2 hours", "category": "AI & ML", "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-07+V1" },
-        { "title": "Getting Started with AI on Jetson Nano", "description": "Use the NVIDIA Jetson Nano Developer Kit to build a deep learning classification project with computer vision models. Learn to create your own AI applications at the edge.", "difficulty": "Beginner", "certification": true, "duration": "8 hours", "category": "AI & ML", "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-RX-02+V2" },
-        { "title": "Building A Brain in 10 Minutes", "description": "Delve into neural network foundations drawing from biological and psychological insights. Understand how neural networks use data for learning and the math behind a neuron.", "difficulty": "Beginner", "certification": true, "duration": "1 hour", "category": "AI & ML", "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+T-FX-01+V1" },
-        { "title": "Building Video AI Applications at the Edge on Jetson Nano", "description": "Learn AI-based video understanding using the NVIDIA Jetson Nano. Build end-to-end DeepStream pipelines for video analysis and intelligent video analytics.", "difficulty": "Intermediate", "certification": true, "duration": "8 hours", "category": "AI & ML", "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-IV-02+V2" },
-        { "title": "Accelerating Data Science Workflows with Zero Code Changes", "description": "Build and execute end-to-end GPU-accelerated data science workflows using RAPIDS libraries. Apply ML algorithms including XGBoost and cuML for rapid data exploration.", "difficulty": "Intermediate", "certification": true, "duration": "4 hours", "category": "Data Science", "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+T-DS-03+V1" },
-        { "title": "AI Infrastructure and Operations Fundamentals", "description": "Explore AI applications, data center and cloud infrastructure, and AI operations. Part of the NVIDIA-Certified Associate: AI Infrastructure and Operations certification path.", "difficulty": "Beginner", "certification": true, "duration": "10 hours", "category": "Cloud Computing", "url": "https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals" }
+        {
+          "title": "Generative AI Explained",
+          "description": "A free, self-paced course introducing generative AI fundamentals. Learn concepts, applications, challenges, and opportunities of generative AI without any coding.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "2 hours",
+          "category": "AI & ML",
+          "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-07+V1",
+          "pricing": "free"
+        },
+        {
+          "title": "Getting Started with AI on Jetson Nano",
+          "description": "Use the NVIDIA Jetson Nano Developer Kit to build a deep learning classification project with computer vision models. Learn to create your own AI applications at the edge.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "8 hours",
+          "category": "AI & ML",
+          "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-RX-02+V2",
+          "pricing": "free"
+        },
+        {
+          "title": "Building A Brain in 10 Minutes",
+          "description": "Delve into neural network foundations drawing from biological and psychological insights. Understand how neural networks use data for learning and the math behind a neuron.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "1 hour",
+          "category": "AI & ML",
+          "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+T-FX-01+V1",
+          "pricing": "free"
+        },
+        {
+          "title": "Building Video AI Applications at the Edge on Jetson Nano",
+          "description": "Learn AI-based video understanding using the NVIDIA Jetson Nano. Build end-to-end DeepStream pipelines for video analysis and intelligent video analytics.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "8 hours",
+          "category": "AI & ML",
+          "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-IV-02+V2",
+          "pricing": "free"
+        },
+        {
+          "title": "Accelerating Data Science Workflows with Zero Code Changes",
+          "description": "Build and execute end-to-end GPU-accelerated data science workflows using RAPIDS libraries. Apply ML algorithms including XGBoost and cuML for rapid data exploration.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "4 hours",
+          "category": "Data Science",
+          "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+T-DS-03+V1",
+          "pricing": "free"
+        },
+        {
+          "title": "AI Infrastructure and Operations Fundamentals",
+          "description": "Explore AI applications, data center and cloud infrastructure, and AI operations. Part of the NVIDIA-Certified Associate: AI Infrastructure and Operations certification path.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "10 hours",
+          "category": "Cloud Computing",
+          "url": "https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals",
+          "pricing": "paid"
+        }
       ]
     },
     {
@@ -142,7 +688,16 @@
       "logoImage": "assets/logos/coursera.svg",
       "color": "#0056D2",
       "courses": [
-        { "title": "AI Infrastructure and Operations Fundamentals", "description": "Explore AI applications, data center and cloud infrastructure, and AI operations. Part of the NVIDIA-Certified Associate: AI Infrastructure and Operations certification path.", "difficulty": "Beginner", "certification": true, "duration": "10 hours", "category": "Cloud Computing", "url": "https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals" }
+        {
+          "title": "AI Infrastructure and Operations Fundamentals",
+          "description": "Explore AI applications, data center and cloud infrastructure, and AI operations. Part of the NVIDIA-Certified Associate: AI Infrastructure and Operations certification path.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "10 hours",
+          "category": "Cloud Computing",
+          "url": "https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals",
+          "pricing": "paid"
+        }
       ]
     },
     {
@@ -153,14 +708,86 @@
       "logoImage": "",
       "color": "#1BA0D7",
       "courses": [
-        { "title": "Introduction to Cybersecurity", "description": "Learn cybersecurity fundamentals including threats, vulnerabilities, encryption, defense strategies, and career opportunities in security.", "difficulty": "Beginner", "certification": true, "duration": "6 hours", "category": "Computer Science", "url": "https://skillsforall.com/course/introduction-to-cybersecurity" },
-        { "title": "Cybersecurity Essentials", "description": "Build essential cybersecurity skills including security operations, incident response, access control, and network defense techniques.", "difficulty": "Intermediate", "certification": true, "duration": "30 hours", "category": "Computer Science", "url": "https://skillsforall.com/course/cybersecurity-essentials" },
-        { "title": "Network Security", "description": "Learn network security concepts including firewalls, VPNs, intrusion detection, and secure network architecture design.", "difficulty": "Intermediate", "certification": true, "duration": "30 hours", "category": "Computer Science", "url": "https://skillsforall.com/course/network-security" },
-        { "title": "Ethical Hacker", "description": "Master ethical hacking techniques including penetration testing, vulnerability assessment, and security auditing methodologies.", "difficulty": "Advanced", "certification": true, "duration": "40 hours", "category": "Computer Science", "url": "https://skillsforall.com/course/ethical-hacker" },
-        { "title": "Networking Basics", "description": "Understand networking fundamentals including protocols, IP addressing, routing, switching, and network troubleshooting.", "difficulty": "Beginner", "certification": true, "duration": "20 hours", "category": "Computer Science", "url": "https://skillsforall.com/course/networking-basics" },
-        { "title": "Networking Devices and Initial Configuration", "description": "Learn to configure and manage networking devices including routers, switches, and wireless access points.", "difficulty": "Intermediate", "certification": true, "duration": "20 hours", "category": "Computer Science", "url": "https://skillsforall.com/course/networking-devices-and-initial-configuration" },
-        { "title": "Network Addressing and Basic Troubleshooting", "description": "Master IP addressing, subnetting, and network troubleshooting methodologies for real-world network issues.", "difficulty": "Intermediate", "certification": true, "duration": "20 hours", "category": "Computer Science", "url": "https://skillsforall.com/course/network-addressing-and-basic-troubleshooting" },
-        { "title": "Network Support and Security", "description": "Learn network support procedures, security best practices, and how to maintain secure and reliable network infrastructure.", "difficulty": "Intermediate", "certification": true, "duration": "20 hours", "category": "Computer Science", "url": "https://skillsforall.com/course/network-support-and-security" }
+        {
+          "title": "Introduction to Cybersecurity",
+          "description": "Learn cybersecurity fundamentals including threats, vulnerabilities, encryption, defense strategies, and career opportunities in security.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "6 hours",
+          "category": "Computer Science",
+          "url": "https://skillsforall.com/course/introduction-to-cybersecurity",
+          "pricing": "free"
+        },
+        {
+          "title": "Cybersecurity Essentials",
+          "description": "Build essential cybersecurity skills including security operations, incident response, access control, and network defense techniques.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "30 hours",
+          "category": "Computer Science",
+          "url": "https://skillsforall.com/course/cybersecurity-essentials",
+          "pricing": "free"
+        },
+        {
+          "title": "Network Security",
+          "description": "Learn network security concepts including firewalls, VPNs, intrusion detection, and secure network architecture design.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "30 hours",
+          "category": "Computer Science",
+          "url": "https://skillsforall.com/course/network-security",
+          "pricing": "free"
+        },
+        {
+          "title": "Ethical Hacker",
+          "description": "Master ethical hacking techniques including penetration testing, vulnerability assessment, and security auditing methodologies.",
+          "difficulty": "Advanced",
+          "certification": true,
+          "duration": "40 hours",
+          "category": "Computer Science",
+          "url": "https://skillsforall.com/course/ethical-hacker",
+          "pricing": "free"
+        },
+        {
+          "title": "Networking Basics",
+          "description": "Understand networking fundamentals including protocols, IP addressing, routing, switching, and network troubleshooting.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "20 hours",
+          "category": "Computer Science",
+          "url": "https://skillsforall.com/course/networking-basics",
+          "pricing": "free"
+        },
+        {
+          "title": "Networking Devices and Initial Configuration",
+          "description": "Learn to configure and manage networking devices including routers, switches, and wireless access points.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "20 hours",
+          "category": "Computer Science",
+          "url": "https://skillsforall.com/course/networking-devices-and-initial-configuration",
+          "pricing": "free"
+        },
+        {
+          "title": "Network Addressing and Basic Troubleshooting",
+          "description": "Master IP addressing, subnetting, and network troubleshooting methodologies for real-world network issues.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "20 hours",
+          "category": "Computer Science",
+          "url": "https://skillsforall.com/course/network-addressing-and-basic-troubleshooting",
+          "pricing": "free"
+        },
+        {
+          "title": "Network Support and Security",
+          "description": "Learn network support procedures, security best practices, and how to maintain secure and reliable network infrastructure.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "20 hours",
+          "category": "Computer Science",
+          "url": "https://skillsforall.com/course/network-support-and-security",
+          "pricing": "free"
+        }
       ]
     },
     {
@@ -171,14 +798,86 @@
       "logoImage": "",
       "color": "#FF9900",
       "courses": [
-        { "title": "AWS Cloud Practitioner Essentials", "description": "Learn AWS cloud fundamentals including compute, storage, networking, databases, security, pricing, and cloud architecture best practices.", "difficulty": "Beginner", "certification": false, "duration": "6 hours", "category": "Cloud Computing", "url": "https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/" },
-        { "title": "AWS Cloud Technical Essentials", "description": "Build technical skills in AWS including EC2, S3, VPC, Lambda, and RDS. Hands-on exercises with real AWS services.", "difficulty": "Intermediate", "certification": false, "duration": "6 hours", "category": "Cloud Computing", "url": "https://aws.amazon.com/training/digital/aws-cloud-technical-essentials/" },
-        { "title": "Building on AWS", "description": "Learn to build and deploy applications on AWS including compute, storage, database, and networking services for developers.", "difficulty": "Intermediate", "certification": false, "duration": "8 hours", "category": "Cloud Computing", "url": "https://aws.amazon.com/training/digital/building-on-aws/" },
-        { "title": "AWS Machine Learning Essentials", "description": "Explore ML concepts, AWS AI services, SageMaker, and build machine learning models without deep technical expertise.", "difficulty": "Beginner", "certification": false, "duration": "4 hours", "category": "AI & ML", "url": "https://aws.amazon.com/training/digital/machine-learning-essentials/" },
-        { "title": "Introduction to AWS Identity and Access Management", "description": "Learn IAM fundamentals including users, groups, roles, policies, multi-factor authentication, and security best practices.", "difficulty": "Beginner", "certification": false, "duration": "2 hours", "category": "Cloud Computing", "url": "https://aws.amazon.com/training/digital/introduction-to-aws-identity-and-access-management/" },
-        { "title": "AWS Networking Fundamentals", "description": "Understand VPCs, subnets, route tables, security groups, NAT gateways, and network architecture on AWS.", "difficulty": "Intermediate", "certification": false, "duration": "4 hours", "category": "Cloud Computing", "url": "https://aws.amazon.com/training/digital/aws-networking-fundamentals/" },
-        { "title": "AWS Database Essentials", "description": "Learn AWS database services including RDS, DynamoDB, Aurora, and ElastiCache. Understand when to use each database type.", "difficulty": "Beginner", "certification": false, "duration": "3 hours", "category": "Cloud Computing", "url": "https://aws.amazon.com/training/digital/aws-database-essentials/" },
-        { "title": "AWS Security Fundamentals", "description": "Master AWS security concepts including shared responsibility model, encryption, compliance, and security monitoring tools.", "difficulty": "Beginner", "certification": false, "duration": "4 hours", "category": "Cloud Computing", "url": "https://aws.amazon.com/training/digital/aws-security-fundamentals/" }
+        {
+          "title": "AWS Cloud Practitioner Essentials",
+          "description": "Learn AWS cloud fundamentals including compute, storage, networking, databases, security, pricing, and cloud architecture best practices.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "6 hours",
+          "category": "Cloud Computing",
+          "url": "https://aws.amazon.com/training/learn-about/cloud-practitioner",
+          "pricing": "free"
+        },
+        {
+          "title": "AWS Cloud Technical Essentials",
+          "description": "Build technical skills in AWS including EC2, S3, VPC, Lambda, and RDS. Hands-on exercises with real AWS services.",
+          "difficulty": "Intermediate",
+          "certification": false,
+          "duration": "6 hours",
+          "category": "Cloud Computing",
+          "url": "https://www.coursera.org/learn/aws-cloud-technical-essentials",
+          "pricing": "free"
+        },
+        {
+          "title": "Building on AWS",
+          "description": "Learn to build and deploy applications on AWS including compute, storage, database, and networking services for developers.",
+          "difficulty": "Intermediate",
+          "certification": false,
+          "duration": "8 hours",
+          "category": "Cloud Computing",
+          "url": "https://aws.amazon.com/training/learn-about/building",
+          "pricing": "free"
+        },
+        {
+          "title": "AWS Machine Learning Essentials",
+          "description": "Explore ML concepts, AWS AI services, SageMaker, and build machine learning models without deep technical expertise.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "4 hours",
+          "category": "AI & ML",
+          "url": "https://aws.amazon.com/training/learn-about/machine-learning",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to AWS Identity and Access Management",
+          "description": "Learn IAM fundamentals including users, groups, roles, policies, multi-factor authentication, and security best practices.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "2 hours",
+          "category": "Cloud Computing",
+          "url": "https://aws.amazon.com/iam/",
+          "pricing": "free"
+        },
+        {
+          "title": "AWS Networking Fundamentals",
+          "description": "Understand VPCs, subnets, route tables, security groups, NAT gateways, and network architecture on AWS.",
+          "difficulty": "Intermediate",
+          "certification": false,
+          "duration": "4 hours",
+          "category": "Cloud Computing",
+          "url": "https://aws.amazon.com/training/learn-about/networking",
+          "pricing": "free"
+        },
+        {
+          "title": "AWS Database Essentials",
+          "description": "Learn AWS database services including RDS, DynamoDB, Aurora, and ElastiCache. Understand when to use each database type.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "3 hours",
+          "category": "Cloud Computing",
+          "url": "https://aws.amazon.com/training/learn-about/databases",
+          "pricing": "free"
+        },
+        {
+          "title": "AWS Security Fundamentals",
+          "description": "Master AWS security concepts including shared responsibility model, encryption, compliance, and security monitoring tools.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "4 hours",
+          "category": "Cloud Computing",
+          "url": "https://aws.amazon.com/training/learn-about/security",
+          "pricing": "free"
+        }
       ]
     },
     {
@@ -189,16 +888,106 @@
       "logoImage": "",
       "color": "#FF6B00",
       "courses": [
-        { "title": "Introduction to Artificial Intelligence", "description": "Learn AI fundamentals, machine learning, deep learning, NLP, and computer vision concepts with real-world applications.", "difficulty": "Beginner", "certification": true, "duration": "4 hours", "category": "AI & ML", "url": "https://www.simplilearn.com/introduction-to-artificial-intelligence-course" },
-        { "title": "Introduction to Data Science", "description": "Explore data science lifecycle, Python for data analysis, statistics, machine learning, and data visualization fundamentals.", "difficulty": "Beginner", "certification": true, "duration": "6 hours", "category": "Data Science", "url": "https://www.simplilearn.com/introduction-to-data-science-course" },
-        { "title": "Python for Beginners", "description": "Master Python programming from scratch covering data types, control flow, functions, OOP, and file handling with hands-on projects.", "difficulty": "Beginner", "certification": true, "duration": "8 hours", "category": "Programming", "url": "https://www.simplilearn.com/learn-python-basics-free-course" },
-        { "title": "Introduction to Project Management", "description": "Learn project management fundamentals including planning, scheduling, budgeting, risk management, and Agile methodologies.", "difficulty": "Beginner", "certification": true, "duration": "4 hours", "category": "Business", "url": "https://www.simplilearn.com/introduction-to-project-management-course" },
-        { "title": "Introduction to Cybersecurity", "description": "Understand cybersecurity fundamentals including threat landscape, cryptography, network security, and incident response.", "difficulty": "Beginner", "certification": true, "duration": "4 hours", "category": "Computer Science", "url": "https://www.simplilearn.com/introduction-to-cybersecurity-course" },
-        { "title": "Introduction to Cloud Computing", "description": "Learn cloud computing concepts including deployment models, service models, virtualization, and major cloud providers.", "difficulty": "Beginner", "certification": true, "duration": "4 hours", "category": "Cloud Computing", "url": "https://www.simplilearn.com/introduction-to-cloud-computing-course" },
-        { "title": "Introduction to Digital Marketing", "description": "Master digital marketing fundamentals including SEO, SEM, social media, email marketing, content marketing, and analytics.", "difficulty": "Beginner", "certification": true, "duration": "6 hours", "category": "Business", "url": "https://www.simplilearn.com/introduction-to-digital-marketing-course" },
-        { "title": "Agile and Scrum Fundamentals", "description": "Learn Agile methodology and Scrum framework including sprints, daily stand-ups, retrospectives, and product ownership.", "difficulty": "Beginner", "certification": true, "duration": "3 hours", "category": "Business", "url": "https://www.simplilearn.com/agile-and-scrum-fundamentals-course" },
-        { "title": "Introduction to DevOps", "description": "Understand DevOps culture, CI/CD pipelines, configuration management, containerization, and monitoring practices.", "difficulty": "Beginner", "certification": true, "duration": "5 hours", "category": "Cloud Computing", "url": "https://www.simplilearn.com/introduction-to-devops-course" },
-        { "title": "Machine Learning Fundamentals", "description": "Learn ML algorithms including regression, classification, clustering, and ensemble methods using Python and Scikit-learn.", "difficulty": "Intermediate", "certification": true, "duration": "8 hours", "category": "AI & ML", "url": "https://www.simplilearn.com/machine-learning-fundamentals-course" }
+        {
+          "title": "Introduction to Artificial Intelligence",
+          "description": "Learn AI fundamentals, machine learning, deep learning, NLP, and computer vision concepts with real-world applications.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "4 hours",
+          "category": "AI & ML",
+          "url": "https://www.simplilearn.com/introduction-to-artificial-intelligence-course",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Data Science",
+          "description": "Explore data science lifecycle, Python for data analysis, statistics, machine learning, and data visualization fundamentals.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "6 hours",
+          "category": "Data Science",
+          "url": "https://www.simplilearn.com/data-science-free-course-for-beginners-skillup",
+          "pricing": "free"
+        },
+        {
+          "title": "Python for Beginners",
+          "description": "Master Python programming from scratch covering data types, control flow, functions, OOP, and file handling with hands-on projects.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "8 hours",
+          "category": "Programming",
+          "url": "https://www.simplilearn.com/learn-python-basics-free-course-skillup",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Project Management",
+          "description": "Learn project management fundamentals including planning, scheduling, budgeting, risk management, and Agile methodologies.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "4 hours",
+          "category": "Business",
+          "url": "https://www.simplilearn.com/free-pmp-beginner-course-skillup",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Cybersecurity",
+          "description": "Understand cybersecurity fundamentals including threat landscape, cryptography, network security, and incident response.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "4 hours",
+          "category": "Computer Science",
+          "url": "https://www.simplilearn.com/introduction-to-cybersecurity-course",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Cloud Computing",
+          "description": "Learn cloud computing concepts including deployment models, service models, virtualization, and major cloud providers.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "4 hours",
+          "category": "Cloud Computing",
+          "url": "https://www.simplilearn.com/introduction-to-cloud-computing-basics-skillup",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Digital Marketing",
+          "description": "Master digital marketing fundamentals including SEO, SEM, social media, email marketing, content marketing, and analytics.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "6 hours",
+          "category": "Business",
+          "url": "https://www.simplilearn.com/free-digital-marketing-basics-course-skillup",
+          "pricing": "free"
+        },
+        {
+          "title": "Agile and Scrum Fundamentals",
+          "description": "Learn Agile methodology and Scrum framework including sprints, daily stand-ups, retrospectives, and product ownership.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "3 hours",
+          "category": "Business",
+          "url": "https://www.simplilearn.com/free-agile-scrum-foundations-course-skillup",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to DevOps",
+          "description": "Understand DevOps culture, CI/CD pipelines, configuration management, containerization, and monitoring practices.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "5 hours",
+          "category": "Cloud Computing",
+          "url": "https://www.simplilearn.com/introduction-to-devops-course",
+          "pricing": "free"
+        },
+        {
+          "title": "Machine Learning Fundamentals",
+          "description": "Learn ML algorithms including regression, classification, clustering, and ensemble methods using Python and Scikit-learn.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "8 hours",
+          "category": "AI & ML",
+          "url": "https://www.simplilearn.com/learn-machine-learning-basics-skillup",
+          "pricing": "free"
+        }
       ]
     },
     {
@@ -209,14 +998,86 @@
       "logoImage": "",
       "color": "#005EB8",
       "courses": [
-        { "title": "Everyday English", "description": "Improve your English language skills for everyday situations including conversations, reading, writing, and listening comprehension.", "difficulty": "Beginner", "certification": true, "duration": "10 hours", "category": "Business", "url": "https://www.open.edu/openlearn/languages/everyday-english" },
-        { "title": "Introduction to Bookkeeping", "description": "Learn bookkeeping fundamentals including double-entry accounting, ledgers, trial balance, and financial record keeping.", "difficulty": "Beginner", "certification": true, "duration": "8 hours", "category": "Business", "url": "https://www.open.edu/openlearn/money-business/introduction-bookkeeping" },
-        { "title": "Introduction to Cyber Security", "description": "Understand cybersecurity threats, online safety, encryption, authentication, and how to protect yourself and your data online.", "difficulty": "Beginner", "certification": true, "duration": "8 hours", "category": "Computer Science", "url": "https://www.open.edu/openlearn/cyber-security/introduction-cyber-security" },
-        { "title": "Digital Photography: Creating and Sharing Better Images", "description": "Learn photography techniques including composition, lighting, editing, and sharing digital images effectively.", "difficulty": "Beginner", "certification": true, "duration": "12 hours", "category": "Business", "url": "https://www.open.edu/openlearn/digital-photography-creating-and-sharing-better-images" },
-        { "title": "Introduction to Forensic Psychology", "description": "Explore forensic psychology including criminal behavior, profiling, eyewitness testimony, and rehabilitation of offenders.", "difficulty": "Beginner", "certification": true, "duration": "12 hours", "category": "Business", "url": "https://www.open.edu/openlearn/psychology/introduction-forensic-psychology" },
-        { "title": "Understanding the Brain", "description": "Learn about brain structure, function, neural communication, and the relationship between brain activity and behavior.", "difficulty": "Beginner", "certification": true, "duration": "15 hours", "category": "Business", "url": "https://www.open.edu/openlearn/health-sports-psychology/understanding-the-brain" },
-        { "title": "Introduction to German", "description": "Learn basic German language skills including greetings, numbers, directions, ordering food, and everyday conversations.", "difficulty": "Beginner", "certification": true, "duration": "10 hours", "category": "Business", "url": "https://www.open.edu/openlearn/languages/introduction-german" },
-        { "title": "Business Communication", "description": "Master professional business communication including emails, reports, presentations, and interpersonal communication skills.", "difficulty": "Beginner", "certification": true, "duration": "10 hours", "category": "Business", "url": "https://www.open.edu/openlearn/money-business/business-communication" }
+        {
+          "title": "Everyday English",
+          "description": "Improve your English language skills for everyday situations including conversations, reading, writing, and listening comprehension.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "10 hours",
+          "category": "Business",
+          "url": "https://www.open.edu/openlearn/languages/everyday-english",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Bookkeeping",
+          "description": "Learn bookkeeping fundamentals including double-entry accounting, ledgers, trial balance, and financial record keeping.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "8 hours",
+          "category": "Business",
+          "url": "https://www.open.edu/openlearn/money-business/introduction-bookkeeping",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Cyber Security",
+          "description": "Understand cybersecurity threats, online safety, encryption, authentication, and how to protect yourself and your data online.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "8 hours",
+          "category": "Computer Science",
+          "url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+          "pricing": "free"
+        },
+        {
+          "title": "Digital Photography: Creating and Sharing Better Images",
+          "description": "Learn photography techniques including composition, lighting, editing, and sharing digital images effectively.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "12 hours",
+          "category": "Business",
+          "url": "https://www.open.edu/openlearn/digital-photography-creating-and-sharing-better-images",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Forensic Psychology",
+          "description": "Explore forensic psychology including criminal behavior, profiling, eyewitness testimony, and rehabilitation of offenders.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "12 hours",
+          "category": "Business",
+          "url": "https://www.open.edu/openlearn/psychology/introduction-forensic-psychology",
+          "pricing": "free"
+        },
+        {
+          "title": "Understanding the Brain",
+          "description": "Learn about brain structure, function, neural communication, and the relationship between brain activity and behavior.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "15 hours",
+          "category": "Business",
+          "url": "https://www.open.edu/openlearn/health-sports-psychology/understanding-the-brain",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to German",
+          "description": "Learn basic German language skills including greetings, numbers, directions, ordering food, and everyday conversations.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "10 hours",
+          "category": "Business",
+          "url": "https://www.open.edu/openlearn/languages/introduction-german",
+          "pricing": "free"
+        },
+        {
+          "title": "Business Communication",
+          "description": "Master professional business communication including emails, reports, presentations, and interpersonal communication skills.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "10 hours",
+          "category": "Business",
+          "url": "https://www.open.edu/openlearn/money-business/business-communication",
+          "pricing": "free"
+        }
       ]
     },
     {
@@ -227,20 +1088,146 @@
       "logoImage": "",
       "color": "#0A0A23",
       "courses": [
-        { "title": "Responsive Web Design", "description": "Learn HTML, CSS, and responsive design principles to build visually appealing web pages that adapt to any screen size.", "difficulty": "Beginner", "certification": true, "duration": "Self-paced", "category": "Web Development", "url": "https://www.freecodecamp.org/learn/responsive-web-design-v9/" },
-        { "title": "JavaScript", "description": "Master JavaScript fundamentals including variables, functions, objects, arrays, DOM manipulation, and ES6+ features.", "difficulty": "Beginner", "certification": true, "duration": "Self-paced", "category": "Programming", "url": "https://www.freecodecamp.org/learn/javascript-v9/" },
-        { "title": "Front End Development Libraries", "description": "Build dynamic user interfaces using React, Redux, Bootstrap, jQuery, and Sass with hands-on projects.", "difficulty": "Intermediate", "certification": true, "duration": "Self-paced", "category": "Web Development", "url": "https://www.freecodecamp.org/learn/front-end-development-libraries-v9/" },
-        { "title": "Python", "description": "Learn Python programming from scratch covering data structures, algorithms, and real-world problem-solving techniques.", "difficulty": "Beginner", "certification": true, "duration": "Self-paced", "category": "Programming", "url": "https://www.freecodecamp.org/learn/python-v9/" },
-        { "title": "Relational Databases", "description": "Understand relational database concepts, SQL, PostgreSQL, and database design principles for building data-driven applications.", "difficulty": "Beginner", "certification": true, "duration": "Self-paced", "category": "Computer Science", "url": "https://www.freecodecamp.org/learn/relational-databases-v9/" },
-        { "title": "Back End Development and APIs", "description": "Build server-side applications and APIs using Node.js, Express.js, MongoDB, and Mongoose with real-world projects.", "difficulty": "Intermediate", "certification": true, "duration": "Self-paced", "category": "Web Development", "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis-v9/" },
-        { "title": "Full Stack Developer", "description": "A comprehensive full stack development curriculum covering front-end, back-end, databases, and deployment.", "difficulty": "Intermediate", "certification": true, "duration": "Self-paced", "category": "Web Development", "url": "https://www.freecodecamp.org/learn/full-stack-developer-v9/" },
-        { "title": "A2 English for Developers", "description": "Improve foundational English communication skills tailored for developers, covering technical vocabulary and basic professional interactions.", "difficulty": "Beginner", "certification": true, "duration": "Self-paced", "category": "Business", "url": "https://www.freecodecamp.org/learn/a2-english-for-developers/" },
-        { "title": "B1 English for Developers", "description": "Enhance intermediate English proficiency for developers with focus on technical documentation, meetings, and collaborative communication.", "difficulty": "Intermediate", "certification": true, "duration": "Self-paced", "category": "Business", "url": "https://www.freecodecamp.org/learn/b1-english-for-developers/" },
-        { "title": "The Odin Project", "description": "A full-stack curriculum backed by The Odin Project, covering HTML, CSS, JavaScript, Ruby on Rails, and modern development workflows.", "difficulty": "Beginner", "certification": true, "duration": "Self-paced", "category": "Web Development", "url": "https://www.freecodecamp.org/learn/the-odin-project/" },
-        { "title": "Coding Interview Prep", "description": "Prepare for technical interviews with practice problems covering algorithms, data structures, and system design questions.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://www.freecodecamp.org/learn/coding-interview-prep/" },
-        { "title": "Project Euler", "description": "Solve mathematical and computational problems through programming, enhancing algorithmic thinking and number theory skills.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://www.freecodecamp.org/learn/project-euler/" },
-        { "title": "Rosetta Code", "description": "Explore programming solutions to common tasks across multiple languages, comparing language paradigms and syntax.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Programming", "url": "https://www.freecodecamp.org/learn/rosetta-code/" },
-        { "title": "Foundational C# with Microsoft", "description": "Learn C# programming fundamentals including syntax, object-oriented programming, and .NET framework basics with Microsoft's official curriculum.", "difficulty": "Beginner", "certification": true, "duration": "Self-paced", "category": "Programming", "url": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/" }
+        {
+          "title": "Responsive Web Design",
+          "description": "Learn HTML, CSS, and responsive design principles to build visually appealing web pages that adapt to any screen size.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "Self-paced",
+          "category": "Web Development",
+          "url": "https://www.freecodecamp.org/learn/responsive-web-design-v9/",
+          "pricing": "free"
+        },
+        {
+          "title": "JavaScript",
+          "description": "Master JavaScript fundamentals including variables, functions, objects, arrays, DOM manipulation, and ES6+ features.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "Self-paced",
+          "category": "Programming",
+          "url": "https://www.freecodecamp.org/learn/javascript-v9/",
+          "pricing": "free"
+        },
+        {
+          "title": "Front End Development Libraries",
+          "description": "Build dynamic user interfaces using React, Redux, Bootstrap, jQuery, and Sass with hands-on projects.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "Self-paced",
+          "category": "Web Development",
+          "url": "https://www.freecodecamp.org/learn/front-end-development-libraries-v9/",
+          "pricing": "free"
+        },
+        {
+          "title": "Python",
+          "description": "Learn Python programming from scratch covering data structures, algorithms, and real-world problem-solving techniques.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "Self-paced",
+          "category": "Programming",
+          "url": "https://www.freecodecamp.org/learn/python-v9/",
+          "pricing": "free"
+        },
+        {
+          "title": "Relational Databases",
+          "description": "Understand relational database concepts, SQL, PostgreSQL, and database design principles for building data-driven applications.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "Self-paced",
+          "category": "Computer Science",
+          "url": "https://www.freecodecamp.org/learn/relational-databases-v9/",
+          "pricing": "free"
+        },
+        {
+          "title": "Back End Development and APIs",
+          "description": "Build server-side applications and APIs using Node.js, Express.js, MongoDB, and Mongoose with real-world projects.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "Self-paced",
+          "category": "Web Development",
+          "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis-v9/",
+          "pricing": "free"
+        },
+        {
+          "title": "Full Stack Developer",
+          "description": "A comprehensive full stack development curriculum covering front-end, back-end, databases, and deployment.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "Self-paced",
+          "category": "Web Development",
+          "url": "https://www.freecodecamp.org/learn/full-stack-developer-v9/",
+          "pricing": "free"
+        },
+        {
+          "title": "A2 English for Developers",
+          "description": "Improve foundational English communication skills tailored for developers, covering technical vocabulary and basic professional interactions.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "Self-paced",
+          "category": "Business",
+          "url": "https://www.freecodecamp.org/learn/a2-english-for-developers/",
+          "pricing": "free"
+        },
+        {
+          "title": "B1 English for Developers",
+          "description": "Enhance intermediate English proficiency for developers with focus on technical documentation, meetings, and collaborative communication.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "Self-paced",
+          "category": "Business",
+          "url": "https://www.freecodecamp.org/learn/b1-english-for-developers/",
+          "pricing": "free"
+        },
+        {
+          "title": "The Odin Project",
+          "description": "A full-stack curriculum backed by The Odin Project, covering HTML, CSS, JavaScript, Ruby on Rails, and modern development workflows.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Web Development",
+          "url": "https://www.freecodecamp.org/learn/the-odin-project/",
+          "pricing": "free"
+        },
+        {
+          "title": "Coding Interview Prep",
+          "description": "Prepare for technical interviews with practice problems covering algorithms, data structures, and system design questions.",
+          "difficulty": "Intermediate",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Computer Science",
+          "url": "https://www.freecodecamp.org/learn/coding-interview-prep/",
+          "pricing": "free"
+        },
+        {
+          "title": "Project Euler",
+          "description": "Solve mathematical and computational problems through programming, enhancing algorithmic thinking and number theory skills.",
+          "difficulty": "Intermediate",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Computer Science",
+          "url": "https://www.freecodecamp.org/learn/project-euler/",
+          "pricing": "free"
+        },
+        {
+          "title": "Rosetta Code",
+          "description": "Explore programming solutions to common tasks across multiple languages, comparing language paradigms and syntax.",
+          "difficulty": "Intermediate",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Programming",
+          "url": "https://www.freecodecamp.org/learn/rosetta-code/",
+          "pricing": "free"
+        },
+        {
+          "title": "Foundational C# with Microsoft",
+          "description": "Learn C# programming fundamentals including syntax, object-oriented programming, and .NET framework basics with Microsoft's official curriculum.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "Self-paced",
+          "category": "Programming",
+          "url": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/",
+          "pricing": "free"
+        }
       ]
     },
     {
@@ -251,22 +1238,166 @@
       "logoImage": "",
       "color": "#A51C30",
       "courses": [
-        { "title": "CS50: Introduction to Computer Science", "description": "Harvard's flagship CS course covering C, Python, SQL, algorithms, data structures, and web development. One of the most popular free CS courses worldwide.", "difficulty": "Beginner", "certification": false, "duration": "12 weeks", "category": "Computer Science", "url": "https://pll.harvard.edu/course/cs50-introduction-computer-science" },
-        { "title": "CS50 Web Programming with Python and JavaScript", "description": "Deep dive into web development using Python, Django, JavaScript, HTML, CSS, and SQL. Build dynamic web applications with modern frameworks.", "difficulty": "Intermediate", "certification": false, "duration": "12 weeks", "category": "Web Development", "url": "https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript" },
-        { "title": "CS50 Introduction to AI with Python", "description": "Learn AI concepts including search algorithms, knowledge representation, machine learning, neural networks, and natural language processing using Python.", "difficulty": "Intermediate", "certification": false, "duration": "7 weeks", "category": "AI & ML", "url": "https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python" },
-        { "title": "CS50 Introduction to Programming with Python", "description": "Master Python programming fundamentals including functions, arguments, loops, exceptions, libraries, and file I/O. Perfect for complete beginners.", "difficulty": "Beginner", "certification": false, "duration": "10 weeks", "category": "Programming", "url": "https://pll.harvard.edu/course/cs50s-introduction-programming-python" },
-        { "title": "Data Science: R Basics", "description": "Build a foundation in R programming for data science. Learn data types, vectors, sorting, and apply R skills to real-world crime datasets.", "difficulty": "Beginner", "certification": false, "duration": "8 weeks", "category": "Data Science", "url": "https://pll.harvard.edu/course/data-science-r-basics" },
-        { "title": "Data Science: Visualization", "description": "Learn data visualization principles and techniques using ggplot2 in R. Create compelling visual narratives from complex datasets.", "difficulty": "Beginner", "certification": false, "duration": "8 weeks", "category": "Data Science", "url": "https://pll.harvard.edu/course/data-science-visualization" },
-        { "title": "Data Science: Probability", "description": "Master probability theory concepts including random variables, distributions, Bayes' theorem, and Monte Carlo simulations for data analysis.", "difficulty": "Intermediate", "certification": false, "duration": "8 weeks", "category": "Data Science", "url": "https://pll.harvard.edu/course/data-science-probability" },
-        { "title": "Data Science: Inference and Modeling", "description": "Learn statistical inference, parameter estimation, confidence intervals, hypothesis testing, and predictive modeling with real-world applications.", "difficulty": "Intermediate", "certification": false, "duration": "8 weeks", "category": "Data Science", "url": "https://pll.harvard.edu/course/data-science-inference-and-modeling" },
-        { "title": "Data Science: Wrangling", "description": "Learn data wrangling techniques including data cleaning, transformation, web scraping, string processing, and working with dates and text.", "difficulty": "Intermediate", "certification": false, "duration": "8 weeks", "category": "Data Science", "url": "https://pll.harvard.edu/course/data-science-wrangling" },
-        { "title": "Data Science: Linear Regression", "description": "Learn linear regression, multivariate models, confounding, and causal inference. Apply statistical modeling to real-world data.", "difficulty": "Intermediate", "certification": false, "duration": "8 weeks", "category": "Data Science", "url": "https://pll.harvard.edu/course/data-science-linear-regression" },
-        { "title": "Data Science: Machine Learning", "description": "Build machine learning models including classification, regression, clustering, and recommendation systems using the caret package in R.", "difficulty": "Advanced", "certification": false, "duration": "8 weeks", "category": "AI & ML", "url": "https://pll.harvard.edu/course/data-science-machine-learning" },
-        { "title": "Exercising Leadership: Foundational Principles", "description": "Learn to mobilize people to tackle tough problems and build capacity to thrive through change. Based on Harvard Kennedy School's leadership framework.", "difficulty": "Beginner", "certification": false, "duration": "8 weeks", "category": "Business", "url": "https://pll.harvard.edu/course/exercising-leadership-foundational-principles" },
-        { "title": "Technology Entrepreneurship: Lab to Market", "description": "Explore how entrepreneurs build successful businesses by moving technology from lab to market. Learn from real-world case studies.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Business", "url": "https://pll.harvard.edu/course/technology-entrepreneurship-lab-market" },
-        { "title": "Ancient Masterpieces of World Literature", "description": "Examine how ancient cultures defined themselves through literature and how their vision contributes to our understanding of civilization and culture today.", "difficulty": "Beginner", "certification": false, "duration": "6 weeks", "category": "Business", "url": "https://pll.harvard.edu/course/ancient-masterpieces-world-literature" },
-        { "title": "Quantitative Methods for Biology", "description": "Learn introductory programming and data analysis in MATLAB with applications to biology and medicine. Perfect for aspiring bioinformaticians.", "difficulty": "Intermediate", "certification": false, "duration": "10 weeks", "category": "Computer Science", "url": "https://pll.harvard.edu/course/quantitative-methods-biology" },
-        { "title": "US Political Institutions", "description": "Examine the inner workings of the three branches of US federal government - Congress, Presidency, Courts, and Bureaucracy.", "difficulty": "Beginner", "certification": false, "duration": "4 weeks", "category": "Business", "url": "https://pll.harvard.edu/course/us-political-institutions-congress-presidency-courts-and-bureaucracy" }
+        {
+          "title": "CS50: Introduction to Computer Science",
+          "description": "Harvard's flagship CS course covering C, Python, SQL, algorithms, data structures, and web development. One of the most popular free CS courses worldwide.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "12 weeks",
+          "category": "Computer Science",
+          "url": "https://pll.harvard.edu/course/cs50-introduction-computer-science",
+          "pricing": "free"
+        },
+        {
+          "title": "CS50 Web Programming with Python and JavaScript",
+          "description": "Deep dive into web development using Python, Django, JavaScript, HTML, CSS, and SQL. Build dynamic web applications with modern frameworks.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "12 weeks",
+          "category": "Web Development",
+          "url": "https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript",
+          "pricing": "free"
+        },
+        {
+          "title": "CS50 Introduction to AI with Python",
+          "description": "Learn AI concepts including search algorithms, knowledge representation, machine learning, neural networks, and natural language processing using Python.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "7 weeks",
+          "category": "AI & ML",
+          "url": "https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python",
+          "pricing": "free"
+        },
+        {
+          "title": "CS50 Introduction to Programming with Python",
+          "description": "Master Python programming fundamentals including functions, arguments, loops, exceptions, libraries, and file I/O. Perfect for complete beginners.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "10 weeks",
+          "category": "Programming",
+          "url": "https://pll.harvard.edu/course/cs50s-introduction-programming-python",
+          "pricing": "free"
+        },
+        {
+          "title": "Data Science: R Basics",
+          "description": "Build a foundation in R programming for data science. Learn data types, vectors, sorting, and apply R skills to real-world crime datasets.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "8 weeks",
+          "category": "Data Science",
+          "url": "https://pll.harvard.edu/course/data-science-r-basics",
+          "pricing": "free"
+        },
+        {
+          "title": "Data Science: Visualization",
+          "description": "Learn data visualization principles and techniques using ggplot2 in R. Create compelling visual narratives from complex datasets.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "8 weeks",
+          "category": "Data Science",
+          "url": "https://pll.harvard.edu/course/data-science-visualization",
+          "pricing": "free"
+        },
+        {
+          "title": "Data Science: Probability",
+          "description": "Master probability theory concepts including random variables, distributions, Bayes' theorem, and Monte Carlo simulations for data analysis.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "8 weeks",
+          "category": "Data Science",
+          "url": "https://pll.harvard.edu/course/data-science-probability",
+          "pricing": "free"
+        },
+        {
+          "title": "Data Science: Inference and Modeling",
+          "description": "Learn statistical inference, parameter estimation, confidence intervals, hypothesis testing, and predictive modeling with real-world applications.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "8 weeks",
+          "category": "Data Science",
+          "url": "https://pll.harvard.edu/course/data-science-inference-and-modeling",
+          "pricing": "free"
+        },
+        {
+          "title": "Data Science: Wrangling",
+          "description": "Learn data wrangling techniques including data cleaning, transformation, web scraping, string processing, and working with dates and text.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "8 weeks",
+          "category": "Data Science",
+          "url": "https://pll.harvard.edu/course/data-science-wrangling",
+          "pricing": "free"
+        },
+        {
+          "title": "Data Science: Linear Regression",
+          "description": "Learn linear regression, multivariate models, confounding, and causal inference. Apply statistical modeling to real-world data.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "8 weeks",
+          "category": "Data Science",
+          "url": "https://pll.harvard.edu/course/data-science-linear-regression",
+          "pricing": "free"
+        },
+        {
+          "title": "Data Science: Machine Learning",
+          "description": "Build machine learning models including classification, regression, clustering, and recommendation systems using the caret package in R.",
+          "difficulty": "Advanced",
+          "certification": true,
+          "duration": "8 weeks",
+          "category": "AI & ML",
+          "url": "https://pll.harvard.edu/course/data-science-machine-learning",
+          "pricing": "free"
+        },
+        {
+          "title": "Exercising Leadership: Foundational Principles",
+          "description": "Learn to mobilize people to tackle tough problems and build capacity to thrive through change. Based on Harvard Kennedy School's leadership framework.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "8 weeks",
+          "category": "Business",
+          "url": "https://pll.harvard.edu/course/exercising-leadership-foundational-principles",
+          "pricing": "free"
+        },
+        {
+          "title": "Technology Entrepreneurship: Lab to Market",
+          "description": "Explore how entrepreneurs build successful businesses by moving technology from lab to market. Learn from real-world case studies.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "Self-paced",
+          "category": "Business",
+          "url": "https://pll.harvard.edu/course/technology-entrepreneurship-lab-market",
+          "pricing": "free"
+        },
+        {
+          "title": "Ancient Masterpieces of World Literature",
+          "description": "Examine how ancient cultures defined themselves through literature and how their vision contributes to our understanding of civilization and culture today.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "6 weeks",
+          "category": "Business",
+          "url": "https://pll.harvard.edu/course/ancient-masterpieces-world-literature",
+          "pricing": "free"
+        },
+        {
+          "title": "Quantitative Methods for Biology",
+          "description": "Learn introductory programming and data analysis in MATLAB with applications to biology and medicine. Perfect for aspiring bioinformaticians.",
+          "difficulty": "Intermediate",
+          "certification": true,
+          "duration": "10 weeks",
+          "category": "Computer Science",
+          "url": "https://pll.harvard.edu/course/quantitative-methods-biology",
+          "pricing": "free"
+        },
+        {
+          "title": "US Political Institutions",
+          "description": "Examine the inner workings of the three branches of US federal government - Congress, Presidency, Courts, and Bureaucracy.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "4 weeks",
+          "category": "Business",
+          "url": "https://pll.harvard.edu/course/us-political-institutions-congress-presidency-courts-and-bureaucracy",
+          "pricing": "free"
+        }
       ]
     },
     {
@@ -277,22 +1408,166 @@
       "logoImage": "",
       "color": "#8B8B8B",
       "courses": [
-        { "title": "Introduction to Computer Science and Programming in Python", "description": "MIT's introductory CS course teaching computational thinking, Python programming, algorithms, and problem-solving techniques.", "difficulty": "Beginner", "certification": false, "duration": "9 weeks", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/" },
-        { "title": "Introduction to Computational Thinking and Data Science", "description": "Learn computational thinking with Python, including optimization, plotting, stochastic thinking, and statistical analysis of data.", "difficulty": "Intermediate", "certification": false, "duration": "9 weeks", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/" },
-        { "title": "Linear Algebra", "description": "Comprehensive linear algebra course covering matrices, vector spaces, eigenvalues, and applications. Includes video lectures and problem sets.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/" },
-        { "title": "Single Variable Calculus", "description": "Complete calculus course covering derivatives, integrals, limits, and applications. Part of MIT's flagship calculus series.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/" },
-        { "title": "Multivariable Calculus", "description": "Advanced calculus covering vector fields, line integrals, double and triple integrals, and theorems of Green, Stokes, and Gauss.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/" },
-        { "title": "Introduction to Probability and Statistics", "description": "Learn probability models, random variables, expectation, central limit theorem, confidence intervals, and hypothesis testing.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Data Science", "url": "https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2014/" },
-        { "title": "Introduction to Algorithms", "description": "Study efficient algorithms for sorting, searching, graphs, and dynamic programming. Analyze algorithm complexity and data structure design.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/" },
-        { "title": "Design and Analysis of Algorithms", "description": "Advanced study of algorithm design techniques including divide-and-conquer, dynamic programming, greedy algorithms, and network flow.", "difficulty": "Advanced", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/" },
-        { "title": "Machine Learning", "description": "MIT's graduate-level ML course covering supervised learning, neural networks, clustering, reinforcement learning, and statistical learning theory.", "difficulty": "Advanced", "certification": false, "duration": "Self-paced", "category": "AI & ML", "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/" },
-        { "title": "Operating System Engineering", "description": "Study operating system design and implementation including virtualization, concurrency, file systems, and networking through hands-on projects.", "difficulty": "Advanced", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-828-operating-system-engineering-fall-2012/" },
-        { "title": "Computer Networks", "description": "Learn computer network architecture, protocols (TCP/IP, HTTP, DNS), routing, congestion control, and network security fundamentals.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-829-computer-networks-fall-2002/" },
-        { "title": "Introduction to Psychology", "description": "Explore the scientific study of human behavior including perception, cognition, memory, emotion, social psychology, and developmental psychology.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Business", "url": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/" },
-        { "title": "Principles of Microeconomics", "description": "Study supply and demand, consumer behavior, production costs, market structures, game theory, and welfare economics.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Business", "url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/" },
-        { "title": "Principles of Macroeconomics", "description": "Examine national income, inflation, unemployment, monetary and fiscal policy, economic growth, and international trade.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Business", "url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/" },
-        { "title": "Electromagnetic Energy: Motors to Lasers", "description": "Study electromagnetic fields, Maxwell's equations, wave propagation, and applications including motors, generators, and lasers.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-007-electromagnetic-energy-from-motors-to-lasers-spring-2011/" },
-        { "title": "Signals and Systems", "description": "Learn signal processing fundamentals including Fourier series, Laplace transforms, Z-transforms, filtering, and system analysis.", "difficulty": "Advanced", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/" }
+        {
+          "title": "Introduction to Computer Science and Programming in Python",
+          "description": "MIT's introductory CS course teaching computational thinking, Python programming, algorithms, and problem-solving techniques.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "9 weeks",
+          "category": "Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Computational Thinking and Data Science",
+          "description": "Learn computational thinking with Python, including optimization, plotting, stochastic thinking, and statistical analysis of data.",
+          "difficulty": "Intermediate",
+          "certification": false,
+          "duration": "9 weeks",
+          "category": "Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/",
+          "pricing": "free"
+        },
+        {
+          "title": "Linear Algebra",
+          "description": "Comprehensive linear algebra course covering matrices, vector spaces, eigenvalues, and applications. Includes video lectures and problem sets.",
+          "difficulty": "Intermediate",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Computer Science",
+          "url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/",
+          "pricing": "free"
+        },
+        {
+          "title": "Single Variable Calculus",
+          "description": "Complete calculus course covering derivatives, integrals, limits, and applications. Part of MIT's flagship calculus series.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Computer Science",
+          "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/",
+          "pricing": "free"
+        },
+        {
+          "title": "Multivariable Calculus",
+          "description": "Advanced calculus covering vector fields, line integrals, double and triple integrals, and theorems of Green, Stokes, and Gauss.",
+          "difficulty": "Intermediate",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Computer Science",
+          "url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Probability and Statistics",
+          "description": "Learn probability models, random variables, expectation, central limit theorem, confidence intervals, and hypothesis testing.",
+          "difficulty": "Intermediate",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Data Science",
+          "url": "https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Algorithms",
+          "description": "Study efficient algorithms for sorting, searching, graphs, and dynamic programming. Analyze algorithm complexity and data structure design.",
+          "difficulty": "Intermediate",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/",
+          "pricing": "free"
+        },
+        {
+          "title": "Design and Analysis of Algorithms",
+          "description": "Advanced study of algorithm design techniques including divide-and-conquer, dynamic programming, greedy algorithms, and network flow.",
+          "difficulty": "Advanced",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/",
+          "pricing": "free"
+        },
+        {
+          "title": "Machine Learning",
+          "description": "MIT's graduate-level ML course covering supervised learning, neural networks, clustering, reinforcement learning, and statistical learning theory.",
+          "difficulty": "Advanced",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "AI & ML",
+          "url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/",
+          "pricing": "free"
+        },
+        {
+          "title": "Operating System Engineering",
+          "description": "Study operating system design and implementation including virtualization, concurrency, file systems, and networking through hands-on projects.",
+          "difficulty": "Advanced",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-828-operating-system-engineering-fall-2012/",
+          "pricing": "free"
+        },
+        {
+          "title": "Computer Networks",
+          "description": "Learn computer network architecture, protocols (TCP/IP, HTTP, DNS), routing, congestion control, and network security fundamentals.",
+          "difficulty": "Intermediate",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-829-computer-networks-fall-2002/",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Psychology",
+          "description": "Explore the scientific study of human behavior including perception, cognition, memory, emotion, social psychology, and developmental psychology.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Business",
+          "url": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/",
+          "pricing": "free"
+        },
+        {
+          "title": "Principles of Microeconomics",
+          "description": "Study supply and demand, consumer behavior, production costs, market structures, game theory, and welfare economics.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Business",
+          "url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/",
+          "pricing": "free"
+        },
+        {
+          "title": "Principles of Macroeconomics",
+          "description": "Examine national income, inflation, unemployment, monetary and fiscal policy, economic growth, and international trade.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Business",
+          "url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/",
+          "pricing": "free"
+        },
+        {
+          "title": "Electromagnetic Energy: Motors to Lasers",
+          "description": "Study electromagnetic fields, Maxwell's equations, wave propagation, and applications including motors, generators, and lasers.",
+          "difficulty": "Intermediate",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-007-electromagnetic-energy-from-motors-to-lasers-spring-2011/",
+          "pricing": "free"
+        },
+        {
+          "title": "Signals and Systems",
+          "description": "Learn signal processing fundamentals including Fourier series, Laplace transforms, Z-transforms, filtering, and system analysis.",
+          "difficulty": "Advanced",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/",
+          "pricing": "free"
+        }
       ]
     },
     {
@@ -303,20 +1578,94 @@
       "logoImage": "",
       "color": "#8C1515",
       "courses": [
-        { "title": "Child Nutrition and Cooking", "description": "Learn about child nutrition, healthy eating habits, cooking techniques, and how to prepare balanced meals for children and families.", "difficulty": "Beginner", "certification": false, "duration": "5 weeks", "category": "Business", "url": "https://online.stanford.edu/courses/child-nutrition-and-cooking" },
-        { "title": "Introduction to Statistics", "description": "Learn statistical thinking including descriptive statistics, sampling, probability, confidence intervals, and hypothesis testing.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Data Science", "url": "https://online.stanford.edu/courses/education-free-math-course" },
-        { "title": "Computer Science 101", "description": "Learn the fundamentals of computer science including how computers work, how to write code, and how to think like a programmer.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://online.stanford.edu/courses/engineering-free-courses" },
-        { "title": "How to Learn Math", "description": "Discover the latest research on how to learn math effectively. Change your relationship with math and build a growth mindset.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Business", "url": "https://online.stanford.edu/courses/education-free-math-course" },
-        { "title": "Introduction to Internet of Things", "description": "Learn about IoT architecture, protocols, sensors, cloud platforms, and build connected device applications.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://online.stanford.edu/courses/engineering-free-courses" },
-        { "title": "RF Fundamentals for Wireless Communications", "description": "Understand radio frequency fundamentals, wireless communication principles, and modern wireless system design.", "difficulty": "Advanced", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://online.stanford.edu/courses/engineering-free-courses" },
-        { "title": "Trading Strategies in Emerging Markets", "description": "Explore trading strategies, portfolio optimization, and risk management techniques specific to emerging financial markets.", "difficulty": "Intermediate", "certification": false, "duration": "Self-paced", "category": "Business", "url": "https://online.stanford.edu/courses/engineering-free-courses" },
-        { "title": "Bits: Introduction to Computer Science", "description": "An introductory course covering bitwise operations, binary representation, and fundamental computer science concepts.", "difficulty": "Beginner", "certification": false, "duration": "Self-paced", "category": "Computer Science", "url": "https://online.stanford.edu/courses/engineering-free-courses" }
+        {
+          "title": "Child Nutrition and Cooking",
+          "description": "Learn about child nutrition, healthy eating habits, cooking techniques, and how to prepare balanced meals for children and families.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "5 weeks",
+          "category": "Business",
+          "url": "https://online.stanford.edu/courses/child-nutrition-and-cooking",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Statistics",
+          "description": "Learn statistical thinking including descriptive statistics, sampling, probability, confidence intervals, and hypothesis testing.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "Self-paced",
+          "category": "Data Science",
+          "url": "https://online.stanford.edu/courses/education-free-math-course",
+          "pricing": "free"
+        },
+        {
+          "title": "Computer Science 101",
+          "description": "Learn the fundamentals of computer science including how computers work, how to write code, and how to think like a programmer.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "Self-paced",
+          "category": "Computer Science",
+          "url": "https://online.stanford.edu/courses/engineering-free-courses",
+          "pricing": "free"
+        },
+        {
+          "title": "How to Learn Math",
+          "description": "Discover the latest research on how to learn math effectively. Change your relationship with math and build a growth mindset.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "Self-paced",
+          "category": "Business",
+          "url": "https://online.stanford.edu/courses/education-free-math-course",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Internet of Things",
+          "description": "Learn about IoT architecture, protocols, sensors, cloud platforms, and build connected device applications.",
+          "difficulty": "Intermediate",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Computer Science",
+          "url": "https://online.stanford.edu/courses/engineering-free-courses",
+          "pricing": "free"
+        },
+        {
+          "title": "RF Fundamentals for Wireless Communications",
+          "description": "Understand radio frequency fundamentals, wireless communication principles, and modern wireless system design.",
+          "difficulty": "Advanced",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Computer Science",
+          "url": "https://online.stanford.edu/courses/engineering-free-courses",
+          "pricing": "free"
+        },
+        {
+          "title": "Trading Strategies in Emerging Markets",
+          "description": "Explore trading strategies, portfolio optimization, and risk management techniques specific to emerging financial markets.",
+          "difficulty": "Intermediate",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Business",
+          "url": "https://online.stanford.edu/courses/engineering-free-courses",
+          "pricing": "free"
+        },
+        {
+          "title": "Bits: Introduction to Computer Science",
+          "description": "An introductory course covering bitwise operations, binary representation, and fundamental computer science concepts.",
+          "difficulty": "Beginner",
+          "certification": false,
+          "duration": "Self-paced",
+          "category": "Computer Science",
+          "url": "https://online.stanford.edu/courses/engineering-free-courses",
+          "pricing": "free"
+        }
       ]
     }
   ],
   "stats": {
     "totalProviders": 16,
-    "totalCourses": 153,
-    "totalCertifications": 87
+    "totalCourses": 150,
+    "totalCertifications": 111,
+    "totalFree": 124,
+    "totalPaid": 26
   }
 }
