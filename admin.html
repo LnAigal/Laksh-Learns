@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0A0A0A">
+  <title>Admin | Laksh Learns</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2300E5FF'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Arial' font-weight='bold' font-size='16' fill='%230A0A0A'%3ELL%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="admin.css">
+  <style>
+    body { font-family: 'Inter', var(--font); }
+  </style>
+</head>
+<body class="admin-page">
+
+  <header class="admin-header">
+    <div class="admin-header-inner">
+      <div class="admin-brand">
+        <a href="index.html" class="nav-logo">Laksh Learns</a>
+        <span class="admin-badge">Admin</span>
+      </div>
+      <div class="admin-actions">
+        <button class="admin-btn" id="btn-import">Import</button>
+        <input type="file" id="import-input" accept="application/json,.json" hidden>
+        <button class="admin-btn" id="btn-reload">Reload server</button>
+        <button class="admin-btn primary" id="btn-export">Download courses.json</button>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="draft-banner" id="draft-banner" hidden>
+    <span>Editing a local draft. Changes are saved in this browser until you download and commit them.</span>
+    <button class="admin-btn small" id="btn-discard">Discard draft</button>
+  </div>
+
+  <section class="admin-stats" id="admin-stats"></section>
+
+  <main class="admin-main">
+    <aside class="admin-sidebar">
+      <div class="sidebar-header">
+        <h2>Providers</h2>
+        <button class="admin-btn small" id="btn-add-provider">+ Add</button>
+      </div>
+      <input type="text" id="provider-search" class="admin-input" placeholder="Search providers...">
+      <div class="provider-list" id="provider-list"></div>
+    </aside>
+
+    <section class="admin-content" id="admin-content">
+      <div class="empty-state">Loading…</div>
+    </section>
+  </main>
+
+  <!-- Course Editor Modal -->
+  <div class="modal-overlay" id="course-modal" hidden>
+    <div class="modal">
+      <div class="modal-header">
+        <h3 id="course-modal-title">Add Course</h3>
+        <button class="modal-close" id="course-modal-close" aria-label="Close">&times;</button>
+      </div>
+      <form class="modal-body" id="course-form" autocomplete="off">
+        <label class="field span-2">Title
+          <input class="admin-input" name="title" required placeholder="e.g. Mastering Generative AI">
+        </label>
+        <label class="field span-2">Description
+          <textarea class="admin-input" name="description" rows="3" placeholder="Short summary of the course"></textarea>
+        </label>
+        <label class="field">Difficulty
+          <select class="admin-input" name="difficulty">
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+          </select>
+        </label>
+        <label class="field">Category
+          <input class="admin-input" name="category" list="category-list" placeholder="e.g. Programming">
+          <datalist id="category-list"></datalist>
+        </label>
+        <label class="field">Duration
+          <input class="admin-input" name="duration" placeholder="e.g. 8 weeks">
+        </label>
+        <label class="field">Pricing
+          <select class="admin-input" name="pricing">
+            <option value="free">Free</option>
+            <option value="paid">Paid</option>
+          </select>
+        </label>
+        <label class="field checkbox-field">
+          <input type="checkbox" name="certification"> Provides certificate
+        </label>
+        <label class="field span-2">Course URL
+          <input class="admin-input" name="url" placeholder="https://...">
+        </label>
+      </form>
+      <div class="modal-footer">
+        <button class="admin-btn" id="course-cancel">Cancel</button>
+        <button class="admin-btn primary" id="course-save">Save Course</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
