@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Course details on Laksh Learns">
-  <meta name="theme-color" content="#0A0A0A">
+  <meta name="theme-color" content="#f5f2eb">
   <meta property="og:title" content="Course Details | Laksh Learns">
   <meta property="og:description" content="View course details and start learning.">
   <meta property="og:type" content="website">
@@ -26,10 +26,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Inter', var(--font); }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body class="course-detail-page">
 
@@ -52,32 +49,39 @@
   <canvas id="particle-canvas"></canvas>
   <div class="page-transition"><div class="transition-layer"></div></div>
 
+  <a class="skip-link" href="#course-detail">Skip to course details</a>
+
   <nav class="navbar">
     <div class="navbar-inner">
       <a href="index.html" class="nav-logo">Laksh Learns</a>
       <div class="nav-links">
         <a href="index.html#providers">Providers</a>
-        <a href="index.html#stats">Stats</a>
+        <a href="index.html#stats">Library</a>
         <a href="bookmarks.html">Bookmarks</a>
         <a href="https://github.com/LnAigal/" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark theme" aria-pressed="false">☾</button>
       </div>
-      <button class="hamburger" aria-label="Menu">
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </nav>
 
-  <div class="courses-grid" id="course-detail"></div>
+  <main>
+    <div class="courses-grid" id="course-detail"></div>
 
   <!-- Similar Courses -->
   <section class="section" id="similar-courses">
     <div class="section-header">
-      <h2 class="section-title">Similar <span class="gradient-text">Courses</span></h2>
-      <p class="section-subtitle">You might also be interested in</p>
+      <div>
+        <span class="eyebrow">Keep exploring</span>
+        <h2 class="section-title">Similar <span class="gradient-text">courses.</span></h2>
+        <p class="section-subtitle">A few more paths that might be worth your time.</p>
+      </div>
     </div>
     <div class="similar-grid"></div>
-  </section>
+    </section>
+  </main>
 
   <footer class="footer">
     <div class="footer-inner">

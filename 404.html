@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Page not found - Laksh Learns">
-  <meta name="theme-color" content="#0A0A0A">
+  <meta name="theme-color" content="#f5f2eb">
   <meta property="og:title" content="404 | Laksh Learns">
   <meta property="og:description" content="Page not found">
   <meta property="og:type" content="website">
@@ -27,12 +27,11 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Inter', var(--font); }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <a class="skip-link" href="#not-found">Skip to content</a>
 
   <div class="loading-screen" id="loading-screen">
     <div class="loader-content">
@@ -57,21 +56,21 @@
       <a href="index.html" class="nav-logo">Laksh Learns</a>
       <div class="nav-links">
         <a href="index.html#providers">Providers</a>
-        <a href="index.html#stats">Stats</a>
+        <a href="index.html#stats">Library</a>
         <a href="https://github.com/LnAigal/" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark theme" aria-pressed="false">☾</button>
       </div>
-      <button class="hamburger" aria-label="Menu">
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </nav>
 
-  <div class="page-404">
+  <div class="page-404" id="not-found">
     <div class="error-code">404</div>
     <h1 class="error-title">Page Not Found</h1>
     <p class="error-desc">The page you are looking for doesn't exist or has been moved.</p>
-    <a href="index.html" class="btn btn-primary btn-glow">Go Home →</a>
+    <a href="index.html" class="btn btn-primary btn-glow">Back to home</a>
   </div>
 
   <footer class="footer">

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="A nonprofit community that offers free, self-paced coding curriculum covering web development, programming, databases, and more with industry-recognized certifications.">
-  <meta name="theme-color" content="#0A0A0A">
+  <meta name="theme-color" content="#f5f2eb">
   <meta property="og:title" content="freeCodeCamp | Laksh Learns">
   <meta property="og:description" content="A nonprofit community that offers free, self-paced coding curriculum covering web development, programming, databases, and more with industry-recognized certifications.">
   <meta property="og:type" content="website">
@@ -26,13 +26,14 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    body { font-family: 'Inter', var(--font); }
     .provider-banner { background: linear-gradient(135deg, var(--bg), #0A0A2315); }
   </style>
 </head>
 <body class="provider-page" data-provider="freecodecamp">
+
+  <a class="skip-link" href="#courses-container">Skip to courses</a>
 
   <div class="loading-screen" id="loading-screen">
     <div class="loader-content">
@@ -58,12 +59,12 @@
       <a href="../index.html" class="nav-logo">Laksh Learns</a>
       <div class="nav-links">
         <a href="../index.html#providers">Providers</a>
-        <a href="../index.html#stats">Stats</a>
+        <a href="../index.html#stats">Library</a>
         <a href="../bookmarks.html">Bookmarks</a>
         <a href="https://github.com/LnAigal/" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark theme" aria-pressed="false">☾</button>
       </div>
-      <button class="hamburger" aria-label="Menu">
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -71,13 +72,14 @@
 
   <section class="provider-banner">
     <div class="provider-banner-inner">
-      <div class="banner-logo" style="color: #0A0A23">fCC</div>
+      <div class="banner-logo banner-logo-fallback" style="--brand: #0A0A23">fCC</div>
       <div class="banner-info">
+        <span class="eyebrow">Learning provider</span>
         <h1>freeCodeCamp</h1>
         <p>A nonprofit community that offers free, self-paced coding curriculum covering web development, programming, databases, and more with industry-recognized certifications.</p>
         <div class="banner-stats">
           <div class="banner-stat"><strong>14</strong> Courses</div>
-          <div class="banner-stat"><strong>11</strong> Certifications</div>
+          <div class="banner-stat"><strong>10</strong> Certifications</div>
         </div>
       </div>
     </div>
@@ -86,13 +88,13 @@
   <section class="controls-bar">
     <div class="controls-inner">
       <div class="search-box">
-        <span class="search-icon">🔍</span>
-        <input type="text" id="course-search" placeholder="Search courses...">
+        <span class="search-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
+        <input type="text" id="course-search" placeholder="Search courses..." aria-label="Search courses">
       </div>
       <div class="filter-btns" id="filter-btns">
         <div class="sort-wrapper">
-          <label class="filter-group-label">Sort</label>
-          <select class="filter-select" id="sort-select">
+          <label class="filter-group-label" for="sort-select">Sort</label>
+          <select class="filter-select" id="sort-select" aria-label="Sort courses">
             <option value="default">Sort by</option>
             <option value="name-asc">Name (A-Z)</option>
             <option value="name-desc">Name (Z-A)</option>

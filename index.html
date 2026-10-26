@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Laksh Learns - One Place For All Learning Resources. Browse courses from top providers like GeeksforGeeks, Coursera, Udemy, and more.">
+  <meta name="description" content="Laksh Learns - One Place For All Learning Resources. Browse 150 hand-picked courses from 16 of the world's best learning providers.">
   <meta name="keywords" content="online courses, learning, education, programming, data science, AI, cloud computing">
-  <meta name="theme-color" content="#0A0A0A">
+  <meta name="theme-color" content="#f5f2eb">
   <meta property="og:title" content="Laksh Learns | One Place For All Learning Resources">
   <meta property="og:description" content="Discover curated courses from the world's top educational providers. Learn and grow with Laksh Learns.">
   <meta property="og:type" content="website">
@@ -27,123 +27,170 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Inter', var(--font); }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body class="home-page">
 
-  <!-- Loading Screen -->
-  <div class="loading-screen" id="loading-screen">
-    <div class="loader-content">
-      <div class="loader-logo">Laksh Learns</div>
-      <div class="loader-bar">
-        <div class="loader-bar-inner"></div>
-      </div>
-    </div>
-  </div>
+  <a class="skip-link" href="#providers">Skip to providers</a>
 
-  <!-- Scroll Progress Bar -->
   <div class="scroll-progress" id="scroll-progress"></div>
-
-  <!-- Mobile Nav Overlay -->
   <div class="nav-overlay" id="nav-overlay"></div>
+  <div class="page-transition"><div class="transition-layer"></div></div>
 
-  <!-- Custom Cursor -->
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor-dot"></div>
-
-  <!-- Noise Texture -->
-  <div class="noise"></div>
-
-  <!-- Galaxy Background -->
-  <div class="galaxy"></div>
-
-  <!-- Floating Blobs -->
-  <div class="blob blob-1"></div>
-  <div class="blob blob-2"></div>
-  <div class="blob blob-3"></div>
-
-  <!-- Particle Canvas -->
-  <canvas id="particle-canvas"></canvas>
-
-  <!-- Page Transition Overlay -->
-  <div class="page-transition">
-    <div class="transition-layer"></div>
-  </div>
-
-  <!-- Navbar -->
   <nav class="navbar">
     <div class="navbar-inner">
       <a href="index.html" class="nav-logo">Laksh Learns</a>
       <div class="nav-links">
         <a href="#providers">Providers</a>
-        <a href="#stats">Stats</a>
+        <a href="#stats">Library</a>
         <a href="bookmarks.html">Bookmarks</a>
         <a href="https://github.com/LnAigal/" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark theme" aria-pressed="false">☾</button>
       </div>
-      <button class="hamburger" aria-label="Menu">
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="hero" id="hero">
-    <div class="hero-content">
-      <div class="hero-badge">🚀 Next-Gen Learning Platform</div>
-      <h1 class="hero-title">
-        <span class="gradient-text">Laksh Learns</span>
-      </h1>
-      <p class="hero-subtitle">One Place For All Learning Resources</p>
-      <div class="hero-actions">
-        <a href="#providers" class="btn btn-primary btn-glow" data-transition>Explore Providers →</a>
-        <a href="#stats" class="btn btn-secondary">View Statistics</a>
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <div class="hero-badge"><span id="hero-course-count">150</span> hand-picked courses · <span id="hero-provider-count">16</span> providers</div>
+        <h1 class="hero-title">Build skills that move you <em>forward.</em></h1>
+        <p class="hero-subtitle">A thoughtfully organised library of free and paid courses from the internet's best learning platforms. Less scrolling. More learning.</p>
+        <div class="hero-actions">
+          <a href="#providers" class="btn btn-primary">Explore providers <span aria-hidden="true">→</span></a>
+          <a href="#why" class="btn btn-secondary">Why Laksh Learns</a>
+        </div>
+        <div class="hero-search" role="button" tabindex="0" aria-label="Search across all courses">
+          <svg class="hero-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <span class="hero-search-text">Search 150 courses by topic, provider, or skill…</span>
+          <span class="hero-search-shortcut" id="search-shortcut">Ctrl K</span>
+        </div>
+        <p class="hero-note">No account. No paywall. Just a better place to start.</p>
+        <script>
+          if (navigator.platform && navigator.platform.indexOf('Mac') > -1) {
+            const el = document.getElementById('search-shortcut');
+            if (el) el.textContent = '⌘ K';
+          }
+        </script>
       </div>
-    </div>
-  </section>
 
-  <!-- Stats Section -->
-  <section class="stats section" id="stats">
-    <div class="section-header">
-      <h2 class="section-title">Platform <span class="gradient-text">Statistics</span></h2>
-      <p class="section-subtitle">Our growing collection of learning resources</p>
-    </div>
-    <div class="stats-grid" id="stats-grid"></div>
-  </section>
+      <div class="hero-visual" aria-hidden="true">
+        <span class="hero-sticker">one quiet<br>place to learn</span>
+        <div class="hero-panel">
+          <div class="hero-panel-cover">
+            <span class="cover-label">Featured pathway</span>
+            <div class="cover-orbit"></div>
+            <span class="cover-spark">✳</span>
+            <div class="cover-stats"><span>16 providers</span><span>111 certificates</span></div>
+          </div>
+          <div class="hero-panel-body">
+            <p class="panel-kicker">AI &amp; machine learning</p>
+            <h2>Build something intelligent.</h2>
+            <p class="panel-description">From first principles to production — a clear path through the noise.</p>
+            <div class="panel-progress-head"><span>Learning map</span><strong>72%</strong></div>
+            <div class="progress-track"><span></span></div>
+          </div>
+        </div>
+        <div class="float-note float-note--one">
+          <span class="float-icon">✓</span>
+          <div><strong>Curated &amp; current</strong><small>Every link checked</small></div>
+        </div>
+        <div class="float-note float-note--two">
+          <span class="float-icon float-icon--accent">↗</span>
+          <div><strong>Ready when you are</strong><small>No sign-up required</small></div>
+        </div>
+      </div>
+    </section>
 
-  <!-- Providers Section -->
-  <section class="section" id="providers">
-    <div class="section-header">
-      <h2 class="section-title">Top Learning <span class="gradient-text">Providers</span></h2>
-      <p class="section-subtitle">Curated courses from the world's best educational platforms</p>
-    </div>
-    <div class="providers-grid" id="providers-grid"></div>
-  </section>
+    <section class="trust-bar" aria-label="Featured course providers">
+      <span class="trust-label">Courses from</span>
+      <div class="trust-logos" id="trust-logos"></div>
+    </section>
 
-  <!-- Recently Viewed -->
-  <section class="section history-section" id="history">
-    <div class="section-header">
-      <h2 class="section-title">Recently <span class="gradient-text">Viewed</span></h2>
-      <p class="section-subtitle">Pick up where you left off</p>
-    </div>
-    <div class="history-grid" id="history-container"></div>
-  </section>
+    <section class="stats section" id="stats">
+      <div class="section-header">
+        <div>
+          <span class="eyebrow">The library</span>
+          <h2 class="section-title">Everything worth learning, <span class="gradient-text">in one place.</span></h2>
+        </div>
+        <p class="section-subtitle">A growing collection, organised so you can spend your time learning — not searching.</p>
+      </div>
+      <div class="stats-grid" id="stats-grid"></div>
+    </section>
 
-  <!-- Footer -->
+    <section class="section" id="providers">
+      <div class="section-header">
+        <div>
+          <span class="eyebrow">Browse the directory</span>
+          <h2 class="section-title">The world's best <span class="gradient-text">classrooms.</span></h2>
+          <p class="section-subtitle">Sixteen trusted platforms, from university open courseware to industry certifications.</p>
+        </div>
+        <button class="section-link" type="button" data-search-open>Search all courses <span aria-hidden="true">↗</span></button>
+      </div>
+      <div class="providers-grid" id="providers-grid"></div>
+    </section>
+
+    <section class="section values-section" id="why">
+      <div class="values-panel">
+        <div class="values-copy">
+          <span class="eyebrow">Why Laksh Learns</span>
+          <h2>Less browsing.<br>More becoming.</h2>
+          <p>Course directories usually add more noise. This one is built to remove it — clear pathways, honest metadata, and direct links to the source.</p>
+          <a href="#providers" class="btn btn-primary">Find your next course <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="values-list">
+          <article class="value-item">
+            <span class="value-num">01</span>
+            <div>
+              <h3>Curated, not crowded</h3>
+              <p>Every course is hand-checked and clearly labelled, so quality comes before quantity.</p>
+            </div>
+          </article>
+          <article class="value-item">
+            <span class="value-num">02</span>
+            <div>
+              <h3>Free and paid, made clear</h3>
+              <p>Know the cost, level, duration, and certificate outcome before you commit a single hour.</p>
+            </div>
+          </article>
+          <article class="value-item">
+            <span class="value-num">03</span>
+            <div>
+              <h3>Built for momentum</h3>
+              <p>Bookmarks and recent history keep your next step warm. Pick up exactly where you left off.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section history-section" id="history">
+      <div class="section-header">
+        <div>
+          <span class="eyebrow">Your trail</span>
+          <h2 class="section-title">Recently <span class="gradient-text">viewed.</span></h2>
+          <p class="section-subtitle">Pick up where you left off.</p>
+        </div>
+        <a href="bookmarks.html" class="section-link">Your bookmarks <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="history-grid" id="history-container"></div>
+    </section>
+  </main>
+
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-brand">
         <h3>Laksh Learns</h3>
-        <p>One Place For All Learning Resources. Discover, learn, and grow with courses from the world's top educational providers.</p>
+        <p>One quiet place for all your learning resources. Discover, learn, and grow with courses from the world's best educational providers.</p>
       </div>
       <div class="footer-col">
-        <h4>Quick Links</h4>
+        <h4>Explore</h4>
         <a href="#providers">All Providers</a>
         <a href="bookmarks.html">Bookmarks</a>
-        <a href="#stats">Statistics</a>
+        <a href="#stats">Library Stats</a>
         <a href="https://github.com/LnAigal/" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
       <div class="footer-col">
@@ -170,19 +217,18 @@
       <p>&copy; 2026 Laksh Learns. All rights reserved.</p>
       <div class="footer-socials">
         <a href="https://github.com/LnAigal/" target="_blank" aria-label="GitHub" rel="noopener noreferrer">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
         </a>
         <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram" rel="noopener noreferrer">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
         </a>
         <a href="https://www.linkedin.com/in/lakshminarayana-aigal/" target="_blank" aria-label="LinkedIn" rel="noopener noreferrer">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
         </a>
       </div>
     </div>
   </footer>
 
-  <!-- Back to Top -->
   <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
 
   <script src="script.js"></script>

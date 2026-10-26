@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="My bookmarked courses on Laksh Learns">
-  <meta name="theme-color" content="#0A0A0A">
+  <meta name="theme-color" content="#f5f2eb">
   <meta property="og:title" content="My Bookmarks | Laksh Learns">
   <meta property="og:description" content="View your bookmarked courses.">
   <meta property="og:type" content="website">
@@ -26,10 +26,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Inter', var(--font); }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body class="bookmarks-page">
 
@@ -52,28 +49,35 @@
   <canvas id="particle-canvas"></canvas>
   <div class="page-transition"><div class="transition-layer"></div></div>
 
+  <a class="skip-link" href="#bookmarks-container">Skip to bookmarks</a>
+
   <nav class="navbar">
     <div class="navbar-inner">
       <a href="index.html" class="nav-logo">Laksh Learns</a>
       <div class="nav-links">
         <a href="index.html">Home</a>
+        <a href="index.html#providers">Providers</a>
         <a href="bookmarks.html" class="active-link">Bookmarks</a>
         <a href="https://github.com/LnAigal/" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark theme" aria-pressed="false">☾</button>
       </div>
-      <button class="hamburger" aria-label="Menu">
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </nav>
 
-  <section class="section" style="padding-top:8rem">
-    <div class="section-header">
-      <h1 class="section-title">📚 My <span class="gradient-text">Bookmarks</span></h1>
-      <p class="section-subtitle">Your saved courses, all in one place</p>
-    </div>
-    <div class="courses-grid" id="bookmarks-container"></div>
-  </section>
+  <header class="page-hero">
+    <span class="eyebrow">Your library</span>
+    <h1>Keep your next <span class="gradient-text">move</span> close.</h1>
+    <p>Every course you save lives here — ready when you are, with no algorithm deciding what comes next.</p>
+  </header>
+
+  <main>
+    <section class="section bookmarks-section">
+      <div class="courses-grid" id="bookmarks-container"></div>
+    </section>
+  </main>
 
   <footer class="footer">
     <div class="footer-inner">

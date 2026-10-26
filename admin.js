@@ -43,7 +43,7 @@ function uniqueId(base) {
 }
 
 let toastTimer;
-function toast(msg, icon = '✅') {
+function toast(msg, icon = '✓') {
   const el = $('#toast');
   if (!el) return;
   el.innerHTML = `<span class="toast-icon">${icon}</span> ${escapeHtml(msg)}`;
@@ -93,7 +93,7 @@ function markDirty() {
   clearTimeout(saveTimer);
   saveTimer = setTimeout(() => {
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state.data)); } catch (e) {
-      toast('Could not save draft (storage full?)', '⚠️');
+      toast('Could not save draft (storage full?)', '!');
     }
   }, 300);
 }
@@ -118,10 +118,10 @@ function renderStats() {
   const s = state.data.stats || {};
   const items = [
     { icon: '🏢', label: 'Providers', value: s.totalProviders ?? 0 },
-    { icon: '📚', label: 'Courses', value: s.totalCourses ?? 0 },
-    { icon: '🎓', label: 'Certifications', value: s.totalCertifications ?? 0 },
-    { icon: '✅', label: 'Free', value: s.totalFree ?? 0 },
-    { icon: '💰', label: 'Paid', value: s.totalPaid ?? 0 }
+    { icon: '01', label: 'Courses', value: s.totalCourses ?? 0 },
+    { icon: '02', label: 'Certifications', value: s.totalCertifications ?? 0 },
+    { icon: '03', label: 'Free', value: s.totalFree ?? 0 },
+    { icon: '04', label: 'Paid', value: s.totalPaid ?? 0 }
   ];
   $('#admin-stats').innerHTML = items.map(i => `
     <div class="admin-stat">
@@ -186,7 +186,7 @@ function courseRow(c, i, total) {
     <td>${escapeHtml(c.category || '')}</td>
     <td>${escapeHtml(c.duration || '')}</td>
     <td><span class="badge ${c.pricing === 'free' ? 'badge-free' : 'badge-paid'}">${c.pricing === 'free' ? 'Free' : 'Paid'}</span></td>
-    <td>${c.certification ? '🎓' : '—'}</td>
+    <td>${c.certification ? 'Yes' : '—'}</td>
     <td>
       <div class="row-actions">
         <button class="icon-btn" data-action="up" data-index="${i}" ${i === 0 ? 'disabled' : ''} title="Move up">↑</button>
@@ -293,7 +293,7 @@ function handleIdChange(p, raw) {
   markDirty();
   renderProviderList();
   if (input) input.value = newId;
-  toast(`Renamed to "${newId}"`, '✏️');
+  toast(`Renamed to "${newId}"`, '✎');
 }
 
 function bindCourseTable(p) {
@@ -346,7 +346,7 @@ function addProvider() {
   renderStats();
   const nameInput = $('#admin-content [data-field="name"]');
   if (nameInput) { nameInput.focus(); nameInput.select(); }
-  toast('Provider added', '➕');
+  toast('Provider added', '+');
 }
 
 function deleteProvider(p) {
@@ -357,7 +357,7 @@ function deleteProvider(p) {
   renderProviderList();
   renderContent();
   renderStats();
-  toast('Provider deleted', '🗑️');
+  toast('Provider deleted', '−');
 }
 
 /* --- course CRUD --- */
@@ -403,8 +403,8 @@ function saveCourseModal() {
 
   const title = f.title.value.trim();
   const url = f.url.value.trim();
-  if (!title) { toast('Title is required', '⚠️'); f.title.focus(); return; }
-  if (!url) { toast('Course URL is required', '⚠️'); f.url.focus(); return; }
+  if (!title) { toast('Title is required', '!'); f.title.focus(); return; }
+  if (!url) { toast('Course URL is required', '!'); f.url.focus(); return; }
 
   const course = {
     title,
@@ -423,7 +423,7 @@ function saveCourseModal() {
 
   closeCourseModal();
   afterCourseChange(p);
-  toast(editing ? 'Course updated' : 'Course added', editing ? '✏️' : '➕');
+  toast(editing ? 'Course updated' : 'Course added', editing ? '✎' : '+');
 }
 
 function deleteCourse(p, index) {
@@ -432,14 +432,14 @@ function deleteCourse(p, index) {
   if (!confirm(`Delete course "${c.title}"?`)) return;
   p.courses.splice(index, 1);
   afterCourseChange(p);
-  toast('Course deleted', '🗑️');
+  toast('Course deleted', '−');
 }
 
 /* --- import / export --- */
 function exportData() {
   recomputeStats(state.data);
   download('courses.json', JSON.stringify(state.data, null, 2));
-  toast('courses.json downloaded — commit it to update the live site', '⬇️');
+  toast('courses.json downloaded — commit it to update the live site', '↓');
 }
 
 function importData(file) {
@@ -494,10 +494,12 @@ function buildProviderPageHtml(p) {
   const desc = p.description || '';
   const logoText = escapeHtml(p.logo || name.slice(0, 3).toUpperCase());
   const logo = p.logoImage
-    ? `<div class="banner-logo" style="color:${color}"><img src="../${escapeHtml(p.logoImage)}" alt="${escapeHtml(name)}" style="max-height:100%;width:auto"></div>`
-    : `<div class="banner-logo" style="color:${color}">${logoText}</div>`;
+    ? `<div class="banner-logo"><img src="../${escapeHtml(p.logoImage)}" alt="${escapeHtml(name)}" class="banner-logo-img"></div>`
+    : `<div class="banner-logo banner-logo-fallback" style="--brand: ${color}">${logoText}</div>`;
   const certCount = (p.courses || []).filter(c => c.certification).length;
   const courseCount = (p.courses || []).length;
+  const courseLabel = courseCount === 1 ? 'Course' : 'Courses';
+  const certLabel = certCount === 1 ? 'Certification' : 'Certifications';
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -505,7 +507,7 @@ function buildProviderPageHtml(p) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="${escapeHtml(desc)}">
-  <meta name="theme-color" content="#0A0A0A">
+  <meta name="theme-color" content="#f5f2eb">
   <meta property="og:title" content="${escapeHtml(name)} | Laksh Learns">
   <meta property="og:description" content="${escapeHtml(desc)}">
   <meta property="og:type" content="website">
@@ -517,13 +519,14 @@ function buildProviderPageHtml(p) {
   <link rel="stylesheet" href="../style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    body { font-family: 'Inter', var(--font); }
     .provider-banner { background: linear-gradient(135deg, var(--bg), ${color}15); }
   </style>
 </head>
 <body class="provider-page" data-provider="${escapeHtml(p.id)}">
+
+  <a class="skip-link" href="#courses-container">Skip to courses</a>
 
   <div class="loading-screen" id="loading-screen">
     <div class="loader-content">
@@ -549,12 +552,12 @@ function buildProviderPageHtml(p) {
       <a href="../index.html" class="nav-logo">Laksh Learns</a>
       <div class="nav-links">
         <a href="../index.html#providers">Providers</a>
-        <a href="../index.html#stats">Stats</a>
+        <a href="../index.html#stats">Library</a>
         <a href="../bookmarks.html">Bookmarks</a>
         <a href="https://github.com/LnAigal/" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark theme" aria-pressed="false">☾</button>
       </div>
-      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
   </nav>
 
@@ -562,11 +565,12 @@ function buildProviderPageHtml(p) {
     <div class="provider-banner-inner">
       ${logo}
       <div class="banner-info">
+        <span class="eyebrow">Learning provider</span>
         <h1>${escapeHtml(name)}</h1>
         <p>${escapeHtml(desc)}</p>
         <div class="banner-stats">
-          <div class="banner-stat"><strong>${courseCount}</strong> Courses</div>
-          <div class="banner-stat"><strong>${certCount}</strong> Certifications</div>
+          <div class="banner-stat"><strong>${courseCount}</strong> ${courseLabel}</div>
+          <div class="banner-stat"><strong>${certCount}</strong> ${certLabel}</div>
         </div>
       </div>
     </div>
@@ -575,13 +579,13 @@ function buildProviderPageHtml(p) {
   <section class="controls-bar">
     <div class="controls-inner">
       <div class="search-box">
-        <span class="search-icon">🔍</span>
-        <input type="text" id="course-search" placeholder="Search courses...">
+        <span class="search-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
+        <input type="text" id="course-search" placeholder="Search courses..." aria-label="Search courses">
       </div>
       <div class="filter-btns" id="filter-btns">
         <div class="sort-wrapper">
-          <label class="filter-group-label">Sort</label>
-          <select class="filter-select" id="sort-select">
+          <label class="filter-group-label" for="sort-select">Sort</label>
+          <select class="filter-select" id="sort-select" aria-label="Sort courses">
             <option value="default">Sort by</option>
             <option value="name-asc">Name (A-Z)</option>
             <option value="name-desc">Name (Z-A)</option>
@@ -627,28 +631,27 @@ function buildProviderPageHtml(p) {
 
 function downloadProviderPage(p) {
   download(`${p.id}.html`, buildProviderPageHtml(p), 'text/html');
-  toast(`Downloaded ${p.id}.html — place it in providers/`, '⬇️');
+  toast(`Downloaded ${p.id}.html — place it in providers/`, '↓');
 }
 
 /* --- theme --- */
 function initTheme() {
   const toggle = $('#theme-toggle');
   if (!toggle) return;
-  if (localStorage.getItem(THEME_KEY) === 'light') {
-    document.documentElement.setAttribute('data-theme', 'light');
-    toggle.textContent = '☀️';
-  }
+  const apply = (dark) => {
+    document.documentElement.removeAttribute('data-theme');
+    if (dark) document.documentElement.setAttribute('data-theme', 'dark');
+    toggle.textContent = dark ? '☀' : '☾';
+    toggle.setAttribute('aria-pressed', String(dark));
+    toggle.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', dark ? '#0f0f0c' : '#f5f2eb');
+  };
+  apply(localStorage.getItem(THEME_KEY) === 'dark');
   toggle.addEventListener('click', () => {
-    const isLight = document.documentElement.getAttribute('data-theme') === 'light';
-    if (isLight) {
-      document.documentElement.removeAttribute('data-theme');
-      toggle.textContent = '🌙';
-      localStorage.setItem(THEME_KEY, 'dark');
-    } else {
-      document.documentElement.setAttribute('data-theme', 'light');
-      toggle.textContent = '☀️';
-      localStorage.setItem(THEME_KEY, 'light');
-    }
+    const dark = document.documentElement.getAttribute('data-theme') !== 'dark';
+    apply(dark);
+    localStorage.setItem(THEME_KEY, dark ? 'dark' : 'light');
   });
 }
 
