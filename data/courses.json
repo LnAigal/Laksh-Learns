@@ -269,13 +269,13 @@
           "pricing": "paid"
         },
         {
-          "title": "Career Essentials in Data Analytics",
-          "description": "Build data analytics skills covering Excel, Power BI, SQL, and data visualization. Microsoft and LinkedIn co-branded certificate program.",
+          "title": "Career Essentials in Data Analysis",
+          "description": "Discover the skills needed for a career in data analysis. Learn foundational concepts and practice using software tools for data analytics and data visualization.",
           "difficulty": "Beginner",
           "certification": true,
-          "duration": "10 hours",
+          "duration": "12 hours",
           "category": "Data Science",
-          "url": "https://www.linkedin.com/learning/paths/career-essentials-in-data-analytics-by-microsoft-and-linkedin",
+          "url": "https://www.linkedin.com/learning/paths/career-essentials-in-data-analysis-by-microsoft-and-linkedin",
           "pricing": "paid"
         },
         {
@@ -309,13 +309,13 @@
           "pricing": "paid"
         },
         {
-          "title": "Introduction to Web Development with HTML, CSS, JavaScript",
-          "description": "Build your first web pages with HTML, CSS, and JavaScript. Learn responsive design and modern web development fundamentals from Microsoft.",
+          "title": "Build Web Pages with HTML and CSS for Beginners",
+          "description": "Write HTML and CSS code to create an accessible webpage using the browser-based version of Visual Studio Code.",
           "difficulty": "Beginner",
           "certification": false,
           "duration": "6 hours",
           "category": "Web Development",
-          "url": "https://learn.microsoft.com/en-us/training/paths/web-development-101/",
+          "url": "https://learn.microsoft.com/en-us/training/paths/build-web-pages-html-css-for-beginners/",
           "pricing": "free"
         },
         {
@@ -389,13 +389,13 @@
           "pricing": "free"
         },
         {
-          "title": "Introduction to Responsible AI",
-          "description": "Learn Google's AI principles, responsible AI practices, and how to design fair, accountable, and transparent AI systems.",
+          "title": "Responsible AI for Digital Leaders with Google Cloud",
+          "description": "Develop the knowledge and practical tools to implement artificial intelligence responsibly, including ethical considerations, best practices, and governance procedures.",
           "difficulty": "Beginner",
           "certification": true,
-          "duration": "1 hour",
+          "duration": "2 hours",
           "category": "AI & ML",
-          "url": "https://www.cloudskillsboost.google/course_templates/554",
+          "url": "https://www.skills.google/course_templates/1069",
           "pricing": "free"
         },
         {
@@ -683,19 +683,19 @@
     {
       "id": "coursera",
       "name": "Coursera",
-      "description": "Global online learning platform offering courses, specializations, and degrees from top universities and companies worldwide, including NVIDIA certification programs.",
+      "description": "Global online learning platform offering courses, specializations, and degrees from top universities and companies worldwide.",
       "logo": "C",
       "logoImage": "assets/logos/coursera.svg",
       "color": "#0056D2",
       "courses": [
         {
-          "title": "AI Infrastructure and Operations Fundamentals",
-          "description": "Explore AI applications, data center and cloud infrastructure, and AI operations. Part of the NVIDIA-Certified Associate: AI Infrastructure and Operations certification path.",
+          "title": "AI For Everyone",
+          "description": "Learn what AI is and isn't, how it affects society and business, and how to build AI projects and teams without prior technical experience.",
           "difficulty": "Beginner",
           "certification": true,
           "duration": "10 hours",
-          "category": "Cloud Computing",
-          "url": "https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals",
+          "category": "AI & ML",
+          "url": "https://www.coursera.org/learn/ai-for-everyone",
           "pricing": "paid"
         }
       ]
@@ -819,13 +819,13 @@
           "pricing": "free"
         },
         {
-          "title": "Building on AWS",
-          "description": "Learn to build and deploy applications on AWS including compute, storage, database, and networking services for developers.",
+          "title": "AWS Developer Training",
+          "description": "Explore the AWS Developer Learning Plan and training resources for building, deploying, and modernizing applications on AWS.",
           "difficulty": "Intermediate",
           "certification": false,
-          "duration": "8 hours",
+          "duration": "Self-paced",
           "category": "Cloud Computing",
-          "url": "https://aws.amazon.com/training/learn-about/building",
+          "url": "https://aws.amazon.com/training/learn-about/developer/",
           "pricing": "free"
         },
         {
@@ -849,13 +849,13 @@
           "pricing": "free"
         },
         {
-          "title": "AWS Networking Fundamentals",
-          "description": "Understand VPCs, subnets, route tables, security groups, NAT gateways, and network architecture on AWS.",
+          "title": "AWS Advanced Networking Training",
+          "description": "Explore AWS networking training, including the AWS Networking Learning Plan and courses for designing and operating secure, scalable AWS network architectures.",
           "difficulty": "Intermediate",
           "certification": false,
-          "duration": "4 hours",
+          "duration": "Self-paced",
           "category": "Cloud Computing",
-          "url": "https://aws.amazon.com/training/learn-about/networking",
+          "url": "https://aws.amazon.com/training/learn-about/advanced-networking/",
           "pricing": "free"
         },
         {
@@ -893,9 +893,9 @@
           "description": "Learn AI fundamentals, machine learning, deep learning, NLP, and computer vision concepts with real-world applications.",
           "difficulty": "Beginner",
           "certification": true,
-          "duration": "4 hours",
+          "duration": "2 hours",
           "category": "AI & ML",
-          "url": "https://www.simplilearn.com/introduction-to-artificial-intelligence-course",
+          "url": "https://www.simplilearn.com/learn-ai-basics-skillup",
           "pricing": "free"
         },
         {
@@ -933,9 +933,9 @@
           "description": "Understand cybersecurity fundamentals including threat landscape, cryptography, network security, and incident response.",
           "difficulty": "Beginner",
           "certification": true,
-          "duration": "4 hours",
+          "duration": "2 hours",
           "category": "Computer Science",
-          "url": "https://www.simplilearn.com/introduction-to-cybersecurity-course",
+          "url": "https://www.simplilearn.com/learn-cyber-security-basics-skillup",
           "pricing": "free"
         },
         {
@@ -970,12 +970,12 @@
         },
         {
           "title": "Introduction to DevOps",
-          "description": "Understand DevOps culture, CI/CD pipelines, configuration management, containerization, and monitoring practices.",
+          "description": "Understand DevOps culture, CI/CD pipelines, configuration management, containerization, monitoring, and DevSecOps practices.",
           "difficulty": "Beginner",
           "certification": true,
-          "duration": "5 hours",
+          "duration": "2 hours",
           "category": "Cloud Computing",
-          "url": "https://www.simplilearn.com/introduction-to-devops-course",
+          "url": "https://www.simplilearn.com/introduction-to-devops-and-devsecops-skillup",
           "pricing": "free"
         },
         {
@@ -999,23 +999,23 @@
       "color": "#005EB8",
       "courses": [
         {
-          "title": "Everyday English",
-          "description": "Improve your English language skills for everyday situations including conversations, reading, writing, and listening comprehension.",
+          "title": "Everyday English 1",
+          "description": "Improve your English language skills for everyday situations including speaking, listening, reading, and writing, with tips and techniques for effective communication.",
           "difficulty": "Beginner",
           "certification": true,
-          "duration": "10 hours",
+          "duration": "48 hours",
           "category": "Business",
-          "url": "https://www.open.edu/openlearn/languages/everyday-english",
+          "url": "https://www.open.edu/openlearn/languages/everyday-english-1/",
           "pricing": "free"
         },
         {
-          "title": "Introduction to Bookkeeping",
-          "description": "Learn bookkeeping fundamentals including double-entry accounting, ledgers, trial balance, and financial record keeping.",
+          "title": "Introduction to Bookkeeping and Accounting",
+          "description": "Learn the essential numerical skills for accounting and bookkeeping, including double-entry bookkeeping, ledgers, trial balance, and financial statements.",
           "difficulty": "Beginner",
           "certification": true,
           "duration": "8 hours",
           "category": "Business",
-          "url": "https://www.open.edu/openlearn/money-business/introduction-bookkeeping",
+          "url": "https://www.open.edu/openlearn/money-business/introduction-bookkeeping-and-accounting",
           "pricing": "free"
         },
         {
@@ -1029,53 +1029,53 @@
           "pricing": "free"
         },
         {
-          "title": "Digital Photography: Creating and Sharing Better Images",
-          "description": "Learn photography techniques including composition, lighting, editing, and sharing digital images effectively.",
+          "title": "Picturing the Family",
+          "description": "Explore how family photographs can reveal, and sometimes conceal, important information about the past, and learn the skills needed to interpret pictorial sources.",
           "difficulty": "Beginner",
           "certification": true,
           "duration": "12 hours",
           "category": "Business",
-          "url": "https://www.open.edu/openlearn/digital-photography-creating-and-sharing-better-images",
+          "url": "https://www.open.edu/openlearn/history-the-arts/visual-art/picturing-the-family/",
           "pricing": "free"
         },
         {
-          "title": "Introduction to Forensic Psychology",
-          "description": "Explore forensic psychology including criminal behavior, profiling, eyewitness testimony, and rehabilitation of offenders.",
+          "title": "Forensic Psychology",
+          "description": "Explore forensic psychology, eyewitness testimony, memory, criminal investigation, and the psychological causes of miscarriages of justice.",
           "difficulty": "Beginner",
           "certification": true,
-          "duration": "12 hours",
+          "duration": "24 hours",
           "category": "Business",
-          "url": "https://www.open.edu/openlearn/psychology/introduction-forensic-psychology",
+          "url": "https://www.open.edu/openlearn/health-sports-psychology/forensic-psychology",
           "pricing": "free"
         },
         {
-          "title": "Understanding the Brain",
-          "description": "Learn about brain structure, function, neural communication, and the relationship between brain activity and behavior.",
-          "difficulty": "Beginner",
+          "title": "Play, Learning and the Brain",
+          "description": "Examine brain-based learning and child brain development, the role of play, and practical strategies for facilitating learning in early years settings.",
+          "difficulty": "Intermediate",
           "certification": true,
           "duration": "15 hours",
           "category": "Business",
-          "url": "https://www.open.edu/openlearn/health-sports-psychology/understanding-the-brain",
+          "url": "https://www.open.edu/openlearn/education-development/education/play-learning-and-the-brain/content-section-0",
           "pricing": "free"
         },
         {
-          "title": "Introduction to German",
-          "description": "Learn basic German language skills including greetings, numbers, directions, ordering food, and everyday conversations.",
+          "title": "Getting Started with German 1",
+          "description": "Learn basic German language skills including greetings, introductions, numbers, pronunciation, and everyday communication.",
           "difficulty": "Beginner",
           "certification": true,
-          "duration": "10 hours",
+          "duration": "6 hours",
           "category": "Business",
-          "url": "https://www.open.edu/openlearn/languages/introduction-german",
+          "url": "https://www.open.edu/openlearn/languages/getting-started-german-1/",
           "pricing": "free"
         },
         {
-          "title": "Business Communication",
-          "description": "Master professional business communication including emails, reports, presentations, and interpersonal communication skills.",
+          "title": "Effective Communication in the Workplace",
+          "description": "Improve your workplace communication skills, including verbal and non-verbal communication, written communication, and handling challenging situations.",
           "difficulty": "Beginner",
           "certification": true,
-          "duration": "10 hours",
+          "duration": "24 hours",
           "category": "Business",
-          "url": "https://www.open.edu/openlearn/money-business/business-communication",
+          "url": "https://www.open.edu/openlearn/money-business/effective-communication-the-workplace",
           "pricing": "free"
         }
       ]
@@ -1573,7 +1573,7 @@
     {
       "id": "stanford",
       "name": "Stanford Online",
-      "description": "Free online courses from Stanford University covering engineering, computer science, health, arts, and humanities. Learn from world-class Stanford faculty.",
+      "description": "Online courses from Stanford University covering engineering, computer science, health, arts, and humanities. Learn from world-class Stanford faculty.",
       "logo": "SU",
       "logoImage": "",
       "color": "#8C1515",
@@ -1585,17 +1585,17 @@
           "certification": true,
           "duration": "5 weeks",
           "category": "Business",
-          "url": "https://online.stanford.edu/courses/child-nutrition-and-cooking",
+          "url": "https://online.stanford.edu/courses/som-y0002-child-nutrition-and-cooking",
           "pricing": "free"
         },
         {
           "title": "Introduction to Statistics",
-          "description": "Learn statistical thinking including descriptive statistics, sampling, probability, confidence intervals, and hypothesis testing.",
+          "description": "Learn statistical thinking concepts for learning from data and communicating insights, including exploratory data analysis, sampling, and tests of significance.",
           "difficulty": "Beginner",
           "certification": true,
           "duration": "Self-paced",
           "category": "Data Science",
-          "url": "https://online.stanford.edu/courses/education-free-math-course",
+          "url": "https://online.stanford.edu/courses/xfds110-introduction-statistics",
           "pricing": "free"
         },
         {
@@ -1605,57 +1605,57 @@
           "certification": true,
           "duration": "Self-paced",
           "category": "Computer Science",
-          "url": "https://online.stanford.edu/courses/engineering-free-courses",
+          "url": "https://online.stanford.edu/courses/soe-ycscs101-computer-science-101",
           "pricing": "free"
         },
         {
-          "title": "How to Learn Math",
-          "description": "Discover the latest research on how to learn math effectively. Change your relationship with math and build a growth mindset.",
+          "title": "How to Learn Math: For Students",
+          "description": "Discover research-based strategies for learning math effectively, correct misconceptions about math, and build a positive relationship with mathematics.",
           "difficulty": "Beginner",
           "certification": true,
-          "duration": "Self-paced",
+          "duration": "2 hours",
           "category": "Business",
-          "url": "https://online.stanford.edu/courses/education-free-math-course",
+          "url": "https://online.stanford.edu/courses/gse-yeduc115-s-how-learn-math-students",
           "pricing": "free"
         },
         {
           "title": "Introduction to Internet of Things",
-          "description": "Learn about IoT architecture, protocols, sensors, cloud platforms, and build connected device applications.",
+          "description": "Explore the building blocks of the Internet of Things, including connected devices, sensors, and the underlying technologies that drive the IoT revolution.",
           "difficulty": "Intermediate",
           "certification": false,
           "duration": "Self-paced",
           "category": "Computer Science",
-          "url": "https://online.stanford.edu/courses/engineering-free-courses",
+          "url": "https://online.stanford.edu/courses/xee100-introduction-internet-things",
           "pricing": "free"
         },
         {
-          "title": "RF Fundamentals for Wireless Communications",
-          "description": "Understand radio frequency fundamentals, wireless communication principles, and modern wireless system design.",
+          "title": "Wireless Communications",
+          "description": "Study wireless communication principles, radio frequency fundamentals, and modern wireless system design at an advanced level.",
           "difficulty": "Advanced",
           "certification": false,
-          "duration": "Self-paced",
+          "duration": "10 weeks",
           "category": "Computer Science",
-          "url": "https://online.stanford.edu/courses/engineering-free-courses",
-          "pricing": "free"
+          "url": "https://online.stanford.edu/courses/ee359-wireless-communications",
+          "pricing": "paid"
         },
         {
-          "title": "Trading Strategies in Emerging Markets",
-          "description": "Explore trading strategies, portfolio optimization, and risk management techniques specific to emerging financial markets.",
+          "title": "Investment Science",
+          "description": "Explore investment science, including portfolio optimization, risk management, and quantitative methods for financial decision-making.",
           "difficulty": "Intermediate",
           "certification": false,
-          "duration": "Self-paced",
+          "duration": "10 weeks",
           "category": "Business",
-          "url": "https://online.stanford.edu/courses/engineering-free-courses",
-          "pricing": "free"
+          "url": "https://online.stanford.edu/courses/mse245a-investment-science",
+          "pricing": "paid"
         },
         {
-          "title": "Bits: Introduction to Computer Science",
-          "description": "An introductory course covering bitwise operations, binary representation, and fundamental computer science concepts.",
+          "title": "Principles of Computing",
+          "description": "Learn the essential ideas of computer science for beginners, including how computers work, digital media, the internet, security, and basic programming concepts.",
           "difficulty": "Beginner",
           "certification": false,
           "duration": "Self-paced",
           "category": "Computer Science",
-          "url": "https://online.stanford.edu/courses/engineering-free-courses",
+          "url": "https://online.stanford.edu/courses/soe-ycsprincipofcomp-principles-computing",
           "pricing": "free"
         }
       ]
@@ -1665,7 +1665,7 @@
     "totalProviders": 16,
     "totalCourses": 150,
     "totalCertifications": 111,
-    "totalFree": 124,
-    "totalPaid": 26
+    "totalFree": 122,
+    "totalPaid": 28
   }
 }
