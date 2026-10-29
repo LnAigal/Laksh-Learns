@@ -987,6 +987,56 @@
           "category": "AI & ML",
           "url": "https://www.simplilearn.com/learn-machine-learning-basics-skillup",
           "pricing": "free"
+        },
+        {
+          "title": "SQL Tutorial for Beginners",
+          "description": "Master SQL basics including queries, joins, subqueries, functions, and database design for data analysis and backend development.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "5 hours",
+          "category": "Data Science",
+          "url": "https://www.simplilearn.com/free-online-course-to-learn-sql-basics-skillup",
+          "pricing": "free"
+        },
+        {
+          "title": "Basics of JavaScript",
+          "description": "Learn JavaScript fundamentals including variables, functions, arrays, objects, DOM manipulation, and ES6 features.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "8 hours",
+          "category": "Programming",
+          "url": "https://www.simplilearn.com/learn-javascript-basics-free-course-skillup",
+          "pricing": "free"
+        },
+        {
+          "title": "Introduction to Tableau",
+          "description": "Learn data visualization fundamentals with Tableau, creating charts, dashboards, and interactive visualizations.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "4 hours",
+          "category": "Data Science",
+          "url": "https://www.simplilearn.com/free-tableau-course-skillup",
+          "pricing": "free"
+        },
+        {
+          "title": "Excel Training",
+          "description": "Master Microsoft Excel basics including formulas, functions, pivot tables, and data organization techniques.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "5 hours",
+          "category": "Business",
+          "url": "https://www.simplilearn.com/tutorials/excel-tutorial",
+          "pricing": "free"
+        },
+        {
+          "title": "Power BI Training",
+          "description": "Learn business intelligence with Microsoft Power BI, data visualization, and creating interactive dashboards.",
+          "difficulty": "Beginner",
+          "certification": true,
+          "duration": "4 hours",
+          "category": "Data Science",
+          "url": "https://www.simplilearn.com/power-bi-certification-training-course",
+          "pricing": "free"
         }
       ]
     },
